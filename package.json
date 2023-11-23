@@ -1,0 +1,14 @@
+{
+  "name": "proyectofinal",
+  "version": "1.0.0",
+  "description": "proyectofinal",
+  "main": "index.js",
+  "scripts": {
+    "test": "start"
+  },
+  "author": "alejandro y gustavo",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
