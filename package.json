@@ -4,7 +4,7 @@
   "description": "proyectofinal",
   "main": "index.js",
   "scripts": {
-    "test": "start"
+    "start": "start"
   },
   "author": "alejandro y gustavo",
   "license": "MIT",
