@@ -1,9 +1,25 @@
-var express = require('express');
-var router = express.Router();
+import express from 'express';
+
+const { Router } = express;
+
+const router = Router();
 
 /* GET home page. */
-router.get('/', function(req, res, next) {
-  res.render('index', { title: 'ITGAM' });
+router.get('/', (req, res) => {
+  const iconSet = ['⭐', '🤖', '🍉'];
+  const icon = iconSet[Math.floor(Math.random() * 3)];
+  res.render('index', { title: 'Express with babel and HRM', icon });
 });
 
-module.exports = router;
+router.get('/author', (req, res) => {
+  // Creating a View-Model
+  const author = {
+    name: '',
+    lastname: '',
+    job: '',
+  };
+  // Sending the view-model to be rendered by a View
+  res.render('author', author);
+});
+
+export default router;
