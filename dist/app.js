@@ -5,7 +5,7 @@ var express = require('express');
 var path = require('path');
 var cookieParser = require('cookie-parser');
 var logger = require('morgan');
-var debug = require('debug')('dwpc2:server');
+var debug = require('debug')('proyectofinal:server');
 var indexRouter = require('./routes/index');
 var usersRouter = require('./routes/users');
 
@@ -30,7 +30,7 @@ app.use('/', indexRouter);
 // solicita "/user"
 app.use('/users', usersRouter);
 // app.use('/author', (req, res) => {
-//   res.json({mainDeveloper: "Vianney Reyes"})
+//   res.json({mainDeveloper: "Carreon Alejandro Resendiz Gustavo"})
 // });
 
 // catch 404 and forward to error handler
