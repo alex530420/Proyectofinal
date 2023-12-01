@@ -9,6 +9,9 @@ var _path = _interopRequireDefault(require("path"));
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 function _getRequireWildcardCache(e) { if ("function" != typeof WeakMap) return null; var r = new WeakMap(), t = new WeakMap(); return (_getRequireWildcardCache = function (e) { return e ? t : r; })(e); }
 function _interopRequireWildcard(e, r) { if (!r && e && e.__esModule) return e; if (null === e || "object" != typeof e && "function" != typeof e) return { default: e }; var t = _getRequireWildcardCache(r); if (t && t.has(e)) return t.get(e); var n = { __proto__: null }, a = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var u in e) if ("default" !== u && Object.prototype.hasOwnProperty.call(e, u)) { var i = a ? Object.getOwnPropertyDescriptor(e, u) : null; i && (i.get || i.set) ? Object.defineProperty(n, u, i) : n[u] = e[u]; } return n.default = e, t && t.set(e, n), n; }
+// Importando el core de winston
+// y la función format de winston
+
 // Se desestructuran funciones para realizar la
 // composición del formato
 const {
@@ -16,8 +19,7 @@ const {
   timestamp,
   label,
   printf,
-  colorize,
-  prettyPrint
+  colorize
 } = _winston.format;
 
 // Creando variable del directorio raiz
@@ -65,7 +67,7 @@ timestamp({
   format: 'DD-MM-YYYY HH:mm:ss'
 }),
 // Estableciendo la salida en formato Json
-prettyPrint());
+_winston.format.json());
 
 // Creando el objeto de opciones para cada transporte
 const options = {
@@ -112,8 +114,11 @@ const logger = _winston.default.createLogger({
 /*
 Por defecto Morgan envía la salida exclusivamente a la consola, algo asi:
  Morgan --->[logs]---> consola
-Lo que haremos a continuación sera definir una función llamada "write" que será parte de un objeto que se asignará a la propiedad stream del logger, esta función será capaz de recibir la salida que genera Morgan "message" y redirigirla a winston como informativa
-Usaremos el nivel informativo para que tanto el transportador archivo como el de consola tomen el 
+Lo que haremos a continuación sera definir una función llamada
+"write" que será parte de un objeto que se asignará a la propiedad stream del logger,
+esta función será capaz de recibir la salida que genera Morgan "message"
+y redirigirla a winston como informativa
+Usaremos el nivel informativo para que tanto el transportador archivo como el de consola tomen el
 Morgan --->[logs]---> Winston ---> [Logs a transportes informativos]
 */
 

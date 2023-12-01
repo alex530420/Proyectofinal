@@ -13,6 +13,7 @@ var _webpack = _interopRequireDefault(require("webpack"));
 var _webpackDevMiddleware = _interopRequireDefault(require("webpack-dev-middleware"));
 var _webpackHotMiddleware = _interopRequireDefault(require("webpack-hot-middleware"));
 var _webpackDev = _interopRequireDefault(require("../webpack.dev.config"));
+var _winston = _interopRequireDefault(require("./config/winston"));
 var _index = _interopRequireDefault(require("./routes/index"));
 var _users = _interopRequireDefault(require("./routes/users"));
 var _debugLogger = _interopRequireDefault(require("./services/debugLogger"));
@@ -23,7 +24,13 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 
 // Importing webpack configuration
 
+// Impornting winston logger
+
 // var debug = require('debug')('dwpcii:server');
+
+// Creando variable del directorio raiz
+// eslint-disable-next-line
+global["__rootdir"] = _path.default.resolve(process.cwd());
 
 // Creando la instancia de express
 const app = (0, _express.default)();
@@ -61,7 +68,9 @@ app.set('views', _path.default.join(__dirname, 'views'));
 app.set('view engine', 'hbs');
 
 // Se establecen los middlewares
-app.use((0, _morgan.default)('dev'));
+app.use((0, _morgan.default)('dev', {
+  stream: _winston.default.stream
+}));
 app.use(_express.default.json());
 app.use(_express.default.urlencoded({
   extended: false
@@ -81,6 +90,7 @@ app.use('/users', _users.default);
 
 // catch 404 and forward to error handler
 app.use((req, res, next) => {
+  _winston.default.info(`404 Pagina no encontrada ${req.method} ${req.originalUrl}`);
   next((0, _httpErrors.default)(404));
 });
 
@@ -92,6 +102,7 @@ app.use((err, req, res) => {
 
   // render the error page
   res.status(err.status || 500);
+  _winston.default.error(`${err.status || 500} - ${err.message}`);
   res.render('error');
 });
 var _default = exports.default = app;
