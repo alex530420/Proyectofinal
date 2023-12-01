@@ -1,45 +1,91 @@
 "use strict";
 
-var createError = require('http-errors');
-var express = require('express');
-var path = require('path');
-var cookieParser = require('cookie-parser');
-var logger = require('morgan');
-var debug = require('debug')('proyectofinal:server');
-var indexRouter = require('./routes/index');
-var usersRouter = require('./routes/users');
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+var _httpErrors = _interopRequireDefault(require("http-errors"));
+var _express = _interopRequireDefault(require("express"));
+var _path = _interopRequireDefault(require("path"));
+var _cookieParser = _interopRequireDefault(require("cookie-parser"));
+var _morgan = _interopRequireDefault(require("morgan"));
+var _webpack = _interopRequireDefault(require("webpack"));
+var _webpackDevMiddleware = _interopRequireDefault(require("webpack-dev-middleware"));
+var _webpackHotMiddleware = _interopRequireDefault(require("webpack-hot-middleware"));
+var _webpackDev = _interopRequireDefault(require("../webpack.dev.config"));
+var _index = _interopRequireDefault(require("./routes/index"));
+var _users = _interopRequireDefault(require("./routes/users"));
+var _debugLogger = _interopRequireDefault(require("./services/debugLogger"));
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+// Cargando dependencias
 
-// Se crea la instancia de express
-var app = express();
+// Setting Webpack Modules
 
-// Configurando el motor de plantilla
-app.set('views', path.join(__dirname, 'views'));
+// Importing webpack configuration
+
+// var debug = require('debug')('dwpcii:server');
+
+// Creando la instancia de express
+const app = (0, _express.default)();
+
+// Get the execution mode
+const nodeEnviroment = process.env.NODE_ENV || 'production';
+
+// Deciding if we add webpack middleware or not
+if (nodeEnviroment === 'development') {
+  // Start Webpack dev server
+  (0, _debugLogger.default)('🛠️ Ejecutando en modo desarrollo 🛠️');
+  // Adding the key "mode" with its value "development"
+  _webpackDev.default.mode = nodeEnviroment;
+  // Setting the dev server port to the same value as the express server
+  _webpackDev.default.devServer.port = process.env.PORT;
+  // Setting up the HMR (Hot Module Replacement)
+  _webpackDev.default.entry = ['webpack-hot-middleware/client?reload=true&timeout=1000', _webpackDev.default.entry];
+  // Agregar el plugin a la configuración de desarrollo
+  // de webpack
+  _webpackDev.default.plugins.push(new _webpack.default.HotModuleReplacementPlugin());
+  // Creating the bundler
+  const bundle = (0, _webpack.default)(_webpackDev.default);
+  // Enabling the webpack middleware
+  app.use((0, _webpackDevMiddleware.default)(bundle, {
+    publicPath: _webpackDev.default.output.publicPath
+  }));
+  //  Enabling the webpack HMR
+  app.use((0, _webpackHotMiddleware.default)(bundle));
+} else {
+  console.log('🏭 Ejecutando en modo producción 🏭');
+}
+
+// Configurando el motor de plantillas
+app.set('views', _path.default.join(__dirname, 'views'));
 app.set('view engine', 'hbs');
 
-// Se establecen los middleware
-app.use(logger('dev'));
-app.use(express.json());
-app.use(express.urlencoded({
+// Se establecen los middlewares
+app.use((0, _morgan.default)('dev'));
+app.use(_express.default.json());
+app.use(_express.default.urlencoded({
   extended: false
 }));
-app.use(cookieParser());
-// Se crea un server de archivos estaticos 
-app.use(express.static(path.join(__dirname, '..', 'public')));
-app.use('/', indexRouter);
-// Activa "userRouter" cuando se 
-// solicita "/user"
-app.use('/users', usersRouter);
-// app.use('/author', (req, res) => {
-//   res.json({mainDeveloper: "Carreon Alejandro Resendiz Gustavo"})
+app.use((0, _cookieParser.default)());
+// Crea un server de archivos estaticos
+app.use(_express.default.static(_path.default.join(__dirname, '..', 'public')));
+
+// Registro de Middlewares de aplicación
+app.use('/', _index.default);
+// Activa "usersRourter" cuando se
+// solicita "/users"
+app.use('/users', _users.default);
+// app.use('/author', (req, res)=>{
+//   res.json({mainDeveloper: "Ivan Rivalcoba"})
 // });
 
 // catch 404 and forward to error handler
-app.use(function (req, res, next) {
-  next(createError(404));
+app.use((req, res, next) => {
+  next((0, _httpErrors.default)(404));
 });
 
 // error handler
-app.use(function (err, req, res, next) {
+app.use((err, req, res) => {
   // set locals, only providing error in development
   res.locals.message = err.message;
   res.locals.error = req.app.get('env') === 'development' ? err : {};
@@ -48,4 +94,4 @@ app.use(function (err, req, res, next) {
   res.status(err.status || 500);
   res.render('error');
 });
-module.exports = app;
+var _default = exports.default = app;

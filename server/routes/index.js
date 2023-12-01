@@ -1,25 +1,13 @@
-import express from 'express';
+const express = require('express');
 
-const { Router } = express;
-
-const router = Router();
+const router = express.Router();
 
 /* GET home page. */
 router.get('/', (req, res) => {
-  const iconSet = ['⭐', '🤖', '🍉'];
-  const icon = iconSet[Math.floor(Math.random() * 3)];
-  res.render('index', { title: 'Express with babel and HRM', icon });
+  res.render('index', {
+    title: 'ITGAM',
+    author: 'Resendiz Gustavo-Carreron Alejandro',
+  });
 });
 
-router.get('/author', (req, res) => {
-  // Creating a View-Model
-  const author = {
-    name: '',
-    lastname: '',
-    job: '',
-  };
-  // Sending the view-model to be rendered by a View
-  res.render('author', author);
-});
-
-export default router;
+module.exports = router;

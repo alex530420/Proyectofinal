@@ -1,16 +1,16 @@
 "use strict";
 
-var express = require('express');
-var router = express.Router();
+const express = require('express');
+const router = express.Router();
 
 /* GET users listing. */
-router.get('/', function (req, res, next) {
+router.get('/', (req, res) => {
   res.send('respond with a resource');
 });
-//GET//USER//author
-router.get('/author', function (req, res, next) {
+// GET//USER//author
+router.get('/author', (_, res) => {
   res.render('author', {
-    author: "Gustavo Resendiz Alejandro Carreon"
+    author: 'Gustavo Resendiz Alejandro Carreon'
   });
 });
 module.exports = router;
