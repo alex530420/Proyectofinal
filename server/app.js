@@ -1,31 +1,37 @@
 // Cargando dependencias
-import createError from 'http-errors';
-
 import express from 'express';
 import path from 'path';
 import cookieParser from 'cookie-parser';
 import morgan from 'morgan';
+import mongoose from 'mongoose';
+// Enable post and delete verbs
+import methodOverride from 'method-override';
 
 // Setting Webpack Modules
 import webpack from 'webpack';
 import WebpackDevMiddleware from 'webpack-dev-middleware';
 import WebpackHotMiddleware from 'webpack-hot-middleware';
 
+// Importing template-engine
+import configTemplateEngine from './config/templateEngine';
+
 // Importing webpack configuration
 import webpackConfig from '../webpack.dev.config';
+
+// Importando configurador de sesiones
+import configSession from './config/configSessions';
 
 // Impornting winston logger
 import log from './config/winston';
 
-// var debug = require('debug')('dwpcii:server');
+// Importing Router
+import router from './router';
 
-import indexRouter from './routes/index';
-import usersRouter from './routes/users';
 import debug from './services/debugLogger';
 
 // Creando variable del directorio raiz
 // eslint-disable-next-line
-global["__rootdir"] = path.resolve(process.cwd());
+global['__rootdir'] = path.resolve(process.cwd());
 
 // Creando la instancia de express
 const app = express();
@@ -63,43 +69,33 @@ if (nodeEnviroment === 'development') {
   console.log('🏭 Ejecutando en modo producción 🏭');
 }
 
-// Configurando el motor de plantillas
-app.set('views', path.join(__dirname, 'views'));
-app.set('view engine', 'hbs');
+// Configuring the template engine
+configTemplateEngine(app);
+
+// Database connection Checker Middleware
+app.use((req, res, next) => {
+  if (mongoose.connection.readyState === 1) {
+    log.info('✅ Verificación de conexión a db existosa.');
+    next();
+  } else {
+    log.info('🔴 No pasa la verificacion de conexión a la BD');
+    res.status(503).render('errors/e503View', { layout: 'errors' });
+  }
+});
 
 // Se establecen los middlewares
 app.use(morgan('dev', { stream: log.stream }));
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 app.use(cookieParser());
+// Enable post and delete verbs
+app.use(methodOverride('_method'));
+// Habilitando manejo de sesiones y mensajes flash
+configSession(app);
 // Crea un server de archivos estaticos
 app.use(express.static(path.join(__dirname, '..', 'public')));
 
-// Registro de Middlewares de aplicación
-app.use('/', indexRouter);
-// Activa "usersRourter" cuando se
-// solicita "/users"
-app.use('/users', usersRouter);
-// app.use('/author', (req, res)=>{
-//   res.json({mainDeveloper: "Ivan Rivalcoba"})
-// });
-
-// catch 404 and forward to error handler
-app.use((req, res, next) => {
-  log.info(`404 Pagina no encontrada ${req.method} ${req.originalUrl}`);
-  next(createError(404));
-});
-
-// error handler
-app.use((err, req, res) => {
-  // set locals, only providing error in development
-  res.locals.message = err.message;
-  res.locals.error = req.app.get('env') === 'development' ? err : {};
-
-  // render the error page
-  res.status(err.status || 500);
-  log.error(`${err.status || 500} - ${err.message}`);
-  res.render('error');
-});
+// Registro de Rutas
+router.addRoutes(app);
 
 export default app;

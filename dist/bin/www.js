@@ -1,11 +1,14 @@
 #!/usr/bin/env node
+/* eslint-disable strict */
+/* eslint-disable lines-around-directive */
 
 /**
  * Module dependencies.
  */
+'use strict';
 
 const app = require('../app');
-const debug = require('debug')('proyectofinal:server');
+const debug = require('debug')('dwpc2:server');
 const http = require('http');
 
 /**
