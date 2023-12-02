@@ -16,7 +16,7 @@ router.get('/', (req, res, next) => {
 // GET /user/author
 router.get('/author', (req, res, next) => {
   res.render('author', {
-    author: "Alejandro Carreon"
+    author: "Alejandro Carreon Gustavo Resendiz"
   });
 });
 module.exports = router;
