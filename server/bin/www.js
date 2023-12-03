@@ -19,6 +19,10 @@ import configKeys from '../config/configKeys';
 // Importing db connection function
 import connectWithRetry from '../database/mongooseConnection';
 
+/**
+ * Normalize a port into a number, string, or false.
+ */
+
 function normalizePort(val) {
   const port = parseInt(val, 10);
 

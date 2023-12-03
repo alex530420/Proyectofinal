@@ -1,9 +1,9 @@
 import createError from 'http-errors';
 // Impornting winston logger
-import log from './config/winston';
+import log from '../config/winston';
 
 // Importando enrutador home
-import homeRouter from './domains/home/home.router';
+import homeRouter from '../domains/home/home.router';
 
 // Función que agrega rutas
 const addRoutes = (app) => {
