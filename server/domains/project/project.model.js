@@ -7,7 +7,6 @@ const { Schema } = mongoose;
 const ProjectSchema = new Schema({
   name: {
     type: String,
-    // siempre se ocupa que no quieras un espacio vacio
     required: true,
   },
   description: {
