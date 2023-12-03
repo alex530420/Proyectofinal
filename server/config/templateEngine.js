@@ -1,4 +1,4 @@
-mport { engine as exphbs } from 'express-handlebars';
+import { engine as exphbs } from 'express-handlebars';
 import path from 'path';
 
 // Funcion de configuración
