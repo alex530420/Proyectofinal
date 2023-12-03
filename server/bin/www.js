@@ -16,9 +16,8 @@ import log from '../config/winston';
 
 import configKeys from '../config/configKeys';
 
-/**
- * Normalize a port into a number, string, or false.
- */
+// Importing db connection function
+import connectWithRetry from '../database/mongooseConnection';
 
 function normalizePort(val) {
   const port = parseInt(val, 10);
@@ -82,6 +81,9 @@ function onListening() {
   const addr = server.address();
   log.info(`⭐⭐ Listening on ${process.env.APP_URL}:${addr.port} ⭐⭐`);
 }
+
+// Launching db connection
+connectWithRetry(configKeys.MONGO_URL);
 
 /**
  * Listen on provided port, on all network interfaces.
