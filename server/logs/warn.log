@@ -14,3 +14,38 @@
 {"level":"info","message":"GET / 304 20.541 ms - -\n","timestamp":"02-12-2023 04:23:35"}
 {"level":"info","message":"GET / 304 1.211 ms - -\n","timestamp":"02-12-2023 04:25:33"}
 {"level":"info","message":"GET / 200 1.167 ms - 124\n","timestamp":"02-12-2023 04:26:54"}
+{
+  message: 'The server is created from the express instance',
+  level: 'info',
+  timestamp: '03-12-2023 21:28:36'
+}
+{
+  message: '⭐⭐ Listening on http://localhost:5000 ⭐⭐',
+  level: 'info',
+  timestamp: '03-12-2023 21:28:36'
+}
+{
+  message: '✅ Conectado a Mongodb',
+  level: 'info',
+  timestamp: '03-12-2023 21:28:36'
+}
+{
+  message: '✅ Verificación de conexión a db existosa.',
+  level: 'info',
+  timestamp: '03-12-2023 21:28:46'
+}
+{
+  message: 'GET / 200 23.186 ms - 1015\n',
+  level: 'info',
+  timestamp: '03-12-2023 21:28:46'
+}
+{
+  message: '✅ Verificación de conexión a db existosa.',
+  level: 'info',
+  timestamp: '03-12-2023 21:28:47'
+}
+{
+  message: 'GET /favicon.ico 404 2.180 ms - 150\n',
+  level: 'info',
+  timestamp: '03-12-2023 21:28:47'
+}

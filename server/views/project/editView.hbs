@@ -1,15 +1,14 @@
-<div class="row">
-    <div class="col s12 m10 offset-m1 18 offset-12">
-        <div class="card">
-            <div class="card-image">
-                <img src="/images/addproject.png" alt="Imagen creacion de proyecto">
-                <span class="card-title add-project"
-                style="font-weight: bolder;">
-                Crear Proyecto
+<div class='row'>
+  <div class='col s12 m10 offset-m1 18 offset-12'>
+    <div class='card'>
+      <div class='card-image'>
+        <img src='/images/addproject.png' alt='Imagen creacion de proyecto' />
+        <span class='card-title add-project' style='font-weight: bolder;'>
+          Editar Proyecto
         </span>
       </div>
-      <form autocomplete='off' action='/project/add' method='post'>
-        <div class='card-content'>
+      <form autocomplete="off" action="/project/edit/{{ project._id }}?_method=put" method="post">
+     <div class='card-content'>
           <div class='input-field'>
             <label for='project-name'>
               Nombre del proyecto
@@ -55,8 +54,8 @@
         </div>
         <div class='card-action'>
           <button class='blue darken-3 waves-effect waves-light btn'>
-            <i class='material-icons left'>note_add</i>
-            Agregar
+            <i class='material-icons left'>edit</i>
+            Editar
           </button>
         </div>
       </form>
