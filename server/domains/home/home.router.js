@@ -12,7 +12,9 @@ const router = new Router();
 // GET '/home'
 // GET '/index
 router.get(['/', '/home', '/index'], homeController.home);
-// Get about
+
+// GET /project/about
 router.get('/about', homeController.about);
+
 // Exporto este tramo de ruta
 export default router;

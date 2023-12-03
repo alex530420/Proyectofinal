@@ -1,23 +1,16 @@
-/* eslint-disable prettier/prettier */
-/* eslint-disable no-unused-vars */
-/* eslint-disable lines-around-directive */
-/* eslint-disable no-var */
-/* eslint-disable prettier/prettier */
+"use strict";
 
-
-var express = require('express');
-
-var router = express.Router();
+const express = require('express');
+const router = express.Router();
 
 /* GET users listing. */
-router.get('/', (req, res, next) => {
+router.get('/', (req, res) => {
   res.send('respond with a resource');
 });
-
-// GET /user/author
-router.get('/author', (req, res, next) => {
+// GET//USER//author
+router.get('/author', (_, res) => {
   res.render('author', {
-    author: "Alejandro Carreon Gustavo Resendiz"
+    author: 'Gustavo Resendiz Alejandro Carreon'
   });
 });
 module.exports = router;
