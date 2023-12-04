@@ -1,65 +1,94 @@
-<div class="row">
-    <div class="col s12 m10 offset-m1 18 offset-12">
-        <div class="card">
-            <div class="card-image">
-                <img src="/images/addproject.png" alt="Imagen creacion de proyecto">
-                <span class="card-title add-project"
-                style="font-weight: bolder;">
-                Crear Proyecto
-        </span>
-      </div>
-      <form autocomplete='off' action='/project/add' method='post'>
-        <div class='card-content'>
-          <div class='input-field'>
-            <label for='project-name'>
-              Nombre del proyecto
-            </label>
-            <input
-              type='text'
-              id='project-name'
-              name='name'
-              placeholder='Ingrese nombre del proyecto'
-              class='validate'
-              value='{{project.name}}'
-              required
-            />
-            <span
-              class='helper-text'
-              data-error='👆 Es necesario ingresar el nombre del proyecto 👆'
-              data-success='✅ Correcto'
-            ></span>
-            {{#if errorModel.name}}
-              <span style='color: crimson;'>Error: {{errorModel.name}}</span>
-            {{/if}}
-          </div>
-          <div class='input-field'>
-            <label for='project-description'>
-              Descripción del proyecto
-            </label>
-            <textarea
-              name='description'
-              id='project-description'
-              class='materialize-textarea validate'
-              required
-            >{{project.description}}</textarea>
-            <span
-              class='helper-text'
-              data-error='👆 Debe ingresar una descripción 👆'
-              data-success='✅ Correcto'
-            ></span>
-            {{#if errorModel.description}}
-              <span style='color: crimson;'>Error:
-                {{errorModel.description}}</span>
-            {{/if}}
-          </div>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Handlebars Two Columns</title>
+    <style>
+        .container {
+            
+        }
+
+        .column {
+            flex: 1;
+            padding: 20px;
+            border: 1px solid #ccc;
+            margin: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container" id="output"></div>
+
+    <script id="template" type="text/x-handlebars-template">
+        <div class="column">
+            <h5>Libro 1</h5>
+            <p>Autor:.....</p>
+            <p>Categoria:.....</p>
+            <p>ISBN:.....</p>
+            <p>Existencias:.....</p>
+            <p>Descripcion:.....</p>
         </div>
-        <div class='card-action'>
-          <button class='blue darken-3 waves-effect waves-light btn'>
-            <i class='material-icons left'>note_add</i>
-            Agregar
-          </button>
+        <div class="column">
+            <h5>Libro 2</h5>
+            <p>Autor:.....</p>
+            <p>Categoria:.....</p>
+            <p>ISBN:.....</p>
+            <p>Existencias:.....</p>
+            <p>Descripcion:.....</p>
         </div>
-      </form>
-    </div>
-  </div>
-</div>
+        <div class="column">
+            <h5>Libro 3</h5>
+            <p>Autor:.....</p>
+            <p>Categoria:.....</p>
+            <p>ISBN:.....</p>
+            <p>Existencias:.....</p>
+            <p>Descripcion:.....</p>
+        </div>
+          <div class="column">
+            <h5>Libro 4</h5>
+            <p>Autor:.....</p>
+            <p>Categoria:.....</p>
+            <p>ISBN:.....</p>
+            <p>Existencias:.....</p>
+            <p>Descripcion:.....</p>
+        </div>
+          <div class="column">
+            <h5>Libro 5</h5>
+           <p>Autor:.....</p>
+            <p>Categoria:.....</p>
+            <p>ISBN:.....</p>
+            <p>Existencias:.....</p>
+            <p>Descripcion:.....</p>
+        </div>
+          <div class="column">
+            <h5>Libro 6</h5>
+           <p>Autor:.....</p>
+            <p>Categoria:.....</p>
+            <p>ISBN:.....</p>
+            <p>Existencias:.....</p>
+            <p>Descripcion:.....</p>
+        </div>
+    </script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.7.7/handlebars.min.js"></script>
+    <script>
+        const data = {
+            data1: {
+                title: 'Columna 1',
+                content: 'Contenido de la columna 1'
+            },
+            data2: {
+                title: 'Columna 2',
+                content: 'Contenido de la columna 2'
+            }
+        };
+
+        const templateSource = document.getElementById('template').innerHTML;
+        const template = Handlebars.compile(templateSource);
+        const html = template(data);
+
+        document.getElementById('output').innerHTML = html;
+    </script>
+</body>
+</html>
