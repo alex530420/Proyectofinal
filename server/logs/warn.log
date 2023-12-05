@@ -4247,3 +4247,1062 @@
   level: 'info',
   timestamp: '05-12-2023 05:08:02'
 }
+{
+  message: '✅ Verificación de conexión a db existosa.',
+  level: 'info',
+  timestamp: '05-12-2023 05:13:21'
+}
+{
+  message: 'GET / 304 8.869 ms - -\n',
+  level: 'info',
+  timestamp: '05-12-2023 05:13:21'
+}
+{
+  message: '✅ Verificación de conexión a db existosa.',
+  level: 'info',
+  timestamp: '05-12-2023 05:13:28'
+}
+{
+  message: 'GET / 200 20.971 ms - 5369\n',
+  level: 'info',
+  timestamp: '05-12-2023 05:13:28'
+}
+{
+  message: '✅ Verificación de conexión a db existosa.',
+  level: 'info',
+  timestamp: '05-12-2023 05:13:30'
+}
+{
+  message: 'GET / 304 7.930 ms - -\n',
+  level: 'info',
+  timestamp: '05-12-2023 05:13:30'
+}
+{
+  message: 'The server is created from the express instance',
+  level: 'info',
+  timestamp: '05-12-2023 05:21:36'
+}
+{
+  message: '⭐⭐ Listening on http://localhost:5000 ⭐⭐',
+  level: 'info',
+  timestamp: '05-12-2023 05:21:36'
+}
+{
+  message: '✅ Conectado a Mongodb',
+  level: 'info',
+  timestamp: '05-12-2023 05:21:36'
+}
+{
+  message: 'The server is created from the express instance',
+  level: 'info',
+  timestamp: '05-12-2023 05:21:40'
+}
+{
+  message: '⭐⭐ Listening on http://localhost:5000 ⭐⭐',
+  level: 'info',
+  timestamp: '05-12-2023 05:21:40'
+}
+{
+  message: '✅ Conectado a Mongodb',
+  level: 'info',
+  timestamp: '05-12-2023 05:21:40'
+}
+{
+  message: 'The server is created from the express instance',
+  level: 'info',
+  timestamp: '05-12-2023 05:21:42'
+}
+{
+  message: '⭐⭐ Listening on http://localhost:5000 ⭐⭐',
+  level: 'info',
+  timestamp: '05-12-2023 05:21:42'
+}
+{
+  message: '✅ Conectado a Mongodb',
+  level: 'info',
+  timestamp: '05-12-2023 05:21:42'
+}
+{
+  message: '✅ Verificación de conexión a db existosa.',
+  level: 'info',
+  timestamp: '05-12-2023 05:21:44'
+}
+{
+  message: 'GET /main.1304d6f679efe6bc1232.hot-update.json 404 16.363 ms - 180\n',
+  level: 'info',
+  timestamp: '05-12-2023 05:21:45'
+}
+{
+  message: '✅ Verificación de conexión a db existosa.',
+  level: 'info',
+  timestamp: '05-12-2023 05:21:45'
+}
+{
+  message: 'GET / 304 58.423 ms - -\n',
+  level: 'info',
+  timestamp: '05-12-2023 05:21:45'
+}
+{
+  message: 'The server is created from the express instance',
+  level: 'info',
+  timestamp: '05-12-2023 05:21:51'
+}
+{
+  message: '⭐⭐ Listening on http://localhost:5000 ⭐⭐',
+  level: 'info',
+  timestamp: '05-12-2023 05:21:51'
+}
+{
+  message: '✅ Conectado a Mongodb',
+  level: 'info',
+  timestamp: '05-12-2023 05:21:51'
+}
+{
+  message: '✅ Verificación de conexión a db existosa.',
+  level: 'info',
+  timestamp: '05-12-2023 05:21:54'
+}
+{
+  message: 'GET /main.ca0218574f873faf696b.hot-update.json 404 39.727 ms - 180\n',
+  level: 'info',
+  timestamp: '05-12-2023 05:21:54'
+}
+{
+  message: '✅ Verificación de conexión a db existosa.',
+  level: 'info',
+  timestamp: '05-12-2023 05:21:54'
+}
+{
+  message: 'GET / 304 64.686 ms - -\n',
+  level: 'info',
+  timestamp: '05-12-2023 05:21:54'
+}
+{
+  message: 'The server is created from the express instance',
+  level: 'info',
+  timestamp: '05-12-2023 05:21:56'
+}
+{
+  message: '⭐⭐ Listening on http://localhost:5000 ⭐⭐',
+  level: 'info',
+  timestamp: '05-12-2023 05:21:57'
+}
+{
+  message: '✅ Conectado a Mongodb',
+  level: 'info',
+  timestamp: '05-12-2023 05:21:57'
+}
+{
+  message: '✅ Verificación de conexión a db existosa.',
+  level: 'info',
+  timestamp: '05-12-2023 05:22:00'
+}
+{
+  message: 'GET /main.83e4b4b2851ae88e4f45.hot-update.json 404 11.883 ms - 180\n',
+  level: 'info',
+  timestamp: '05-12-2023 05:22:00'
+}
+{
+  message: '✅ Verificación de conexión a db existosa.',
+  level: 'info',
+  timestamp: '05-12-2023 05:22:00'
+}
+{
+  message: 'GET / 304 33.989 ms - -\n',
+  level: 'info',
+  timestamp: '05-12-2023 05:22:00'
+}
+{
+  message: '✅ Verificación de conexión a db existosa.',
+  level: 'info',
+  timestamp: '05-12-2023 05:22:07'
+}
+{
+  message: 'GET / 304 12.162 ms - -\n',
+  level: 'info',
+  timestamp: '05-12-2023 05:22:07'
+}
+{
+  message: '✅ Verificación de conexión a db existosa.',
+  level: 'info',
+  timestamp: '05-12-2023 05:22:09'
+}
+{
+  message: 'GET /project/add 304 26.984 ms - -\n',
+  level: 'info',
+  timestamp: '05-12-2023 05:22:09'
+}
+{
+  message: '✅ Verificación de conexión a db existosa.',
+  level: 'info',
+  timestamp: '05-12-2023 05:22:15'
+}
+{
+  message: 'Se entrega dashboard de proyectos',
+  level: 'info',
+  timestamp: '05-12-2023 05:22:15'
+}
+{
+  message: 'GET /project 200 28.328 ms - 7936\n',
+  level: 'info',
+  timestamp: '05-12-2023 05:22:15'
+}
+{
+  message: '✅ Verificación de conexión a db existosa.',
+  level: 'info',
+  timestamp: '05-12-2023 05:22:53'
+}
+{
+  message: 'Se inicia la busqueda del proyecto con el id: 656ea2eebfee35bc847e2779',
+  level: 'info',
+  timestamp: '05-12-2023 05:22:53'
+}
+{
+  message: 'Proyecto encontrado con el id: 656ea2eebfee35bc847e2779',
+  level: 'info',
+  timestamp: '05-12-2023 05:22:53'
+}
+{
+  message: 'GET /project/edit/656ea2eebfee35bc847e2779 200 31.385 ms - 6584\n',
+  level: 'info',
+  timestamp: '05-12-2023 05:22:53'
+}
+{
+  message: '✅ Verificación de conexión a db existosa.',
+  level: 'info',
+  timestamp: '05-12-2023 05:22:53'
+}
+{
+  message: 'GET /images/addproject.png 404 8.065 ms - 160\n',
+  level: 'info',
+  timestamp: '05-12-2023 05:22:53'
+}
+{
+  message: 'The server is created from the express instance',
+  level: 'info',
+  timestamp: '05-12-2023 05:24:26'
+}
+{
+  message: '⭐⭐ Listening on http://localhost:5000 ⭐⭐',
+  level: 'info',
+  timestamp: '05-12-2023 05:24:26'
+}
+{
+  message: '✅ Conectado a Mongodb',
+  level: 'info',
+  timestamp: '05-12-2023 05:24:26'
+}
+{
+  message: 'The server is created from the express instance',
+  level: 'info',
+  timestamp: '05-12-2023 05:24:29'
+}
+{
+  message: '⭐⭐ Listening on http://localhost:5000 ⭐⭐',
+  level: 'info',
+  timestamp: '05-12-2023 05:24:29'
+}
+{
+  message: '✅ Conectado a Mongodb',
+  level: 'info',
+  timestamp: '05-12-2023 05:24:29'
+}
+{
+  message: '✅ Verificación de conexión a db existosa.',
+  level: 'info',
+  timestamp: '05-12-2023 05:24:31'
+}
+{
+  message: 'GET /main.0c82df40a6fe6e9639c0.hot-update.json 404 10.649 ms - 180\n',
+  level: 'info',
+  timestamp: '05-12-2023 05:24:31'
+}
+{
+  message: '✅ Verificación de conexión a db existosa.',
+  level: 'info',
+  timestamp: '05-12-2023 05:24:32'
+}
+{
+  message: 'Se entrega dashboard de proyectos',
+  level: 'info',
+  timestamp: '05-12-2023 05:24:32'
+}
+{
+  message: 'GET /project 304 42.687 ms - -\n',
+  level: 'info',
+  timestamp: '05-12-2023 05:24:32'
+}
+{
+  message: '✅ Verificación de conexión a db existosa.',
+  level: 'info',
+  timestamp: '05-12-2023 05:24:52'
+}
+{
+  message: 'Se entrega dashboard de proyectos',
+  level: 'info',
+  timestamp: '05-12-2023 05:24:52'
+}
+{
+  message: 'GET /project 304 29.100 ms - -\n',
+  level: 'info',
+  timestamp: '05-12-2023 05:24:52'
+}
+{
+  message: 'The server is created from the express instance',
+  level: 'info',
+  timestamp: '05-12-2023 05:27:25'
+}
+{
+  message: '⭐⭐ Listening on http://localhost:5000 ⭐⭐',
+  level: 'info',
+  timestamp: '05-12-2023 05:27:25'
+}
+{
+  message: '✅ Conectado a Mongodb',
+  level: 'info',
+  timestamp: '05-12-2023 05:27:25'
+}
+{
+  message: '✅ Verificación de conexión a db existosa.',
+  level: 'info',
+  timestamp: '05-12-2023 05:27:32'
+}
+{
+  message: 'Se entrega dashboard de proyectos',
+  level: 'info',
+  timestamp: '05-12-2023 05:27:32'
+}
+{
+  message: 'GET /project 200 50.226 ms - 7936\n',
+  level: 'info',
+  timestamp: '05-12-2023 05:27:32'
+}
+{
+  message: 'The server is created from the express instance',
+  level: 'info',
+  timestamp: '05-12-2023 05:30:45'
+}
+{
+  message: '⭐⭐ Listening on http://localhost:5000 ⭐⭐',
+  level: 'info',
+  timestamp: '05-12-2023 05:30:45'
+}
+{
+  message: '✅ Conectado a Mongodb',
+  level: 'info',
+  timestamp: '05-12-2023 05:30:45'
+}
+{
+  message: 'The server is created from the express instance',
+  level: 'info',
+  timestamp: '05-12-2023 05:30:50'
+}
+{
+  message: '⭐⭐ Listening on http://localhost:5000 ⭐⭐',
+  level: 'info',
+  timestamp: '05-12-2023 05:30:50'
+}
+{
+  message: '✅ Conectado a Mongodb',
+  level: 'info',
+  timestamp: '05-12-2023 05:30:50'
+}
+{
+  message: '✅ Verificación de conexión a db existosa.',
+  level: 'info',
+  timestamp: '05-12-2023 05:30:52'
+}
+{
+  message: 'Se entrega dashboard de proyectos',
+  level: 'info',
+  timestamp: '05-12-2023 05:30:52'
+}
+{
+  message: 'GET /project 304 78.681 ms - -\n',
+  level: 'info',
+  timestamp: '05-12-2023 05:30:52'
+}
+{
+  message: '✅ Verificación de conexión a db existosa.',
+  level: 'info',
+  timestamp: '05-12-2023 05:30:52'
+}
+{
+  message: 'GET /main.429c8140a1e9cb02be16.hot-update.json 404 7.684 ms - 180\n',
+  level: 'info',
+  timestamp: '05-12-2023 05:30:52'
+}
+{
+  message: 'The server is created from the express instance',
+  level: 'info',
+  timestamp: '05-12-2023 05:31:08'
+}
+{
+  message: '⭐⭐ Listening on http://localhost:5000 ⭐⭐',
+  level: 'info',
+  timestamp: '05-12-2023 05:31:08'
+}
+{
+  message: '✅ Conectado a Mongodb',
+  level: 'info',
+  timestamp: '05-12-2023 05:31:08'
+}
+{
+  message: '✅ Verificación de conexión a db existosa.',
+  level: 'info',
+  timestamp: '05-12-2023 05:31:10'
+}
+{
+  message: 'GET /main.d0c3503020e5b9fb4702.hot-update.json 404 11.342 ms - 180\n',
+  level: 'info',
+  timestamp: '05-12-2023 05:31:10'
+}
+{
+  message: '✅ Verificación de conexión a db existosa.',
+  level: 'info',
+  timestamp: '05-12-2023 05:31:10'
+}
+{
+  message: 'Se entrega dashboard de proyectos',
+  level: 'info',
+  timestamp: '05-12-2023 05:31:10'
+}
+{
+  message: 'GET /project 304 43.136 ms - -\n',
+  level: 'info',
+  timestamp: '05-12-2023 05:31:10'
+}
+{
+  message: '✅ Verificación de conexión a db existosa.',
+  level: 'info',
+  timestamp: '05-12-2023 05:39:54'
+}
+{
+  message: 'Se entrega dashboard de proyectos',
+  level: 'info',
+  timestamp: '05-12-2023 05:39:54'
+}
+{
+  message: 'GET /project 200 25.667 ms - 8000\n',
+  level: 'info',
+  timestamp: '05-12-2023 05:39:54'
+}
+{
+  message: 'The server is created from the express instance',
+  level: 'info',
+  timestamp: '05-12-2023 05:43:35'
+}
+{
+  message: '⭐⭐ Listening on http://localhost:5000 ⭐⭐',
+  level: 'info',
+  timestamp: '05-12-2023 05:43:35'
+}
+{
+  message: '✅ Conectado a Mongodb',
+  level: 'info',
+  timestamp: '05-12-2023 05:43:35'
+}
+{
+  message: 'The server is created from the express instance',
+  level: 'info',
+  timestamp: '05-12-2023 05:48:31'
+}
+{
+  message: '⭐⭐ Listening on http://localhost:5000 ⭐⭐',
+  level: 'info',
+  timestamp: '05-12-2023 05:48:31'
+}
+{
+  message: '✅ Conectado a Mongodb',
+  level: 'info',
+  timestamp: '05-12-2023 05:48:31'
+}
+{
+  message: '✅ Verificación de conexión a db existosa.',
+  level: 'info',
+  timestamp: '05-12-2023 05:48:47'
+}
+{
+  message: 'Se entrega dashboard de proyectos',
+  level: 'info',
+  timestamp: '05-12-2023 05:48:47'
+}
+{
+  message: 'GET /project 200 61.594 ms - 8312\n',
+  level: 'info',
+  timestamp: '05-12-2023 05:48:47'
+}
+{
+  message: '✅ Verificación de conexión a db existosa.',
+  level: 'info',
+  timestamp: '05-12-2023 05:48:49'
+}
+{
+  message: 'Se entrega dashboard de proyectos',
+  level: 'info',
+  timestamp: '05-12-2023 05:48:49'
+}
+{
+  message: 'GET /project 304 33.060 ms - -\n',
+  level: 'info',
+  timestamp: '05-12-2023 05:48:49'
+}
+{
+  message: '✅ Verificación de conexión a db existosa.',
+  level: 'info',
+  timestamp: '05-12-2023 05:48:50'
+}
+{
+  message: 'Se entrega dashboard de proyectos',
+  level: 'info',
+  timestamp: '05-12-2023 05:48:50'
+}
+{
+  message: 'GET /project 304 25.587 ms - -\n',
+  level: 'info',
+  timestamp: '05-12-2023 05:48:50'
+}
+{
+  message: '✅ Verificación de conexión a db existosa.',
+  level: 'info',
+  timestamp: '05-12-2023 05:48:51'
+}
+{
+  message: 'Se entrega dashboard de proyectos',
+  level: 'info',
+  timestamp: '05-12-2023 05:48:51'
+}
+{
+  message: 'GET /project 304 17.531 ms - -\n',
+  level: 'info',
+  timestamp: '05-12-2023 05:48:51'
+}
+{
+  message: '✅ Verificación de conexión a db existosa.',
+  level: 'info',
+  timestamp: '05-12-2023 05:48:52'
+}
+{
+  message: 'Se entrega dashboard de proyectos',
+  level: 'info',
+  timestamp: '05-12-2023 05:48:52'
+}
+{
+  message: 'GET /project 304 38.595 ms - -\n',
+  level: 'info',
+  timestamp: '05-12-2023 05:48:52'
+}
+{
+  message: '✅ Verificación de conexión a db existosa.',
+  level: 'info',
+  timestamp: '05-12-2023 05:48:53'
+}
+{
+  message: 'Se entrega dashboard de proyectos',
+  level: 'info',
+  timestamp: '05-12-2023 05:48:53'
+}
+{
+  message: 'GET /project 304 13.516 ms - -\n',
+  level: 'info',
+  timestamp: '05-12-2023 05:48:53'
+}
+{
+  message: '✅ Verificación de conexión a db existosa.',
+  level: 'info',
+  timestamp: '05-12-2023 05:48:54'
+}
+{
+  message: 'Se entrega dashboard de proyectos',
+  level: 'info',
+  timestamp: '05-12-2023 05:48:54'
+}
+{
+  message: 'GET /project 304 40.230 ms - -\n',
+  level: 'info',
+  timestamp: '05-12-2023 05:48:54'
+}
+{
+  message: '✅ Verificación de conexión a db existosa.',
+  level: 'info',
+  timestamp: '05-12-2023 05:48:57'
+}
+{
+  message: 'Se entrega dashboard de proyectos',
+  level: 'info',
+  timestamp: '05-12-2023 05:48:57'
+}
+{
+  message: 'GET /project 304 26.717 ms - -\n',
+  level: 'info',
+  timestamp: '05-12-2023 05:48:57'
+}
+{
+  message: '✅ Verificación de conexión a db existosa.',
+  level: 'info',
+  timestamp: '05-12-2023 05:49:01'
+}
+{
+  message: 'Se entrega dashboard de proyectos',
+  level: 'info',
+  timestamp: '05-12-2023 05:49:01'
+}
+{
+  message: 'GET /project 304 39.399 ms - -\n',
+  level: 'info',
+  timestamp: '05-12-2023 05:49:01'
+}
+{
+  message: '✅ Verificación de conexión a db existosa.',
+  level: 'info',
+  timestamp: '05-12-2023 05:49:01'
+}
+{
+  message: 'Se entrega dashboard de proyectos',
+  level: 'info',
+  timestamp: '05-12-2023 05:49:01'
+}
+{
+  message: 'GET /project 200 23.746 ms - 8312\n',
+  level: 'info',
+  timestamp: '05-12-2023 05:49:01'
+}
+{
+  message: '✅ Verificación de conexión a db existosa.',
+  level: 'info',
+  timestamp: '05-12-2023 05:49:02'
+}
+{
+  message: 'Se entrega dashboard de proyectos',
+  level: 'info',
+  timestamp: '05-12-2023 05:49:02'
+}
+{
+  message: 'GET /project 200 13.392 ms - 8312\n',
+  level: 'info',
+  timestamp: '05-12-2023 05:49:02'
+}
+{
+  message: '✅ Verificación de conexión a db existosa.',
+  level: 'info',
+  timestamp: '05-12-2023 05:49:03'
+}
+{
+  message: 'Se entrega dashboard de proyectos',
+  level: 'info',
+  timestamp: '05-12-2023 05:49:03'
+}
+{
+  message: 'GET /project 304 55.277 ms - -\n',
+  level: 'info',
+  timestamp: '05-12-2023 05:49:03'
+}
+{
+  message: '✅ Verificación de conexión a db existosa.',
+  level: 'info',
+  timestamp: '05-12-2023 05:49:03'
+}
+{
+  message: 'Se entrega dashboard de proyectos',
+  level: 'info',
+  timestamp: '05-12-2023 05:49:03'
+}
+{
+  message: 'GET /project 200 22.609 ms - 8312\n',
+  level: 'info',
+  timestamp: '05-12-2023 05:49:03'
+}
+{
+  message: '✅ Verificación de conexión a db existosa.',
+  level: 'info',
+  timestamp: '05-12-2023 05:49:03'
+}
+{
+  message: 'Se entrega dashboard de proyectos',
+  level: 'info',
+  timestamp: '05-12-2023 05:49:03'
+}
+{
+  message: 'GET /project 200 17.581 ms - 8312\n',
+  level: 'info',
+  timestamp: '05-12-2023 05:49:03'
+}
+{
+  message: '✅ Verificación de conexión a db existosa.',
+  level: 'info',
+  timestamp: '05-12-2023 05:49:36'
+}
+{
+  message: 'Se entrega dashboard de proyectos',
+  level: 'info',
+  timestamp: '05-12-2023 05:49:36'
+}
+{
+  message: 'GET /project 200 10.648 ms - 8316\n',
+  level: 'info',
+  timestamp: '05-12-2023 05:49:36'
+}
+{
+  message: 'The server is created from the express instance',
+  level: 'info',
+  timestamp: '05-12-2023 05:51:41'
+}
+{
+  message: '⭐⭐ Listening on http://localhost:5000 ⭐⭐',
+  level: 'info',
+  timestamp: '05-12-2023 05:51:41'
+}
+{
+  message: '✅ Conectado a Mongodb',
+  level: 'info',
+  timestamp: '05-12-2023 05:51:41'
+}
+{
+  message: '✅ Verificación de conexión a db existosa.',
+  level: 'info',
+  timestamp: '05-12-2023 05:51:43'
+}
+{
+  message: 'GET /main.0f9dd9d6a499ec44b277.hot-update.json 404 9.434 ms - 180\n',
+  level: 'info',
+  timestamp: '05-12-2023 05:51:43'
+}
+{
+  message: '✅ Verificación de conexión a db existosa.',
+  level: 'info',
+  timestamp: '05-12-2023 05:51:43'
+}
+{
+  message: 'Se entrega dashboard de proyectos',
+  level: 'info',
+  timestamp: '05-12-2023 05:51:43'
+}
+{
+  message: 'GET /project 200 47.573 ms - 8316\n',
+  level: 'info',
+  timestamp: '05-12-2023 05:51:43'
+}
+{
+  message: 'The server is created from the express instance',
+  level: 'info',
+  timestamp: '05-12-2023 05:52:15'
+}
+{
+  message: '⭐⭐ Listening on http://localhost:5000 ⭐⭐',
+  level: 'info',
+  timestamp: '05-12-2023 05:52:15'
+}
+{
+  message: '✅ Conectado a Mongodb',
+  level: 'info',
+  timestamp: '05-12-2023 05:52:15'
+}
+{
+  message: '✅ Verificación de conexión a db existosa.',
+  level: 'info',
+  timestamp: '05-12-2023 05:52:28'
+}
+{
+  message: 'Se entrega dashboard de proyectos',
+  level: 'info',
+  timestamp: '05-12-2023 05:52:28'
+}
+{
+  message: 'GET /project 200 46.894 ms - 8316\n',
+  level: 'info',
+  timestamp: '05-12-2023 05:52:28'
+}
+{
+  message: '✅ Verificación de conexión a db existosa.',
+  level: 'info',
+  timestamp: '05-12-2023 05:57:16'
+}
+{
+  message: 'Se entrega dashboard de proyectos',
+  level: 'info',
+  timestamp: '05-12-2023 05:57:16'
+}
+{
+  message: 'GET /project 200 22.591 ms - 8192\n',
+  level: 'info',
+  timestamp: '05-12-2023 05:57:16'
+}
+{
+  message: '✅ Verificación de conexión a db existosa.',
+  level: 'info',
+  timestamp: '05-12-2023 05:57:17'
+}
+{
+  message: 'DELETE /project/656ea2eebfee35bc847e2779 200 9.793 ms - 117\n',
+  level: 'info',
+  timestamp: '05-12-2023 05:57:17'
+}
+{
+  message: '✅ Verificación de conexión a db existosa.',
+  level: 'info',
+  timestamp: '05-12-2023 05:57:18'
+}
+{
+  message: 'Se entrega dashboard de proyectos',
+  level: 'info',
+  timestamp: '05-12-2023 05:57:18'
+}
+{
+  message: 'GET /project 200 40.637 ms - 7667\n',
+  level: 'info',
+  timestamp: '05-12-2023 05:57:18'
+}
+{
+  message: '✅ Verificación de conexión a db existosa.',
+  level: 'info',
+  timestamp: '05-12-2023 05:57:20'
+}
+{
+  message: 'DELETE /project/656ea4e8bfee35bc847e277d 200 4.410 ms - 117\n',
+  level: 'info',
+  timestamp: '05-12-2023 05:57:20'
+}
+{
+  message: '✅ Verificación de conexión a db existosa.',
+  level: 'info',
+  timestamp: '05-12-2023 05:57:20'
+}
+{
+  message: 'Se entrega dashboard de proyectos',
+  level: 'info',
+  timestamp: '05-12-2023 05:57:20'
+}
+{
+  message: 'GET /project 200 17.678 ms - 6827\n',
+  level: 'info',
+  timestamp: '05-12-2023 05:57:20'
+}
+{
+  message: '✅ Verificación de conexión a db existosa.',
+  level: 'info',
+  timestamp: '05-12-2023 05:57:21'
+}
+{
+  message: 'DELETE /project/656ea579bfee35bc847e2780 200 5.270 ms - 117\n',
+  level: 'info',
+  timestamp: '05-12-2023 05:57:21'
+}
+{
+  message: '✅ Verificación de conexión a db existosa.',
+  level: 'info',
+  timestamp: '05-12-2023 05:57:21'
+}
+{
+  message: 'Se entrega dashboard de proyectos',
+  level: 'info',
+  timestamp: '05-12-2023 05:57:21'
+}
+{
+  message: 'GET /project 200 38.467 ms - 5987\n',
+  level: 'info',
+  timestamp: '05-12-2023 05:57:21'
+}
+{
+  message: '✅ Verificación de conexión a db existosa.',
+  level: 'info',
+  timestamp: '05-12-2023 05:57:24'
+}
+{
+  message: 'DELETE /project/656ea8fdc82960b272b6a587 200 5.770 ms - 176\n',
+  level: 'info',
+  timestamp: '05-12-2023 05:57:24'
+}
+{
+  message: '✅ Verificación de conexión a db existosa.',
+  level: 'info',
+  timestamp: '05-12-2023 05:57:25'
+}
+{
+  message: 'Se entrega dashboard de proyectos',
+  level: 'info',
+  timestamp: '05-12-2023 05:57:25'
+}
+{
+  message: 'GET /project 200 21.426 ms - 5138\n',
+  level: 'info',
+  timestamp: '05-12-2023 05:57:25'
+}
+{
+  message: 'The server is created from the express instance',
+  level: 'info',
+  timestamp: '05-12-2023 06:00:01'
+}
+{
+  message: '⭐⭐ Listening on http://localhost:5000 ⭐⭐',
+  level: 'info',
+  timestamp: '05-12-2023 06:00:01'
+}
+{
+  message: '✅ Conectado a Mongodb',
+  level: 'info',
+  timestamp: '05-12-2023 06:00:01'
+}
+{
+  message: '✅ Verificación de conexión a db existosa.',
+  level: 'info',
+  timestamp: '05-12-2023 06:00:03'
+}
+{
+  message: 'GET /main.8660cf8ec44e742ade95.hot-update.json 404 9.559 ms - 180\n',
+  level: 'info',
+  timestamp: '05-12-2023 06:00:03'
+}
+{
+  message: '✅ Verificación de conexión a db existosa.',
+  level: 'info',
+  timestamp: '05-12-2023 06:00:03'
+}
+{
+  message: 'Se entrega dashboard de proyectos',
+  level: 'info',
+  timestamp: '05-12-2023 06:00:03'
+}
+{
+  message: 'GET /project 200 40.611 ms - 4823\n',
+  level: 'info',
+  timestamp: '05-12-2023 06:00:03'
+}
+{
+  message: '✅ Verificación de conexión a db existosa.',
+  level: 'info',
+  timestamp: '05-12-2023 06:00:59'
+}
+{
+  message: 'GET /project/add 304 41.748 ms - -\n',
+  level: 'info',
+  timestamp: '05-12-2023 06:00:59'
+}
+{
+  message: '✅ Verificación de conexión a db existosa.',
+  level: 'info',
+  timestamp: '05-12-2023 06:01:10'
+}
+{
+  message: 'Se extraen datos de la petición: Nombre LOP ,Autor W, Categoria: W, ISBN W, Descripcion W ',
+  level: 'info',
+  timestamp: '05-12-2023 06:01:10'
+}
+{
+  message: 'Se carga proyecto {\n' +
+    "  Nombre: 'LOP',\n" +
+    "  Autor: 'W',\n" +
+    "  Categoria: 'W',\n" +
+    "  ISBN: 'W',\n" +
+    "  Existencias: 'W',\n" +
+    "  Descripcion: 'W',\n" +
+    '  _id: new ObjectId("656ebca6700a84d2dad8dce6"),\n' +
+    '  __v: 0\n' +
+    '}',
+  level: 'info',
+  timestamp: '05-12-2023 06:01:10'
+}
+{
+  message: 'Se redirecciona el sistema a /project',
+  level: 'info',
+  timestamp: '05-12-2023 06:01:10'
+}
+{
+  message: 'POST /project/add 302 29.614 ms - 60\n',
+  level: 'info',
+  timestamp: '05-12-2023 06:01:10'
+}
+{
+  message: '✅ Verificación de conexión a db existosa.',
+  level: 'info',
+  timestamp: '05-12-2023 06:01:10'
+}
+{
+  message: 'Se entrega dashboard de proyectos',
+  level: 'info',
+  timestamp: '05-12-2023 06:01:10'
+}
+{
+  message: 'GET /project 200 32.440 ms - 5935\n',
+  level: 'info',
+  timestamp: '05-12-2023 06:01:10'
+}
+{
+  message: 'The server is created from the express instance',
+  level: 'info',
+  timestamp: '05-12-2023 06:01:58'
+}
+{
+  message: '⭐⭐ Listening on http://localhost:5000 ⭐⭐',
+  level: 'info',
+  timestamp: '05-12-2023 06:01:58'
+}
+{
+  message: '✅ Conectado a Mongodb',
+  level: 'info',
+  timestamp: '05-12-2023 06:01:58'
+}
+{
+  message: 'The server is created from the express instance',
+  level: 'info',
+  timestamp: '05-12-2023 06:02:03'
+}
+{
+  message: '⭐⭐ Listening on http://localhost:5000 ⭐⭐',
+  level: 'info',
+  timestamp: '05-12-2023 06:02:03'
+}
+{
+  message: '✅ Conectado a Mongodb',
+  level: 'info',
+  timestamp: '05-12-2023 06:02:03'
+}
+{
+  message: '✅ Verificación de conexión a db existosa.',
+  level: 'info',
+  timestamp: '05-12-2023 06:02:05'
+}
+{
+  message: 'Se entrega dashboard de proyectos',
+  level: 'info',
+  timestamp: '05-12-2023 06:02:05'
+}
+{
+  message: 'GET /project 200 78.676 ms - 5619\n',
+  level: 'info',
+  timestamp: '05-12-2023 06:02:05'
+}
+{
+  message: '✅ Verificación de conexión a db existosa.',
+  level: 'info',
+  timestamp: '05-12-2023 06:02:08'
+}
+{
+  message: 'DELETE /project/656ebca6700a84d2dad8dce6 200 9.477 ms - 132\n',
+  level: 'info',
+  timestamp: '05-12-2023 06:02:08'
+}
+{
+  message: '✅ Verificación de conexión a db existosa.',
+  level: 'info',
+  timestamp: '05-12-2023 06:02:08'
+}
+{
+  message: 'Se entrega dashboard de proyectos',
+  level: 'info',
+  timestamp: '05-12-2023 06:02:08'
+}
+{
+  message: 'GET /project 200 27.788 ms - 5135\n',
+  level: 'info',
+  timestamp: '05-12-2023 06:02:08'
+}
+{
+  message: '✅ Verificación de conexión a db existosa.',
+  level: 'info',
+  timestamp: '05-12-2023 06:02:15'
+}
+{
+  message: 'GET /project/add 200 15.192 ms - 8619\n',
+  level: 'info',
+  timestamp: '05-12-2023 06:02:15'
+}

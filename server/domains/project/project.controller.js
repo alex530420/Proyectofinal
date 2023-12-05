@@ -55,7 +55,7 @@ const addPost = async (req, res) => {
     // Se registra en el log el redireccionamiento
     log.info('Se redirecciona el sistema a /project');
     /// Agregando mensaje de flash
-    req.flash('successMessage', 'Proyecto agregado con exito');
+    req.flash('successMessage', 'LIBRO AGREGADO');
     return res.redirect('/project');
   } catch (error) {
     log.error(
@@ -138,12 +138,13 @@ const editPut = async (req, res) => {
 
 // DELETE "/project/:id"
 const deleteProject = async (req, res) => {
+  // Extrayendo el id de los parametros
   const { id } = req.params;
   // Usando el modelo para borrar el proyecto
   try {
     const result = await ProjectModel.findByIdAndRemove(id);
     // Agregando mensaje de flash
-    req.flash('successMessage', 'Proyecto borrado con exito');
+    req.flash('successMessage', 'Libro borrado con exito');
     return res.status(200).json(result);
   } catch (error) {
     return res.status(500).json(error);
