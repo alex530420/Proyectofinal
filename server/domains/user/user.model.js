@@ -14,8 +14,12 @@ const { Schema } = mongoose;
 // 3. Creando el esquema
 const UserSchema = new Schema(
   {
-    firstName: { type: String, required: true },
-    lastname: { type: String, required: true },
+    firstName: { type: String, required: true, lowercase: true },
+    lastname: { type: String, required: true, lowercase: true },
+    image: {
+      type: String,
+      default: 'https://img.icons8.com/fluent/48/000000/user-male-circle.png',
+    },
     mail: {
       type: String,
       unique: true,
@@ -75,11 +79,12 @@ UserSchema.methods = {
   },
   // Genera un token de 64 caracteres aleatorios
   generateConfirmationToken() {
-    return crypto.randomBytes(64).toString('hex');
+    return crypto.randomBytes(32).toString('hex');
   },
   // Funcion de tranformacion a Json personalizada
   toJSON() {
     return {
+      // eslint-disable-next-line no-underscore-dangle
       id: this._id,
       firstName: this.firstName,
       lastname: this.lastname,
@@ -90,6 +95,14 @@ UserSchema.methods = {
       createdAt: this.createdAt,
       updatedAt: this.updatedAt,
     };
+  },
+  // Metodo para activar el usuario
+  async activate() {
+    await this.updateOne({
+      emailConfirmationToken: null,
+      // updatedAt: new Date(),
+      emailConfirmationAt: new Date(),
+    }).exec();
   },
 };
 
@@ -120,7 +133,7 @@ UserSchema.post('save', async function sendConfirmationMail() {
 
   // Configuring mail data
   mailSender.mail = {
-    from: 'jorge.rr@gamadero.tecnm.mx',
+    from: 'bibliotecaITGAM@gamadero.tecnm.mx',
     to: this.mail,
     subject: 'Account confirmation',
   };
@@ -133,11 +146,11 @@ UserSchema.post('save', async function sendConfirmationMail() {
         lastname: this.lastname,
         mail: this.mail,
         token: this.emailConfirmationToken,
+        host: configKeys.APP_URL,
       },
-      `
-      Estimado ${this.firstName} ${this.lastname}  
-      hemos enviado un correo de confirmación a ${this.mail}  
-      favor de hacer clic en enlace de dicho correo`,
+      `Estimado ${this.firstName} ${this.lastname} 
+      para validar tu cuenta debes hacer clic en el siguiente
+      enlace: ${configKeys.APP_URL}/user/confirm/${this.token}`,
     );
 
     if (!info) return log.info('😭 No se pudo enviar el correo');
