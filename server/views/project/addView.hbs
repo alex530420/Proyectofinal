@@ -3,8 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Handlebars Two Columns</title>
+    <title></title>
+
     <style>
+        
         .container {
             
         }
@@ -18,6 +20,10 @@
     </style>
 </head>
 <body>
+       <div id="search-container">
+        <input type="text" id="search-input" placeholder="Buscar...">
+    </div>
+    
     <div class="container" id="output"></div>
 
     <script id="template" type="text/x-handlebars-template">
@@ -28,7 +34,20 @@
             <p>ISBN:.....</p>
             <p>Existencias:.....</p>
             <p>Descripcion:.....</p>
+            <a href="/project/edit/{{_id}}">
+            <i class="material-icons" 
+              style = "display: inline-flex; vertical-align: sub;">edit</i>
+            <span >Editar</span>
+            </a>
+            <a href="javascript: deleteProject('{{_id}}')" class="inline">
+            <i class="material-icons" 
+	            style = "display: inline-flex; vertical-align: sub;">
+	            delete</i>
+            Borrar
+          </a>
+            </div>
         </div>
+
         <div class="column">
             <h5>Libro 2</h5>
             <p>Autor:.....</p>
@@ -36,6 +55,19 @@
             <p>ISBN:.....</p>
             <p>Existencias:.....</p>
             <p>Descripcion:.....</p>
+           <div class="card-action">
+            <a href="/project/edit/{{_id}}">
+            <i class="material-icons" 
+              style = "display: inline-flex; vertical-align: sub;">edit</i>
+            <span >Editar</span>
+            </a>
+            <a href="javascript: deleteProject('{{_id}}')" class="inline">
+            <i class="material-icons" 
+	            style = "display: inline-flex; vertical-align: sub;">
+	            delete</i>
+            Borrar
+          </a>
+            </div>
         </div>
         <div class="column">
             <h5>Libro 3</h5>
@@ -44,6 +76,18 @@
             <p>ISBN:.....</p>
             <p>Existencias:.....</p>
             <p>Descripcion:.....</p>
+          
+            <a href="/project/edit/{{_id}}">
+            <i class="material-icons" 
+              style = "display: inline-flex; vertical-align: sub;">edit</i>
+            <span >Editar</span>
+          </a>
+          <a href="javascript: deleteProject('{{_id}}')" class="inline">
+            <i class="material-icons" 
+	            style = "display: inline-flex; vertical-align: sub;">
+	            delete</i>
+            Borrar 
+          </a>
         </div>
           <div class="column">
             <h5>Libro 4</h5>
@@ -52,6 +96,17 @@
             <p>ISBN:.....</p>
             <p>Existencias:.....</p>
             <p>Descripcion:.....</p>
+            <a href="/project/edit/{{_id}}">
+            <i class="material-icons" 
+              style = "display: inline-flex; vertical-align: sub;">edit</i>
+            <span >Editar</span>
+            </a>
+            <a href="javascript: deleteProject('{{_id}}')" class="inline">
+            <i class="material-icons" 
+	            style = "display: inline-flex; vertical-align: sub;">
+	            delete</i>
+            Borrar
+          </a>
         </div>
           <div class="column">
             <h5>Libro 5</h5>
@@ -60,6 +115,19 @@
             <p>ISBN:.....</p>
             <p>Existencias:.....</p>
             <p>Descripcion:.....</p>
+          
+            <a href="/project/edit/{{_id}}">
+            <i class="material-icons" 
+              style = "display: inline-flex; vertical-align: sub;">edit</i>
+            <span >Editar</span>
+            </a>
+            <a href="javascript: deleteProject('{{_id}}')" class="inline">
+            <i class="material-icons" 
+	            style = "display: inline-flex; vertical-align: sub;">
+	            delete</i>
+            Borrar
+          </a>
+            
         </div>
           <div class="column">
             <h5>Libro 6</h5>
@@ -68,6 +136,18 @@
             <p>ISBN:.....</p>
             <p>Existencias:.....</p>
             <p>Descripcion:.....</p>
+           
+            <a href="/project/edit/{{_id}}">
+            <i class="material-icons" 
+              style = "display: inline-flex; vertical-align: sub;">edit</i>
+            <span >Editar</span>
+            </a>
+            <a href="javascript: deleteProject('{{_id}}')" class="inline">
+            <i class="material-icons" 
+	            style = "display: inline-flex; vertical-align: sub;">
+	            delete</i>
+            Borrar 
+          </a>
         </div>
     </script>
 

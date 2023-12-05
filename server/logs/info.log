@@ -1124,3 +1124,553 @@
   level: 'info',
   timestamp: '04-12-2023 06:42:07'
 }
+{
+  message: 'The server is created from the express instance',
+  level: 'info',
+  timestamp: '05-12-2023 02:24:08'
+}
+{
+  message: '⭐⭐ Listening on http://localhost:5000 ⭐⭐',
+  level: 'info',
+  timestamp: '05-12-2023 02:24:08'
+}
+{
+  message: '✅ Conectado a Mongodb',
+  level: 'info',
+  timestamp: '05-12-2023 02:24:08'
+}
+{
+  message: '✅ Verificación de conexión a db existosa.',
+  level: 'info',
+  timestamp: '05-12-2023 02:24:16'
+}
+{
+  message: 'GET / 200 95.266 ms - 5384\n',
+  level: 'info',
+  timestamp: '05-12-2023 02:24:16'
+}
+{
+  message: '✅ Verificación de conexión a db existosa.',
+  level: 'info',
+  timestamp: '05-12-2023 02:24:18'
+}
+{
+  message: 'GET /favicon.png 404 8.020 ms - 150\n',
+  level: 'info',
+  timestamp: '05-12-2023 02:24:18'
+}
+{
+  message: '✅ Verificación de conexión a db existosa.',
+  level: 'info',
+  timestamp: '05-12-2023 02:27:31'
+}
+{
+  message: 'GET /project/add 200 16.206 ms - 7392\n',
+  level: 'info',
+  timestamp: '05-12-2023 02:27:31'
+}
+{
+  message: '✅ Verificación de conexión a db existosa.',
+  level: 'info',
+  timestamp: '05-12-2023 02:30:52'
+}
+{
+  message: 'GET /project/add 200 28.289 ms - 6825\n',
+  level: 'info',
+  timestamp: '05-12-2023 02:30:52'
+}
+{
+  message: '✅ Verificación de conexión a db existosa.',
+  level: 'info',
+  timestamp: '05-12-2023 02:31:27'
+}
+{
+  message: 'GET /project/add 200 26.352 ms - 7392\n',
+  level: 'info',
+  timestamp: '05-12-2023 02:31:27'
+}
+{
+  message: '✅ Verificación de conexión a db existosa.',
+  level: 'info',
+  timestamp: '05-12-2023 02:34:12'
+}
+{
+  message: 'GET /project/add 200 11.619 ms - 9227\n',
+  level: 'info',
+  timestamp: '05-12-2023 02:34:12'
+}
+{
+  message: '✅ Verificación de conexión a db existosa.',
+  level: 'info',
+  timestamp: '05-12-2023 02:35:38'
+}
+{
+  message: 'GET /project/add 200 20.985 ms - 7496\n',
+  level: 'info',
+  timestamp: '05-12-2023 02:35:38'
+}
+{
+  message: '✅ Verificación de conexión a db existosa.',
+  level: 'info',
+  timestamp: '05-12-2023 02:36:30'
+}
+{
+  message: 'GET /project/add 200 20.683 ms - 7598\n',
+  level: 'info',
+  timestamp: '05-12-2023 02:36:30'
+}
+{
+  message: '✅ Verificación de conexión a db existosa.',
+  level: 'info',
+  timestamp: '05-12-2023 02:36:52'
+}
+{
+  message: 'GET /project/add 200 19.770 ms - 7501\n',
+  level: 'info',
+  timestamp: '05-12-2023 02:36:52'
+}
+{
+  message: '✅ Verificación de conexión a db existosa.',
+  level: 'info',
+  timestamp: '05-12-2023 02:40:14'
+}
+{
+  message: 'GET /project/add 200 9.574 ms - 7727\n',
+  level: 'info',
+  timestamp: '05-12-2023 02:40:14'
+}
+{
+  message: '✅ Verificación de conexión a db existosa.',
+  level: 'info',
+  timestamp: '05-12-2023 02:40:44'
+}
+{
+  message: 'GET /project/edit/ 404 2.681 ms - 152\n',
+  level: 'info',
+  timestamp: '05-12-2023 02:40:44'
+}
+{
+  message: '✅ Verificación de conexión a db existosa.',
+  level: 'info',
+  timestamp: '05-12-2023 02:40:46'
+}
+{
+  message: 'GET /project/add 200 11.314 ms - 7727\n',
+  level: 'info',
+  timestamp: '05-12-2023 02:40:46'
+}
+{
+  message: '✅ Verificación de conexión a db existosa.',
+  level: 'info',
+  timestamp: '05-12-2023 02:41:08'
+}
+{
+  message: 'GET /project/add 200 9.321 ms - 7689\n',
+  level: 'info',
+  timestamp: '05-12-2023 02:41:08'
+}
+{
+  message: '✅ Verificación de conexión a db existosa.',
+  level: 'info',
+  timestamp: '05-12-2023 02:41:31'
+}
+{
+  message: 'GET /project/add 200 11.911 ms - 7680\n',
+  level: 'info',
+  timestamp: '05-12-2023 02:41:31'
+}
+{
+  message: '✅ Verificación de conexión a db existosa.',
+  level: 'info',
+  timestamp: '05-12-2023 02:41:33'
+}
+{
+  message: 'GET /project/edit/ 404 3.529 ms - 152\n',
+  level: 'info',
+  timestamp: '05-12-2023 02:41:33'
+}
+{
+  message: '✅ Verificación de conexión a db existosa.',
+  level: 'info',
+  timestamp: '05-12-2023 02:41:35'
+}
+{
+  message: 'GET /project/add 200 19.552 ms - 7680\n',
+  level: 'info',
+  timestamp: '05-12-2023 02:41:35'
+}
+{
+  message: '✅ Verificación de conexión a db existosa.',
+  level: 'info',
+  timestamp: '05-12-2023 02:41:36'
+}
+{
+  message: 'GET /project/edit/ 404 2.474 ms - 152\n',
+  level: 'info',
+  timestamp: '05-12-2023 02:41:36'
+}
+{
+  message: '✅ Verificación de conexión a db existosa.',
+  level: 'info',
+  timestamp: '05-12-2023 02:42:07'
+}
+{
+  message: 'GET /project/add 200 14.887 ms - 7865\n',
+  level: 'info',
+  timestamp: '05-12-2023 02:42:07'
+}
+{
+  message: '✅ Verificación de conexión a db existosa.',
+  level: 'info',
+  timestamp: '05-12-2023 02:42:36'
+}
+{
+  message: 'GET /project/add 200 11.812 ms - 8609\n',
+  level: 'info',
+  timestamp: '05-12-2023 02:42:36'
+}
+{
+  message: '✅ Verificación de conexión a db existosa.',
+  level: 'info',
+  timestamp: '05-12-2023 02:43:33'
+}
+{
+  message: 'GET /project/add 200 11.348 ms - 8666\n',
+  level: 'info',
+  timestamp: '05-12-2023 02:43:33'
+}
+{
+  message: '✅ Verificación de conexión a db existosa.',
+  level: 'info',
+  timestamp: '05-12-2023 02:43:49'
+}
+{
+  message: 'GET /project/add 200 8.583 ms - 8723\n',
+  level: 'info',
+  timestamp: '05-12-2023 02:43:49'
+}
+{
+  message: '✅ Verificación de conexión a db existosa.',
+  level: 'info',
+  timestamp: '05-12-2023 02:44:54'
+}
+{
+  message: 'GET /project/add 200 10.454 ms - 8893\n',
+  level: 'info',
+  timestamp: '05-12-2023 02:44:54'
+}
+{
+  message: '✅ Verificación de conexión a db existosa.',
+  level: 'info',
+  timestamp: '05-12-2023 02:45:30'
+}
+{
+  message: 'GET /project/add 200 11.399 ms - 8839\n',
+  level: 'info',
+  timestamp: '05-12-2023 02:45:30'
+}
+{
+  message: '✅ Verificación de conexión a db existosa.',
+  level: 'info',
+  timestamp: '05-12-2023 02:46:19'
+}
+{
+  message: 'GET /project/add 200 8.849 ms - 8881\n',
+  level: 'info',
+  timestamp: '05-12-2023 02:46:19'
+}
+{
+  message: '✅ Verificación de conexión a db existosa.',
+  level: 'info',
+  timestamp: '05-12-2023 02:47:20'
+}
+{
+  message: 'GET /project/add 200 8.540 ms - 8840\n',
+  level: 'info',
+  timestamp: '05-12-2023 02:47:20'
+}
+{
+  message: '✅ Verificación de conexión a db existosa.',
+  level: 'info',
+  timestamp: '05-12-2023 02:50:23'
+}
+{
+  message: 'GET /project/add 200 17.466 ms - 10284\n',
+  level: 'info',
+  timestamp: '05-12-2023 02:50:23'
+}
+{
+  message: '✅ Verificación de conexión a db existosa.',
+  level: 'info',
+  timestamp: '05-12-2023 02:50:58'
+}
+{
+  message: 'GET /project/add 200 9.587 ms - 10232\n',
+  level: 'info',
+  timestamp: '05-12-2023 02:50:58'
+}
+{
+  message: '✅ Verificación de conexión a db existosa.',
+  level: 'info',
+  timestamp: '05-12-2023 02:51:55'
+}
+{
+  message: 'GET /project/edit/ 404 2.013 ms - 152\n',
+  level: 'info',
+  timestamp: '05-12-2023 02:51:55'
+}
+{
+  message: '✅ Verificación de conexión a db existosa.',
+  level: 'info',
+  timestamp: '05-12-2023 02:51:58'
+}
+{
+  message: 'GET /project/add 200 11.377 ms - 10232\n',
+  level: 'info',
+  timestamp: '05-12-2023 02:51:58'
+}
+{
+  message: '✅ Verificación de conexión a db existosa.',
+  level: 'info',
+  timestamp: '05-12-2023 02:52:40'
+}
+{
+  message: 'Se entrega formulario de login',
+  level: 'info',
+  timestamp: '05-12-2023 02:52:40'
+}
+{
+  message: 'GET /user/login 200 15.128 ms - 5836\n',
+  level: 'info',
+  timestamp: '05-12-2023 02:52:40'
+}
+{
+  message: '✅ Verificación de conexión a db existosa.',
+  level: 'info',
+  timestamp: '05-12-2023 02:52:40'
+}
+{
+  message: 'GET /images/project.jpg 404 4.794 ms - 157\n',
+  level: 'info',
+  timestamp: '05-12-2023 02:52:40'
+}
+{
+  message: '✅ Verificación de conexión a db existosa.',
+  level: 'info',
+  timestamp: '05-12-2023 02:52:45'
+}
+{
+  message: 'Se entrega formulario de registro',
+  level: 'info',
+  timestamp: '05-12-2023 02:52:45'
+}
+{
+  message: 'GET /user/register 200 9.728 ms - 6540\n',
+  level: 'info',
+  timestamp: '05-12-2023 02:52:45'
+}
+{
+  message: '✅ Verificación de conexión a db existosa.',
+  level: 'info',
+  timestamp: '05-12-2023 02:52:51'
+}
+{
+  message: 'Se entrega dashboard de proyectos',
+  level: 'info',
+  timestamp: '05-12-2023 02:52:51'
+}
+{
+  message: 'GET /project 200 15.520 ms - 4826\n',
+  level: 'info',
+  timestamp: '05-12-2023 02:52:51'
+}
+{
+  message: '✅ Verificación de conexión a db existosa.',
+  level: 'info',
+  timestamp: '05-12-2023 02:52:57'
+}
+{
+  message: 'GET /project/add 304 13.020 ms - -\n',
+  level: 'info',
+  timestamp: '05-12-2023 02:52:57'
+}
+{
+  message: '✅ Verificación de conexión a db existosa.',
+  level: 'info',
+  timestamp: '05-12-2023 02:53:01'
+}
+{
+  message: 'GET /project/add 304 9.298 ms - -\n',
+  level: 'info',
+  timestamp: '05-12-2023 02:53:01'
+}
+{
+  message: '✅ Verificación de conexión a db existosa.',
+  level: 'info',
+  timestamp: '05-12-2023 03:02:30'
+}
+{
+  message: 'Se entrega dashboard de proyectos',
+  level: 'info',
+  timestamp: '05-12-2023 03:02:30'
+}
+{
+  message: 'GET /project 304 15.130 ms - -\n',
+  level: 'info',
+  timestamp: '05-12-2023 03:02:30'
+}
+{
+  message: '✅ Verificación de conexión a db existosa.',
+  level: 'info',
+  timestamp: '05-12-2023 03:04:07'
+}
+{
+  message: 'Se entrega dashboard de proyectos',
+  level: 'info',
+  timestamp: '05-12-2023 03:04:07'
+}
+{
+  message: 'GET /project 200 11.366 ms - 4816\n',
+  level: 'info',
+  timestamp: '05-12-2023 03:04:07'
+}
+{
+  message: '✅ Verificación de conexión a db existosa.',
+  level: 'info',
+  timestamp: '05-12-2023 03:04:10'
+}
+{
+  message: 'GET /project/add 200 12.326 ms - 10222\n',
+  level: 'info',
+  timestamp: '05-12-2023 03:04:10'
+}
+{
+  message: '✅ Verificación de conexión a db existosa.',
+  level: 'info',
+  timestamp: '05-12-2023 03:04:14'
+}
+{
+  message: 'Se entrega dashboard de proyectos',
+  level: 'info',
+  timestamp: '05-12-2023 03:04:14'
+}
+{
+  message: 'GET /project 200 14.208 ms - 4816\n',
+  level: 'info',
+  timestamp: '05-12-2023 03:04:14'
+}
+{
+  message: '✅ Verificación de conexión a db existosa.',
+  level: 'info',
+  timestamp: '05-12-2023 03:08:11'
+}
+{
+  message: 'Se entrega dashboard de proyectos',
+  level: 'info',
+  timestamp: '05-12-2023 03:08:11'
+}
+{
+  message: 'GET /project 200 55.991 ms - 6479\n',
+  level: 'info',
+  timestamp: '05-12-2023 03:08:11'
+}
+{
+  message: '✅ Verificación de conexión a db existosa.',
+  level: 'info',
+  timestamp: '05-12-2023 03:08:11'
+}
+{
+  message: 'GET /images/addproject.png 404 5.341 ms - 160\n',
+  level: 'info',
+  timestamp: '05-12-2023 03:08:11'
+}
+{
+  message: '✅ Verificación de conexión a db existosa.',
+  level: 'info',
+  timestamp: '05-12-2023 03:08:20'
+}
+{
+  message: 'Se entrega dashboard de proyectos',
+  level: 'info',
+  timestamp: '05-12-2023 03:08:20'
+}
+{
+  message: 'GET /project 200 11.907 ms - 6479\n',
+  level: 'info',
+  timestamp: '05-12-2023 03:08:20'
+}
+{
+  message: '✅ Verificación de conexión a db existosa.',
+  level: 'info',
+  timestamp: '05-12-2023 03:08:20'
+}
+{
+  message: 'GET /images/addproject.png 404 2.132 ms - 160\n',
+  level: 'info',
+  timestamp: '05-12-2023 03:08:20'
+}
+{
+  message: '✅ Verificación de conexión a db existosa.',
+  level: 'info',
+  timestamp: '05-12-2023 03:08:22'
+}
+{
+  message: 'GET /project/add 304 16.470 ms - -\n',
+  level: 'info',
+  timestamp: '05-12-2023 03:08:22'
+}
+{
+  message: '✅ Verificación de conexión a db existosa.',
+  level: 'info',
+  timestamp: '05-12-2023 03:08:24'
+}
+{
+  message: 'Se entrega dashboard de proyectos',
+  level: 'info',
+  timestamp: '05-12-2023 03:08:24'
+}
+{
+  message: 'GET /project 304 16.696 ms - -\n',
+  level: 'info',
+  timestamp: '05-12-2023 03:08:24'
+}
+{
+  message: '✅ Verificación de conexión a db existosa.',
+  level: 'info',
+  timestamp: '05-12-2023 03:08:24'
+}
+{
+  message: 'GET /images/addproject.png 404 1.878 ms - 160\n',
+  level: 'info',
+  timestamp: '05-12-2023 03:08:24'
+}
+{
+  message: '✅ Verificación de conexión a db existosa.',
+  level: 'info',
+  timestamp: '05-12-2023 03:10:18'
+}
+{
+  message: 'Se entrega dashboard de proyectos',
+  level: 'info',
+  timestamp: '05-12-2023 03:10:18'
+}
+{
+  message: 'GET /project 200 12.792 ms - 6622\n',
+  level: 'info',
+  timestamp: '05-12-2023 03:10:18'
+}
+{
+  message: '✅ Verificación de conexión a db existosa.',
+  level: 'info',
+  timestamp: '05-12-2023 03:12:07'
+}
+{
+  message: 'Se entrega dashboard de proyectos',
+  level: 'info',
+  timestamp: '05-12-2023 03:12:07'
+}
+{
+  message: 'GET /project 200 13.024 ms - 6603\n',
+  level: 'info',
+  timestamp: '05-12-2023 03:12:07'
+}
