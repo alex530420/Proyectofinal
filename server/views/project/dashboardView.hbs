@@ -1,14 +1,15 @@
-<h1>Listado de Libros</h1>
+<center><h1>Listado de Libros</h1></center>
 <div class="row">
   {{#each projects}}
     <div class="col s12">
-      <div class="card teal darken-4">
-        <div class="card-content teal-text text-lighten-5">
-          <span class="card-title">{{Autor}}</span>
+      <div class="card dark black text lighten-2">
+        <div class="card-content dark blue text">
+          <span class="card-title">{{Nombre}}</span>
+          <p>{{Autor}}</p>
           <p>{{Categoria}}</p>
           <p>{{ISBN}}</p>
           <p>{{Existencias}}</p>
-          <p>{{Descripcion}}</p>          
+          <p>{{Descripcion}}</p>
         </div>
         <div class="card-action">
           <a href="/project/edit/{{_id}}">
