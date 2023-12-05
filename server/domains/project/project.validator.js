@@ -5,23 +5,28 @@ import log from '../../config/winston';
 
 // Creando un esquema de validación para el proyecto
 const projectSchema = Yup.object().shape({
-  name: Yup.string().required('Se requiere un nombre de proyecto'),
-  description: Yup.string()
-    .max(500, 'No escribir mas de 500 caracteres')
-    .required('Se requiere una descripción del proyecto'),
+  Autor: Yup.string().required('Es necesario ingresar el nombre del Autor'),
+  Categoria: Yup.string().required('Debe ingresar una Categoria'),
+  ISBN: Yup.string().required('Es necesario ingresar un ISBN'),
+  Existencias: Yup.string().required('Es necesario ingresar las Existencias'),
+  Descripcion: Yup.string().required('Es necesario ingresar una Descripcion'),
 });
 
 // Creando el extractor de datos de la petición
 const getProject = (req) => {
   // Extrayendo datos de la petición
-  const { name, description } = req.body;
+  const { Nombre, Autor, Categoria, ISBN, Existencias, Descripcion } = req.body;
   log.info(
-    `Se extraen datos de la petición: name ${name}, description: ${description}`,
+    `Se extraen datos de la petición: Nombre ${Nombre} ,Autor ${Autor}, Categoria: ${Categoria}, ISBN ${ISBN}, Descripcion ${Descripcion} `,
   );
   // Regresando el objeto proyecto
   return {
-    name,
-    description,
+    Autor,
+    Categoria,
+    ISBN,
+    Existencias,
+    Descripcion,
+    Nombre,
   };
 };
 

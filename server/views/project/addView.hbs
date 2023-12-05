@@ -1,174 +1,143 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title></title>
-
-    <style>
+<div class="row">
+  <div class="col s12 m10 offset-m1 l8 offset-l2">
+    <div class="card">
+      <div class="card-image">
+        <img src="https://www.solofondos.com/wp-content/uploads/2022/02/interior-biblioteca-sala-vacia-leer-libros-estantes-madera_33099-1722.jpg" alt="">
+        <span class="card-title add-project" style="font-weight: bolder;">
+          Agrega el libro de tu preferencia
+        </span>
+      </div>
+      <form autocomplete="off" action="/project/add" method="post">
+        <div class="card-content">
+            <div class='input-field'>
+            <label for='Nombre'>Nombre del Libro</label>
+            <input
+              placeholder='Nombre'
+              id='Nombre'
+              name='Nombre'
+              type='text'
+              class="validate"
+              value="{{ Nombre }}"
+              required
+            />
+            <span 
+              class="helper-text"
+              data-error="Es necesario ingresar el nombre del Libro"
+              data-success="✅ Correcto"
+              ></span>
+            {{#if errorModel.name }}
+            <span style="color: crimson;">Error: {{ errorModel.name }}</span>
+            {{/if}}
+          </div>
+          <div class='input-field'>
+            <label for='Autor'>Autor</label>
+            <input
+              placeholder='Autor'
+              id='Autor'
+              name='Autor'
+              type='text'
+              class="validate"
+              value="{{ Autor }}"
+              required
+            />
+            <span 
+              class="helper-text"
+              data-error="Es necesario ingresar el nombre del Autor"
+              data-success="✅ Correcto"
+              ></span>
+            {{#if errorModel.name }}
+            <span style="color: crimson;">Error: {{ errorModel.name }}</span>
+            {{/if}}
+          </div>
+          <div class='input-field'>
+            <label for='Categoria'>
+              Categoria
+            </label>
+            <textarea
+              id='Categoria'
+              name='Categoria'
+              class="materialize-textarea validate" required>{{project.description}}</textarea>
+              <span 
+              class="helper-text"
+              data-error="Debe ingresar una Categoria"
+              data-success="✅ Correcto"
+              ></span>
+            {{#if errorModel.description }}
+            <span style="color: crimson;">Error: {{ errorModel.description }}</span>
+            {{/if}}
+          </div>
         
-        .container {
-            
-        }
+         
+          <div class='input-field'>
+            <label for='ISBN'>ISBN</label>
+            <input
+              placeholder='ISBN'
+              id='ISBN'
+              name='ISBN'
+              type='text'
+              class="validate"
+              value="{{ ISBN }}"
+              required
+            />
+            <span 
+              class="helper-text"
+              data-error="Es necesario ingresar un ISBN"
+              data-success="✅ Correcto"
+              ></span>
+            {{#if errorModel.name }}
+            <span style="color: crimson;">Error: {{ errorModel.name }}</span>
+            {{/if}}
+          </div>
 
-        .column {
-            flex: 1;
-            padding: 20px;
-            border: 1px solid #ccc;
-            margin: 10px;
-        }
-    </style>
-</head>
-<body>
-       <div id="search-container">
-        <input type="text" id="search-input" placeholder="Buscar...">
-    </div>
-    
-    <div class="container" id="output"></div>
-
-    <script id="template" type="text/x-handlebars-template">
-        <div class="column">
-            <h5>Libro 1</h5>
-            <p>Autor:.....</p>
-            <p>Categoria:.....</p>
-            <p>ISBN:.....</p>
-            <p>Existencias:.....</p>
-            <p>Descripcion:.....</p>
-            <a href="/project/edit/{{_id}}">
-            <i class="material-icons" 
-              style = "display: inline-flex; vertical-align: sub;">edit</i>
-            <span >Editar</span>
-            </a>
-            <a href="javascript: deleteProject('{{_id}}')" class="inline">
-            <i class="material-icons" 
-	            style = "display: inline-flex; vertical-align: sub;">
-	            delete</i>
-            Borrar
-          </a>
-            </div>
-        </div>
-
-        <div class="column">
-            <h5>Libro 2</h5>
-            <p>Autor:.....</p>
-            <p>Categoria:.....</p>
-            <p>ISBN:.....</p>
-            <p>Existencias:.....</p>
-            <p>Descripcion:.....</p>
-           <div class="card-action">
-            <a href="/project/edit/{{_id}}">
-            <i class="material-icons" 
-              style = "display: inline-flex; vertical-align: sub;">edit</i>
-            <span >Editar</span>
-            </a>
-            <a href="javascript: deleteProject('{{_id}}')" class="inline">
-            <i class="material-icons" 
-	            style = "display: inline-flex; vertical-align: sub;">
-	            delete</i>
-            Borrar
-          </a>
-            </div>
-        </div>
-        <div class="column">
-            <h5>Libro 3</h5>
-            <p>Autor:.....</p>
-            <p>Categoria:.....</p>
-            <p>ISBN:.....</p>
-            <p>Existencias:.....</p>
-            <p>Descripcion:.....</p>
-          
-            <a href="/project/edit/{{_id}}">
-            <i class="material-icons" 
-              style = "display: inline-flex; vertical-align: sub;">edit</i>
-            <span >Editar</span>
-          </a>
-          <a href="javascript: deleteProject('{{_id}}')" class="inline">
-            <i class="material-icons" 
-	            style = "display: inline-flex; vertical-align: sub;">
-	            delete</i>
-            Borrar 
-          </a>
-        </div>
-          <div class="column">
-            <h5>Libro 4</h5>
-            <p>Autor:.....</p>
-            <p>Categoria:.....</p>
-            <p>ISBN:.....</p>
-            <p>Existencias:.....</p>
-            <p>Descripcion:.....</p>
-            <a href="/project/edit/{{_id}}">
-            <i class="material-icons" 
-              style = "display: inline-flex; vertical-align: sub;">edit</i>
-            <span >Editar</span>
-            </a>
-            <a href="javascript: deleteProject('{{_id}}')" class="inline">
-            <i class="material-icons" 
-	            style = "display: inline-flex; vertical-align: sub;">
-	            delete</i>
-            Borrar
-          </a>
-        </div>
-          <div class="column">
-            <h5>Libro 5</h5>
-           <p>Autor:.....</p>
-            <p>Categoria:.....</p>
-            <p>ISBN:.....</p>
-            <p>Existencias:.....</p>
-            <p>Descripcion:.....</p>
-          
-            <a href="/project/edit/{{_id}}">
-            <i class="material-icons" 
-              style = "display: inline-flex; vertical-align: sub;">edit</i>
-            <span >Editar</span>
-            </a>
-            <a href="javascript: deleteProject('{{_id}}')" class="inline">
-            <i class="material-icons" 
-	            style = "display: inline-flex; vertical-align: sub;">
-	            delete</i>
-            Borrar
-          </a>
-            
-        </div>
-          <div class="column">
-            <h5>Libro 6</h5>
-           <p>Autor:.....</p>
-            <p>Categoria:.....</p>
-            <p>ISBN:.....</p>
-            <p>Existencias:.....</p>
-            <p>Descripcion:.....</p>
            
-            <a href="/project/edit/{{_id}}">
-            <i class="material-icons" 
-              style = "display: inline-flex; vertical-align: sub;">edit</i>
-            <span >Editar</span>
-            </a>
-            <a href="javascript: deleteProject('{{_id}}')" class="inline">
-            <i class="material-icons" 
-	            style = "display: inline-flex; vertical-align: sub;">
-	            delete</i>
-            Borrar 
-          </a>
+          <div class='input-field'>
+            <label for='Existencias'>Existencias</label>
+            <input
+              placeholder='Existencias'
+              id='Existencias'
+              name='Existencias'
+              type='text'
+              class="validate"
+              value="{{ Existencias }}"
+              required
+            />
+            <span 
+              class="helper-text"
+              data-error="Es necesario ingresar las Existencias"
+              data-success="✅ Correcto"
+              ></span>
+            {{#if errorModel.name }}
+            <span style="color: crimson;">Error: {{ errorModel.name }}</span>
+            {{/if}}
+          </div>
+          
+          <div class='input-field'>
+            <label for='Descripcion'>Descripcion</label>
+            <input
+              placeholder='Descripcion'
+              id='Descripcion'
+              name='Descripcion'
+              type='text'
+              class="validate"
+              value="{{ Descripcion }}"
+              required
+            />
+            <span 
+              class="helper-text"
+              data-error="Es necesario ingresar una Descripcion"
+              data-success="✅ Correcto"
+              ></span>
+            {{#if errorModel.name }}
+            <span style="color: crimson;">Error: {{ errorModel.name }}</span>
+            {{/if}}
+          </div>
+          </div>
+        <div class="card-action">
+          <button type="submit" class="blue darken-3 waves-effect waves-light btn">
+            <i class="material-icons left">note_add</i> Agregar
+          </button>
         </div>
-    </script>
-
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.7.7/handlebars.min.js"></script>
-    <script>
-        const data = {
-            data1: {
-                title: 'Columna 1',
-                content: 'Contenido de la columna 1'
-            },
-            data2: {
-                title: 'Columna 2',
-                content: 'Contenido de la columna 2'
-            }
-        };
-
-        const templateSource = document.getElementById('template').innerHTML;
-        const template = Handlebars.compile(templateSource);
-        const html = template(data);
-
-        document.getElementById('output').innerHTML = html;
-    </script>
-</body>
-</html>
+      </form>
+    </div>
+  </div>
+</div>

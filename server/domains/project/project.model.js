@@ -5,17 +5,29 @@ const { Schema } = mongoose;
 
 // Construir un Schema
 const ProjectSchema = new Schema({
-  name: {
+  Nombre: {
     type: String,
     required: true,
   },
-  description: {
+  Autor: {
     type: String,
     required: true,
   },
-  date: {
-    type: Date,
-    default: Date.now,
+  Categoria: {
+    type: String,
+    required: true,
+  },
+  ISBN: {
+    type: String,
+    required: true,
+  },
+  Existencias: {
+    type: String,
+    required: true,
+  },
+  Descripcion: {
+    type: String,
+    required: true,
   },
 });
 
