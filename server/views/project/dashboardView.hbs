@@ -34,17 +34,15 @@
   // Función para buscar proyectos
   function buscarProyecto() {
     const searchTerm = document.getElementById('searchInput').value;
-    // Puedes realizar una solicitud AJAX aquí para buscar datos en el servidor
-    // y actualizar la interfaz de usuario según los resultados.
-    // Por ejemplo, podrías usar fetch para obtener datos desde el servidor.
+    
 
-    // Ejemplo de solicitud fetch (debes adaptarlo a tu backend)
+    
     fetch(`/MONGO_URL search=${searchTerm}`)
       .then(response => response.json())
       .then(data => {
-        // Manipular los datos y actualizar la interfaz de usuario
+        
         console.log(data);
-        // Aquí puedes renderizar de nuevo la lista de proyectos con los resultados de la búsqueda
+      
       })
       .catch(error => console.error('Error al buscar proyectos:', error));
   }
