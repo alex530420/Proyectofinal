@@ -10,6 +10,10 @@ import ProjectModel from './project.model';
 // GET "/project"
 // GET "/project"
 const showDashboard = async (req, res) => {
+  // Log de los query params
+  if (req.query.message) {
+    res.locals.successMessage = `Bienvenido a Biblioteca ITGAM ${req.user.firstName}`;
+  }
   // Consultado todos los proyectos
   const projects = await ProjectModel.find({}).lean().exec();
   // Enviando los proyectos al cliente en JSON

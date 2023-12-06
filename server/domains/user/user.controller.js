@@ -11,7 +11,15 @@ const login = (req, res) => {
 
 // GET "/logout"
 const logout = (req, res) => {
-  res.send("🚧 UNDER CONSTRUCTION '/user/logout' 🚧");
+  req.logout((err) => {
+    if (err) {
+      return res.json(err);
+    }
+    // Creamos mensaje de flash
+    req.flash('successMessage', 'Ha cerrado sesión correctamente');
+    // Redireccionamos al login
+    return res.redirect('/user/login');
+  });
 };
 
 // GET "/register"
