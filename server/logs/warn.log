@@ -5461,3 +5461,4224 @@
   level: 'info',
   timestamp: '05-12-2023 23:46:03'
 }
+{
+  message: 'The server is created from the express instance',
+  level: 'info',
+  timestamp: '06-12-2023 03:56:04'
+}
+{
+  message: '⭐⭐ Listening on http://localhost:5000 ⭐⭐',
+  level: 'info',
+  timestamp: '06-12-2023 03:56:04'
+}
+{
+  message: '✅ Conectado a Mongodb',
+  level: 'info',
+  timestamp: '06-12-2023 03:56:04'
+}
+{
+  message: '✅ Verificación de conexión a db existosa.',
+  level: 'info',
+  timestamp: '06-12-2023 03:56:49'
+}
+{
+  message: '👤 Guardando el usuario en la variable local',
+  level: 'info',
+  timestamp: '06-12-2023 03:56:49'
+}
+{
+  message: 'GET / 200 56.048 ms - 5369\n',
+  level: 'info',
+  timestamp: '06-12-2023 03:56:49'
+}
+{
+  message: '✅ Verificación de conexión a db existosa.',
+  level: 'info',
+  timestamp: '06-12-2023 03:56:51'
+}
+{
+  message: '👤 Guardando el usuario en la variable local',
+  level: 'info',
+  timestamp: '06-12-2023 03:56:51'
+}
+{
+  message: 'GET /favicon.png 404 8.108 ms - 150\n',
+  level: 'info',
+  timestamp: '06-12-2023 03:56:51'
+}
+{
+  message: '✅ Verificación de conexión a db existosa.',
+  level: 'info',
+  timestamp: '06-12-2023 03:56:53'
+}
+{
+  message: '👤 Guardando el usuario en la variable local',
+  level: 'info',
+  timestamp: '06-12-2023 03:56:53'
+}
+{
+  message: 'GET /project/add 200 16.234 ms - 8619\n',
+  level: 'info',
+  timestamp: '06-12-2023 03:56:53'
+}
+{
+  message: '✅ Verificación de conexión a db existosa.',
+  level: 'info',
+  timestamp: '06-12-2023 03:57:17'
+}
+{
+  message: '👤 Guardando el usuario en la variable local',
+  level: 'info',
+  timestamp: '06-12-2023 03:57:17'
+}
+{
+  message: 'Se extraen datos de la petición: Nombre fff ,Autor eee, Categoria: 123, ISBN 145, Descripcion gggg ',
+  level: 'info',
+  timestamp: '06-12-2023 03:57:17'
+}
+{
+  message: 'Se carga proyecto {\n' +
+    "  Nombre: 'fff',\n" +
+    "  Autor: 'eee',\n" +
+    "  Categoria: '123',\n" +
+    "  ISBN: '145',\n" +
+    "  Existencias: '2',\n" +
+    "  Descripcion: 'gggg',\n" +
+    '  _id: new ObjectId("656ff11d478a73d21fc1d5d8"),\n' +
+    '  __v: 0\n' +
+    '}',
+  level: 'info',
+  timestamp: '06-12-2023 03:57:17'
+}
+{
+  message: 'Se redirecciona el sistema a /project',
+  level: 'info',
+  timestamp: '06-12-2023 03:57:17'
+}
+{
+  message: 'POST /project/add 302 23.432 ms - 60\n',
+  level: 'info',
+  timestamp: '06-12-2023 03:57:17'
+}
+{
+  message: '✅ Verificación de conexión a db existosa.',
+  level: 'info',
+  timestamp: '06-12-2023 03:57:17'
+}
+{
+  message: '👤 Guardando el usuario en la variable local',
+  level: 'info',
+  timestamp: '06-12-2023 03:57:17'
+}
+{
+  message: 'Se entrega dashboard de proyectos',
+  level: 'info',
+  timestamp: '06-12-2023 03:57:17'
+}
+{
+  message: 'GET /project 200 16.690 ms - 6748\n',
+  level: 'info',
+  timestamp: '06-12-2023 03:57:17'
+}
+{
+  message: '✅ Verificación de conexión a db existosa.',
+  level: 'info',
+  timestamp: '06-12-2023 03:57:26'
+}
+{
+  message: '👤 Guardando el usuario en la variable local',
+  level: 'info',
+  timestamp: '06-12-2023 03:57:26'
+}
+{
+  message: 'GET /project/add 200 15.243 ms - 8619\n',
+  level: 'info',
+  timestamp: '06-12-2023 03:57:26'
+}
+{
+  message: '✅ Verificación de conexión a db existosa.',
+  level: 'info',
+  timestamp: '06-12-2023 03:57:44'
+}
+{
+  message: '👤 Guardando el usuario en la variable local',
+  level: 'info',
+  timestamp: '06-12-2023 03:57:44'
+}
+{
+  message: 'Se extraen datos de la petición: Nombre yyy ,Autor lll, Categoria: eee, ISBN 1233, Descripcion hhhh ',
+  level: 'info',
+  timestamp: '06-12-2023 03:57:44'
+}
+{
+  message: 'Se carga proyecto {\n' +
+    "  Nombre: 'yyy',\n" +
+    "  Autor: 'lll',\n" +
+    "  Categoria: 'eee',\n" +
+    "  ISBN: '1233',\n" +
+    "  Existencias: '6',\n" +
+    "  Descripcion: 'hhhh',\n" +
+    '  _id: new ObjectId("656ff138478a73d21fc1d5db"),\n' +
+    '  __v: 0\n' +
+    '}',
+  level: 'info',
+  timestamp: '06-12-2023 03:57:44'
+}
+{
+  message: 'Se redirecciona el sistema a /project',
+  level: 'info',
+  timestamp: '06-12-2023 03:57:44'
+}
+{
+  message: 'POST /project/add 302 7.427 ms - 60\n',
+  level: 'info',
+  timestamp: '06-12-2023 03:57:44'
+}
+{
+  message: '✅ Verificación de conexión a db existosa.',
+  level: 'info',
+  timestamp: '06-12-2023 03:57:45'
+}
+{
+  message: '👤 Guardando el usuario en la variable local',
+  level: 'info',
+  timestamp: '06-12-2023 03:57:45'
+}
+{
+  message: 'Se entrega dashboard de proyectos',
+  level: 'info',
+  timestamp: '06-12-2023 03:57:45'
+}
+{
+  message: 'GET /project 200 21.633 ms - 7592\n',
+  level: 'info',
+  timestamp: '06-12-2023 03:57:45'
+}
+{
+  message: '✅ Verificación de conexión a db existosa.',
+  level: 'info',
+  timestamp: '06-12-2023 04:01:15'
+}
+{
+  message: '👤 Guardando el usuario en la variable local',
+  level: 'info',
+  timestamp: '06-12-2023 04:01:15'
+}
+{
+  message: 'Se entrega dashboard de proyectos',
+  level: 'info',
+  timestamp: '06-12-2023 04:01:15'
+}
+{
+  message: 'GET /project 200 10.684 ms - 7089\n',
+  level: 'info',
+  timestamp: '06-12-2023 04:01:15'
+}
+{
+  message: '✅ Verificación de conexión a db existosa.',
+  level: 'info',
+  timestamp: '06-12-2023 04:01:20'
+}
+{
+  message: '👤 Guardando el usuario en la variable local',
+  level: 'info',
+  timestamp: '06-12-2023 04:01:20'
+}
+{
+  message: 'Se inicia la busqueda del proyecto con el id: 656ff11d478a73d21fc1d5d8',
+  level: 'info',
+  timestamp: '06-12-2023 04:01:20'
+}
+{
+  message: 'Proyecto encontrado con el id: 656ff11d478a73d21fc1d5d8',
+  level: 'info',
+  timestamp: '06-12-2023 04:01:20'
+}
+{
+  message: 'GET /project/edit/656ff11d478a73d21fc1d5d8 200 12.211 ms - 6584\n',
+  level: 'info',
+  timestamp: '06-12-2023 04:01:20'
+}
+{
+  message: '✅ Verificación de conexión a db existosa.',
+  level: 'info',
+  timestamp: '06-12-2023 04:01:20'
+}
+{
+  message: '👤 Guardando el usuario en la variable local',
+  level: 'info',
+  timestamp: '06-12-2023 04:01:20'
+}
+{
+  message: 'GET /images/addproject.png 404 2.496 ms - 160\n',
+  level: 'info',
+  timestamp: '06-12-2023 04:01:20'
+}
+{
+  message: '✅ Verificación de conexión a db existosa.',
+  level: 'info',
+  timestamp: '06-12-2023 04:01:23'
+}
+{
+  message: '👤 Guardando el usuario en la variable local',
+  level: 'info',
+  timestamp: '06-12-2023 04:01:23'
+}
+{
+  message: 'Se entrega dashboard de proyectos',
+  level: 'info',
+  timestamp: '06-12-2023 04:01:23'
+}
+{
+  message: 'GET /project 200 9.576 ms - 7089\n',
+  level: 'info',
+  timestamp: '06-12-2023 04:01:23'
+}
+{
+  message: '✅ Verificación de conexión a db existosa.',
+  level: 'info',
+  timestamp: '06-12-2023 04:06:28'
+}
+{
+  message: '👤 Guardando el usuario en la variable local',
+  level: 'info',
+  timestamp: '06-12-2023 04:06:28'
+}
+{
+  message: 'Se entrega dashboard de proyectos',
+  level: 'info',
+  timestamp: '06-12-2023 04:06:28'
+}
+{
+  message: 'GET /project 200 20.229 ms - 7144\n',
+  level: 'info',
+  timestamp: '06-12-2023 04:06:28'
+}
+{
+  message: '✅ Verificación de conexión a db existosa.',
+  level: 'info',
+  timestamp: '06-12-2023 04:09:36'
+}
+{
+  message: '👤 Guardando el usuario en la variable local',
+  level: 'info',
+  timestamp: '06-12-2023 04:09:36'
+}
+{
+  message: 'Se entrega dashboard de proyectos',
+  level: 'info',
+  timestamp: '06-12-2023 04:09:36'
+}
+{
+  message: 'GET /project 200 19.788 ms - 7211\n',
+  level: 'info',
+  timestamp: '06-12-2023 04:09:36'
+}
+{
+  message: '✅ Verificación de conexión a db existosa.',
+  level: 'info',
+  timestamp: '06-12-2023 04:09:38'
+}
+{
+  message: '👤 Guardando el usuario en la variable local',
+  level: 'info',
+  timestamp: '06-12-2023 04:09:38'
+}
+{
+  message: 'Se entrega dashboard de proyectos',
+  level: 'info',
+  timestamp: '06-12-2023 04:09:38'
+}
+{
+  message: 'GET /project 200 10.272 ms - 7211\n',
+  level: 'info',
+  timestamp: '06-12-2023 04:09:38'
+}
+{
+  message: '✅ Verificación de conexión a db existosa.',
+  level: 'info',
+  timestamp: '06-12-2023 04:10:05'
+}
+{
+  message: '👤 Guardando el usuario en la variable local',
+  level: 'info',
+  timestamp: '06-12-2023 04:10:05'
+}
+{
+  message: 'GET /project/add 200 8.270 ms - 8619\n',
+  level: 'info',
+  timestamp: '06-12-2023 04:10:05'
+}
+{
+  message: '✅ Verificación de conexión a db existosa.',
+  level: 'info',
+  timestamp: '06-12-2023 04:10:12'
+}
+{
+  message: '👤 Guardando el usuario en la variable local',
+  level: 'info',
+  timestamp: '06-12-2023 04:10:12'
+}
+{
+  message: 'Se entrega dashboard de proyectos',
+  level: 'info',
+  timestamp: '06-12-2023 04:10:12'
+}
+{
+  message: 'GET /project 304 10.674 ms - -\n',
+  level: 'info',
+  timestamp: '06-12-2023 04:10:12'
+}
+{
+  message: '✅ Verificación de conexión a db existosa.',
+  level: 'info',
+  timestamp: '06-12-2023 04:14:28'
+}
+{
+  message: '👤 Guardando el usuario en la variable local',
+  level: 'info',
+  timestamp: '06-12-2023 04:14:28'
+}
+{
+  message: 'Se entrega dashboard de proyectos',
+  level: 'info',
+  timestamp: '06-12-2023 04:14:28'
+}
+{
+  message: 'GET /project 200 9.047 ms - 7412\n',
+  level: 'info',
+  timestamp: '06-12-2023 04:14:28'
+}
+{
+  message: '✅ Verificación de conexión a db existosa.',
+  level: 'info',
+  timestamp: '06-12-2023 04:19:56'
+}
+{
+  message: '👤 Guardando el usuario en la variable local',
+  level: 'info',
+  timestamp: '06-12-2023 04:19:56'
+}
+{
+  message: 'Se entrega dashboard de proyectos',
+  level: 'info',
+  timestamp: '06-12-2023 04:19:56'
+}
+{
+  message: 'GET /project 200 10.000 ms - 8649\n',
+  level: 'info',
+  timestamp: '06-12-2023 04:19:56'
+}
+{
+  message: '✅ Verificación de conexión a db existosa.',
+  level: 'info',
+  timestamp: '06-12-2023 04:19:58'
+}
+{
+  message: '👤 Guardando el usuario en la variable local',
+  level: 'info',
+  timestamp: '06-12-2023 04:19:58'
+}
+{
+  message: 'Se entrega dashboard de proyectos',
+  level: 'info',
+  timestamp: '06-12-2023 04:19:58'
+}
+{
+  message: 'GET /project 200 9.317 ms - 8649\n',
+  level: 'info',
+  timestamp: '06-12-2023 04:19:58'
+}
+{
+  message: '✅ Verificación de conexión a db existosa.',
+  level: 'info',
+  timestamp: '06-12-2023 04:22:16'
+}
+{
+  message: '👤 Guardando el usuario en la variable local',
+  level: 'info',
+  timestamp: '06-12-2023 04:22:16'
+}
+{
+  message: 'Se entrega dashboard de proyectos',
+  level: 'info',
+  timestamp: '06-12-2023 04:22:16'
+}
+{
+  message: 'GET /project 200 8.770 ms - 7376\n',
+  level: 'info',
+  timestamp: '06-12-2023 04:22:16'
+}
+{
+  message: '✅ Verificación de conexión a db existosa.',
+  level: 'info',
+  timestamp: '06-12-2023 04:23:43'
+}
+{
+  message: '👤 Guardando el usuario en la variable local',
+  level: 'info',
+  timestamp: '06-12-2023 04:23:43'
+}
+{
+  message: 'GET /project/add 304 8.202 ms - -\n',
+  level: 'info',
+  timestamp: '06-12-2023 04:23:43'
+}
+{
+  message: '✅ Verificación de conexión a db existosa.',
+  level: 'info',
+  timestamp: '06-12-2023 04:24:14'
+}
+{
+  message: '👤 Guardando el usuario en la variable local',
+  level: 'info',
+  timestamp: '06-12-2023 04:24:14'
+}
+{
+  message: 'Se extraen datos de la petición: Nombre Libro 2 ,Autor qq, Categoria: qq, ISBN 2131, Descripcion gfgfg ',
+  level: 'info',
+  timestamp: '06-12-2023 04:24:14'
+}
+{
+  message: 'Se carga proyecto {\n' +
+    "  Nombre: 'Libro 2',\n" +
+    "  Autor: 'qq',\n" +
+    "  Categoria: 'qq',\n" +
+    "  ISBN: '2131',\n" +
+    "  Existencias: '2',\n" +
+    "  Descripcion: 'gfgfg',\n" +
+    '  _id: new ObjectId("656ff76e478a73d21fc1d5e9"),\n' +
+    '  __v: 0\n' +
+    '}',
+  level: 'info',
+  timestamp: '06-12-2023 04:24:14'
+}
+{
+  message: 'Se redirecciona el sistema a /project',
+  level: 'info',
+  timestamp: '06-12-2023 04:24:14'
+}
+{
+  message: 'POST /project/add 302 6.319 ms - 60\n',
+  level: 'info',
+  timestamp: '06-12-2023 04:24:14'
+}
+{
+  message: '✅ Verificación de conexión a db existosa.',
+  level: 'info',
+  timestamp: '06-12-2023 04:24:14'
+}
+{
+  message: '👤 Guardando el usuario en la variable local',
+  level: 'info',
+  timestamp: '06-12-2023 04:24:14'
+}
+{
+  message: 'Se entrega dashboard de proyectos',
+  level: 'info',
+  timestamp: '06-12-2023 04:24:14'
+}
+{
+  message: 'GET /project 200 7.870 ms - 7658\n',
+  level: 'info',
+  timestamp: '06-12-2023 04:24:14'
+}
+{
+  message: '✅ Verificación de conexión a db existosa.',
+  level: 'info',
+  timestamp: '06-12-2023 04:37:06'
+}
+{
+  message: '👤 Guardando el usuario en la variable local',
+  level: 'info',
+  timestamp: '06-12-2023 04:37:06'
+}
+{
+  message: 'Se entrega dashboard de proyectos',
+  level: 'info',
+  timestamp: '06-12-2023 04:37:06'
+}
+{
+  message: 'GET /project 200 10.601 ms - 7427\n',
+  level: 'info',
+  timestamp: '06-12-2023 04:37:06'
+}
+{
+  message: '✅ Verificación de conexión a db existosa.',
+  level: 'info',
+  timestamp: '06-12-2023 04:37:10'
+}
+{
+  message: '👤 Guardando el usuario en la variable local',
+  level: 'info',
+  timestamp: '06-12-2023 04:37:10'
+}
+{
+  message: 'POST /buscarLibros 404 3.847 ms - 152\n',
+  level: 'info',
+  timestamp: '06-12-2023 04:37:10'
+}
+{
+  message: '✅ Verificación de conexión a db existosa.',
+  level: 'info',
+  timestamp: '06-12-2023 04:37:11'
+}
+{
+  message: '👤 Guardando el usuario en la variable local',
+  level: 'info',
+  timestamp: '06-12-2023 04:37:11'
+}
+{
+  message: 'POST /buscarLibros 404 2.362 ms - 152\n',
+  level: 'info',
+  timestamp: '06-12-2023 04:37:11'
+}
+{
+  message: '✅ Verificación de conexión a db existosa.',
+  level: 'info',
+  timestamp: '06-12-2023 04:37:11'
+}
+{
+  message: '👤 Guardando el usuario en la variable local',
+  level: 'info',
+  timestamp: '06-12-2023 04:37:11'
+}
+{
+  message: 'POST /buscarLibros 404 2.500 ms - 152\n',
+  level: 'info',
+  timestamp: '06-12-2023 04:37:11'
+}
+{
+  message: '✅ Verificación de conexión a db existosa.',
+  level: 'info',
+  timestamp: '06-12-2023 04:37:11'
+}
+{
+  message: '👤 Guardando el usuario en la variable local',
+  level: 'info',
+  timestamp: '06-12-2023 04:37:11'
+}
+{
+  message: 'POST /buscarLibros 404 2.752 ms - 152\n',
+  level: 'info',
+  timestamp: '06-12-2023 04:37:11'
+}
+{
+  message: '✅ Verificación de conexión a db existosa.',
+  level: 'info',
+  timestamp: '06-12-2023 04:37:16'
+}
+{
+  message: '👤 Guardando el usuario en la variable local',
+  level: 'info',
+  timestamp: '06-12-2023 04:37:16'
+}
+{
+  message: 'GET /project/add 200 13.903 ms - 8619\n',
+  level: 'info',
+  timestamp: '06-12-2023 04:37:16'
+}
+{
+  message: '✅ Verificación de conexión a db existosa.',
+  level: 'info',
+  timestamp: '06-12-2023 04:37:26'
+}
+{
+  message: '👤 Guardando el usuario en la variable local',
+  level: 'info',
+  timestamp: '06-12-2023 04:37:26'
+}
+{
+  message: 'Se extraen datos de la petición: Nombre Libro1 ,Autor q, Categoria: q, ISBN q, Descripcion q ',
+  level: 'info',
+  timestamp: '06-12-2023 04:37:26'
+}
+{
+  message: 'Se carga proyecto {\n' +
+    "  Nombre: 'Libro1',\n" +
+    "  Autor: 'q',\n" +
+    "  Categoria: 'q',\n" +
+    "  ISBN: 'q',\n" +
+    "  Existencias: 'q',\n" +
+    "  Descripcion: 'q',\n" +
+    '  _id: new ObjectId("656ffa86478a73d21fc1d5ed"),\n' +
+    '  __v: 0\n' +
+    '}',
+  level: 'info',
+  timestamp: '06-12-2023 04:37:26'
+}
+{
+  message: 'Se redirecciona el sistema a /project',
+  level: 'info',
+  timestamp: '06-12-2023 04:37:26'
+}
+{
+  message: 'POST /project/add 302 5.593 ms - 60\n',
+  level: 'info',
+  timestamp: '06-12-2023 04:37:26'
+}
+{
+  message: '✅ Verificación de conexión a db existosa.',
+  level: 'info',
+  timestamp: '06-12-2023 04:37:27'
+}
+{
+  message: '👤 Guardando el usuario en la variable local',
+  level: 'info',
+  timestamp: '06-12-2023 04:37:27'
+}
+{
+  message: 'Se entrega dashboard de proyectos',
+  level: 'info',
+  timestamp: '06-12-2023 04:37:27'
+}
+{
+  message: 'GET /project 200 9.241 ms - 7709\n',
+  level: 'info',
+  timestamp: '06-12-2023 04:37:27'
+}
+{
+  message: '✅ Verificación de conexión a db existosa.',
+  level: 'info',
+  timestamp: '06-12-2023 04:37:32'
+}
+{
+  message: '👤 Guardando el usuario en la variable local',
+  level: 'info',
+  timestamp: '06-12-2023 04:37:32'
+}
+{
+  message: 'POST /buscarLibros 404 2.246 ms - 152\n',
+  level: 'info',
+  timestamp: '06-12-2023 04:37:32'
+}
+{
+  message: '✅ Verificación de conexión a db existosa.',
+  level: 'info',
+  timestamp: '06-12-2023 04:37:33'
+}
+{
+  message: '👤 Guardando el usuario en la variable local',
+  level: 'info',
+  timestamp: '06-12-2023 04:37:33'
+}
+{
+  message: 'POST /buscarLibros 404 2.753 ms - 152\n',
+  level: 'info',
+  timestamp: '06-12-2023 04:37:33'
+}
+{
+  message: '✅ Verificación de conexión a db existosa.',
+  level: 'info',
+  timestamp: '06-12-2023 04:37:33'
+}
+{
+  message: '👤 Guardando el usuario en la variable local',
+  level: 'info',
+  timestamp: '06-12-2023 04:37:33'
+}
+{
+  message: 'POST /buscarLibros 404 2.528 ms - 152\n',
+  level: 'info',
+  timestamp: '06-12-2023 04:37:33'
+}
+{
+  message: '✅ Verificación de conexión a db existosa.',
+  level: 'info',
+  timestamp: '06-12-2023 04:37:34'
+}
+{
+  message: '👤 Guardando el usuario en la variable local',
+  level: 'info',
+  timestamp: '06-12-2023 04:37:34'
+}
+{
+  message: 'POST /buscarLibros 404 2.176 ms - 152\n',
+  level: 'info',
+  timestamp: '06-12-2023 04:37:34'
+}
+{
+  message: '✅ Verificación de conexión a db existosa.',
+  level: 'info',
+  timestamp: '06-12-2023 04:37:34'
+}
+{
+  message: '👤 Guardando el usuario en la variable local',
+  level: 'info',
+  timestamp: '06-12-2023 04:37:34'
+}
+{
+  message: 'POST /buscarLibros 404 2.143 ms - 152\n',
+  level: 'info',
+  timestamp: '06-12-2023 04:37:34'
+}
+{
+  message: '✅ Verificación de conexión a db existosa.',
+  level: 'info',
+  timestamp: '06-12-2023 04:37:34'
+}
+{
+  message: '👤 Guardando el usuario en la variable local',
+  level: 'info',
+  timestamp: '06-12-2023 04:37:34'
+}
+{
+  message: 'POST /buscarLibros 404 2.156 ms - 152\n',
+  level: 'info',
+  timestamp: '06-12-2023 04:37:34'
+}
+{
+  message: '✅ Verificación de conexión a db existosa.',
+  level: 'info',
+  timestamp: '06-12-2023 04:37:35'
+}
+{
+  message: '👤 Guardando el usuario en la variable local',
+  level: 'info',
+  timestamp: '06-12-2023 04:37:35'
+}
+{
+  message: 'POST /buscarLibros 404 1.974 ms - 152\n',
+  level: 'info',
+  timestamp: '06-12-2023 04:37:35'
+}
+{
+  message: '✅ Verificación de conexión a db existosa.',
+  level: 'info',
+  timestamp: '06-12-2023 04:37:35'
+}
+{
+  message: '👤 Guardando el usuario en la variable local',
+  level: 'info',
+  timestamp: '06-12-2023 04:37:35'
+}
+{
+  message: 'POST /buscarLibros 404 2.025 ms - 152\n',
+  level: 'info',
+  timestamp: '06-12-2023 04:37:35'
+}
+{
+  message: '✅ Verificación de conexión a db existosa.',
+  level: 'info',
+  timestamp: '06-12-2023 04:37:35'
+}
+{
+  message: '👤 Guardando el usuario en la variable local',
+  level: 'info',
+  timestamp: '06-12-2023 04:37:35'
+}
+{
+  message: 'POST /buscarLibros 404 2.664 ms - 152\n',
+  level: 'info',
+  timestamp: '06-12-2023 04:37:35'
+}
+{
+  message: '✅ Verificación de conexión a db existosa.',
+  level: 'info',
+  timestamp: '06-12-2023 04:37:35'
+}
+{
+  message: '👤 Guardando el usuario en la variable local',
+  level: 'info',
+  timestamp: '06-12-2023 04:37:35'
+}
+{
+  message: 'POST /buscarLibros 404 2.318 ms - 152\n',
+  level: 'info',
+  timestamp: '06-12-2023 04:37:35'
+}
+{
+  message: '✅ Verificación de conexión a db existosa.',
+  level: 'info',
+  timestamp: '06-12-2023 04:37:36'
+}
+{
+  message: '👤 Guardando el usuario en la variable local',
+  level: 'info',
+  timestamp: '06-12-2023 04:37:36'
+}
+{
+  message: 'POST /buscarLibros 404 2.157 ms - 152\n',
+  level: 'info',
+  timestamp: '06-12-2023 04:37:36'
+}
+{
+  message: '✅ Verificación de conexión a db existosa.',
+  level: 'info',
+  timestamp: '06-12-2023 04:40:16'
+}
+{
+  message: '👤 Guardando el usuario en la variable local',
+  level: 'info',
+  timestamp: '06-12-2023 04:40:16'
+}
+{
+  message: 'Se entrega dashboard de proyectos',
+  level: 'info',
+  timestamp: '06-12-2023 04:40:16'
+}
+{
+  message: 'GET /project 200 34.908 ms - 7428\n',
+  level: 'info',
+  timestamp: '06-12-2023 04:40:17'
+}
+{
+  message: '✅ Verificación de conexión a db existosa.',
+  level: 'info',
+  timestamp: '06-12-2023 04:40:20'
+}
+{
+  message: '👤 Guardando el usuario en la variable local',
+  level: 'info',
+  timestamp: '06-12-2023 04:40:20'
+}
+{
+  message: 'GET /project/add 200 11.172 ms - 8619\n',
+  level: 'info',
+  timestamp: '06-12-2023 04:40:20'
+}
+{
+  message: '✅ Verificación de conexión a db existosa.',
+  level: 'info',
+  timestamp: '06-12-2023 04:40:32'
+}
+{
+  message: '👤 Guardando el usuario en la variable local',
+  level: 'info',
+  timestamp: '06-12-2023 04:40:32'
+}
+{
+  message: 'Se extraen datos de la petición: Nombre Libro2 ,Autor q, Categoria: q, ISBN q, Descripcion q ',
+  level: 'info',
+  timestamp: '06-12-2023 04:40:32'
+}
+{
+  message: 'Se carga proyecto {\n' +
+    "  Nombre: 'Libro2',\n" +
+    "  Autor: 'q',\n" +
+    "  Categoria: 'q',\n" +
+    "  ISBN: 'q',\n" +
+    "  Existencias: 'q',\n" +
+    "  Descripcion: 'q',\n" +
+    '  _id: new ObjectId("656ffb40478a73d21fc1d5f1"),\n' +
+    '  __v: 0\n' +
+    '}',
+  level: 'info',
+  timestamp: '06-12-2023 04:40:32'
+}
+{
+  message: 'Se redirecciona el sistema a /project',
+  level: 'info',
+  timestamp: '06-12-2023 04:40:32'
+}
+{
+  message: 'POST /project/add 302 5.736 ms - 60\n',
+  level: 'info',
+  timestamp: '06-12-2023 04:40:32'
+}
+{
+  message: '✅ Verificación de conexión a db existosa.',
+  level: 'info',
+  timestamp: '06-12-2023 04:40:32'
+}
+{
+  message: '👤 Guardando el usuario en la variable local',
+  level: 'info',
+  timestamp: '06-12-2023 04:40:32'
+}
+{
+  message: 'Se entrega dashboard de proyectos',
+  level: 'info',
+  timestamp: '06-12-2023 04:40:32'
+}
+{
+  message: 'GET /project 200 8.333 ms - 7710\n',
+  level: 'info',
+  timestamp: '06-12-2023 04:40:32'
+}
+{
+  message: '✅ Verificación de conexión a db existosa.',
+  level: 'info',
+  timestamp: '06-12-2023 04:40:36'
+}
+{
+  message: '👤 Guardando el usuario en la variable local',
+  level: 'info',
+  timestamp: '06-12-2023 04:40:36'
+}
+{
+  message: 'POST /project.model 404 2.168 ms - 153\n',
+  level: 'info',
+  timestamp: '06-12-2023 04:40:36'
+}
+{
+  message: '✅ Verificación de conexión a db existosa.',
+  level: 'info',
+  timestamp: '06-12-2023 04:40:37'
+}
+{
+  message: '👤 Guardando el usuario en la variable local',
+  level: 'info',
+  timestamp: '06-12-2023 04:40:37'
+}
+{
+  message: 'POST /project.model 404 2.337 ms - 153\n',
+  level: 'info',
+  timestamp: '06-12-2023 04:40:37'
+}
+{
+  message: '✅ Verificación de conexión a db existosa.',
+  level: 'info',
+  timestamp: '06-12-2023 04:40:37'
+}
+{
+  message: '👤 Guardando el usuario en la variable local',
+  level: 'info',
+  timestamp: '06-12-2023 04:40:37'
+}
+{
+  message: 'POST /project.model 404 2.383 ms - 153\n',
+  level: 'info',
+  timestamp: '06-12-2023 04:40:37'
+}
+{
+  message: '✅ Verificación de conexión a db existosa.',
+  level: 'info',
+  timestamp: '06-12-2023 04:40:37'
+}
+{
+  message: '👤 Guardando el usuario en la variable local',
+  level: 'info',
+  timestamp: '06-12-2023 04:40:37'
+}
+{
+  message: 'POST /project.model 404 2.077 ms - 153\n',
+  level: 'info',
+  timestamp: '06-12-2023 04:40:37'
+}
+{
+  message: '✅ Verificación de conexión a db existosa.',
+  level: 'info',
+  timestamp: '06-12-2023 04:40:38'
+}
+{
+  message: '👤 Guardando el usuario en la variable local',
+  level: 'info',
+  timestamp: '06-12-2023 04:40:38'
+}
+{
+  message: 'POST /project.model 404 2.110 ms - 153\n',
+  level: 'info',
+  timestamp: '06-12-2023 04:40:38'
+}
+{
+  message: '✅ Verificación de conexión a db existosa.',
+  level: 'info',
+  timestamp: '06-12-2023 04:40:38'
+}
+{
+  message: '👤 Guardando el usuario en la variable local',
+  level: 'info',
+  timestamp: '06-12-2023 04:40:38'
+}
+{
+  message: 'POST /project.model 404 2.122 ms - 153\n',
+  level: 'info',
+  timestamp: '06-12-2023 04:40:38'
+}
+{
+  message: '✅ Verificación de conexión a db existosa.',
+  level: 'info',
+  timestamp: '06-12-2023 04:40:38'
+}
+{
+  message: '👤 Guardando el usuario en la variable local',
+  level: 'info',
+  timestamp: '06-12-2023 04:40:38'
+}
+{
+  message: 'POST /project.model 404 2.410 ms - 153\n',
+  level: 'info',
+  timestamp: '06-12-2023 04:40:38'
+}
+{
+  message: '✅ Verificación de conexión a db existosa.',
+  level: 'info',
+  timestamp: '06-12-2023 04:40:38'
+}
+{
+  message: '👤 Guardando el usuario en la variable local',
+  level: 'info',
+  timestamp: '06-12-2023 04:40:38'
+}
+{
+  message: 'POST /project.model 404 1.913 ms - 153\n',
+  level: 'info',
+  timestamp: '06-12-2023 04:40:38'
+}
+{
+  message: '✅ Verificación de conexión a db existosa.',
+  level: 'info',
+  timestamp: '06-12-2023 04:40:38'
+}
+{
+  message: '👤 Guardando el usuario en la variable local',
+  level: 'info',
+  timestamp: '06-12-2023 04:40:38'
+}
+{
+  message: 'POST /project.model 404 1.892 ms - 153\n',
+  level: 'info',
+  timestamp: '06-12-2023 04:40:38'
+}
+{
+  message: '✅ Verificación de conexión a db existosa.',
+  level: 'info',
+  timestamp: '06-12-2023 04:43:18'
+}
+{
+  message: '👤 Guardando el usuario en la variable local',
+  level: 'info',
+  timestamp: '06-12-2023 04:43:18'
+}
+{
+  message: 'Se entrega dashboard de proyectos',
+  level: 'info',
+  timestamp: '06-12-2023 04:43:18'
+}
+{
+  message: 'GET /project 200 7.551 ms - 7432\n',
+  level: 'info',
+  timestamp: '06-12-2023 04:43:18'
+}
+{
+  message: '✅ Verificación de conexión a db existosa.',
+  level: 'info',
+  timestamp: '06-12-2023 04:43:19'
+}
+{
+  message: '👤 Guardando el usuario en la variable local',
+  level: 'info',
+  timestamp: '06-12-2023 04:43:19'
+}
+{
+  message: 'Se entrega dashboard de proyectos',
+  level: 'info',
+  timestamp: '06-12-2023 04:43:19'
+}
+{
+  message: 'GET /project 200 7.814 ms - 7432\n',
+  level: 'info',
+  timestamp: '06-12-2023 04:43:19'
+}
+{
+  message: '✅ Verificación de conexión a db existosa.',
+  level: 'info',
+  timestamp: '06-12-2023 04:43:22'
+}
+{
+  message: '👤 Guardando el usuario en la variable local',
+  level: 'info',
+  timestamp: '06-12-2023 04:43:22'
+}
+{
+  message: 'POST /project.validator 404 2.400 ms - 157\n',
+  level: 'info',
+  timestamp: '06-12-2023 04:43:22'
+}
+{
+  message: '✅ Verificación de conexión a db existosa.',
+  level: 'info',
+  timestamp: '06-12-2023 04:43:23'
+}
+{
+  message: '👤 Guardando el usuario en la variable local',
+  level: 'info',
+  timestamp: '06-12-2023 04:43:23'
+}
+{
+  message: 'POST /project.validator 404 1.988 ms - 157\n',
+  level: 'info',
+  timestamp: '06-12-2023 04:43:23'
+}
+{
+  message: '✅ Verificación de conexión a db existosa.',
+  level: 'info',
+  timestamp: '06-12-2023 04:43:23'
+}
+{
+  message: '👤 Guardando el usuario en la variable local',
+  level: 'info',
+  timestamp: '06-12-2023 04:43:23'
+}
+{
+  message: 'POST /project.validator 404 2.124 ms - 157\n',
+  level: 'info',
+  timestamp: '06-12-2023 04:43:23'
+}
+{
+  message: '✅ Verificación de conexión a db existosa.',
+  level: 'info',
+  timestamp: '06-12-2023 04:43:23'
+}
+{
+  message: '👤 Guardando el usuario en la variable local',
+  level: 'info',
+  timestamp: '06-12-2023 04:43:23'
+}
+{
+  message: 'POST /project.validator 404 2.106 ms - 157\n',
+  level: 'info',
+  timestamp: '06-12-2023 04:43:23'
+}
+{
+  message: '✅ Verificación de conexión a db existosa.',
+  level: 'info',
+  timestamp: '06-12-2023 04:43:31'
+}
+{
+  message: '👤 Guardando el usuario en la variable local',
+  level: 'info',
+  timestamp: '06-12-2023 04:43:31'
+}
+{
+  message: 'POST /project.validator 404 2.035 ms - 157\n',
+  level: 'info',
+  timestamp: '06-12-2023 04:43:31'
+}
+{
+  message: '✅ Verificación de conexión a db existosa.',
+  level: 'info',
+  timestamp: '06-12-2023 04:43:36'
+}
+{
+  message: '👤 Guardando el usuario en la variable local',
+  level: 'info',
+  timestamp: '06-12-2023 04:43:36'
+}
+{
+  message: 'POST /project.validator 404 2.030 ms - 157\n',
+  level: 'info',
+  timestamp: '06-12-2023 04:43:36'
+}
+{
+  message: '✅ Verificación de conexión a db existosa.',
+  level: 'info',
+  timestamp: '06-12-2023 04:43:47'
+}
+{
+  message: '👤 Guardando el usuario en la variable local',
+  level: 'info',
+  timestamp: '06-12-2023 04:43:47'
+}
+{
+  message: 'GET /project.validator 404 2.023 ms - 156\n',
+  level: 'info',
+  timestamp: '06-12-2023 04:43:47'
+}
+{
+  message: '✅ Verificación de conexión a db existosa.',
+  level: 'info',
+  timestamp: '06-12-2023 04:44:05'
+}
+{
+  message: '👤 Guardando el usuario en la variable local',
+  level: 'info',
+  timestamp: '06-12-2023 04:44:05'
+}
+{
+  message: 'POST /project.validator 404 2.288 ms - 157\n',
+  level: 'info',
+  timestamp: '06-12-2023 04:44:05'
+}
+{
+  message: '✅ Verificación de conexión a db existosa.',
+  level: 'info',
+  timestamp: '06-12-2023 04:45:43'
+}
+{
+  message: '👤 Guardando el usuario en la variable local',
+  level: 'info',
+  timestamp: '06-12-2023 04:45:43'
+}
+{
+  message: 'Se entrega dashboard de proyectos',
+  level: 'info',
+  timestamp: '06-12-2023 04:45:43'
+}
+{
+  message: 'GET /project 200 7.296 ms - 7454\n',
+  level: 'info',
+  timestamp: '06-12-2023 04:45:43'
+}
+{
+  message: '✅ Verificación de conexión a db existosa.',
+  level: 'info',
+  timestamp: '06-12-2023 04:46:13'
+}
+{
+  message: '👤 Guardando el usuario en la variable local',
+  level: 'info',
+  timestamp: '06-12-2023 04:46:13'
+}
+{
+  message: 'POST /mongodb://localhost:27017/projnotes_dev 404 2.043 ms - 179\n',
+  level: 'info',
+  timestamp: '06-12-2023 04:46:13'
+}
+{
+  message: '✅ Verificación de conexión a db existosa.',
+  level: 'info',
+  timestamp: '06-12-2023 04:46:21'
+}
+{
+  message: '👤 Guardando el usuario en la variable local',
+  level: 'info',
+  timestamp: '06-12-2023 04:46:21'
+}
+{
+  message: 'POST /mongodb://localhost:27017/projnotes_dev 404 1.971 ms - 179\n',
+  level: 'info',
+  timestamp: '06-12-2023 04:46:21'
+}
+{
+  message: '✅ Verificación de conexión a db existosa.',
+  level: 'info',
+  timestamp: '06-12-2023 04:47:57'
+}
+{
+  message: '👤 Guardando el usuario en la variable local',
+  level: 'info',
+  timestamp: '06-12-2023 04:47:57'
+}
+{
+  message: 'POST /mongodb://localhost:27017/projnotes_dev 404 1.982 ms - 179\n',
+  level: 'info',
+  timestamp: '06-12-2023 04:47:57'
+}
+{
+  message: '✅ Verificación de conexión a db existosa.',
+  level: 'info',
+  timestamp: '06-12-2023 04:48:08'
+}
+{
+  message: '👤 Guardando el usuario en la variable local',
+  level: 'info',
+  timestamp: '06-12-2023 04:48:08'
+}
+{
+  message: 'POST /mongodb://localhost:27017/projnotes_dev 404 1.957 ms - 179\n',
+  level: 'info',
+  timestamp: '06-12-2023 04:48:08'
+}
+{
+  message: '✅ Verificación de conexión a db existosa.',
+  level: 'info',
+  timestamp: '06-12-2023 04:48:10'
+}
+{
+  message: '👤 Guardando el usuario en la variable local',
+  level: 'info',
+  timestamp: '06-12-2023 04:48:10'
+}
+{
+  message: 'Se entrega dashboard de proyectos',
+  level: 'info',
+  timestamp: '06-12-2023 04:48:10'
+}
+{
+  message: 'GET /project 200 11.259 ms - 7454\n',
+  level: 'info',
+  timestamp: '06-12-2023 04:48:10'
+}
+{
+  message: '✅ Verificación de conexión a db existosa.',
+  level: 'info',
+  timestamp: '06-12-2023 04:48:23'
+}
+{
+  message: '👤 Guardando el usuario en la variable local',
+  level: 'info',
+  timestamp: '06-12-2023 04:48:23'
+}
+{
+  message: 'POST /mongodb://localhost:27017/projnotes_dev 404 3.006 ms - 179\n',
+  level: 'info',
+  timestamp: '06-12-2023 04:48:23'
+}
+{
+  message: '✅ Verificación de conexión a db existosa.',
+  level: 'info',
+  timestamp: '06-12-2023 04:48:34'
+}
+{
+  message: '👤 Guardando el usuario en la variable local',
+  level: 'info',
+  timestamp: '06-12-2023 04:48:34'
+}
+{
+  message: 'Se entrega dashboard de proyectos',
+  level: 'info',
+  timestamp: '06-12-2023 04:48:34'
+}
+{
+  message: 'GET /project 304 12.991 ms - -\n',
+  level: 'info',
+  timestamp: '06-12-2023 04:48:34'
+}
+{
+  message: '✅ Verificación de conexión a db existosa.',
+  level: 'info',
+  timestamp: '06-12-2023 04:48:48'
+}
+{
+  message: '👤 Guardando el usuario en la variable local',
+  level: 'info',
+  timestamp: '06-12-2023 04:48:48'
+}
+{
+  message: 'GET / 304 9.054 ms - -\n',
+  level: 'info',
+  timestamp: '06-12-2023 04:48:48'
+}
+{
+  message: '✅ Verificación de conexión a db existosa.',
+  level: 'info',
+  timestamp: '06-12-2023 04:49:04'
+}
+{
+  message: '👤 Guardando el usuario en la variable local',
+  level: 'info',
+  timestamp: '06-12-2023 04:49:04'
+}
+{
+  message: 'GET /project/add 200 11.047 ms - 8619\n',
+  level: 'info',
+  timestamp: '06-12-2023 04:49:04'
+}
+{
+  message: '✅ Verificación de conexión a db existosa.',
+  level: 'info',
+  timestamp: '06-12-2023 04:49:08'
+}
+{
+  message: '👤 Guardando el usuario en la variable local',
+  level: 'info',
+  timestamp: '06-12-2023 04:49:08'
+}
+{
+  message: 'Se entrega dashboard de proyectos',
+  level: 'info',
+  timestamp: '06-12-2023 04:49:08'
+}
+{
+  message: 'GET /project 200 7.807 ms - 7454\n',
+  level: 'info',
+  timestamp: '06-12-2023 04:49:08'
+}
+{
+  message: '✅ Verificación de conexión a db existosa.',
+  level: 'info',
+  timestamp: '06-12-2023 04:49:11'
+}
+{
+  message: '👤 Guardando el usuario en la variable local',
+  level: 'info',
+  timestamp: '06-12-2023 04:49:11'
+}
+{
+  message: 'POST /mongodb://localhost:27017/projnotes_dev 404 2.157 ms - 179\n',
+  level: 'info',
+  timestamp: '06-12-2023 04:49:11'
+}
+{
+  message: '✅ Verificación de conexión a db existosa.',
+  level: 'info',
+  timestamp: '06-12-2023 04:54:40'
+}
+{
+  message: '👤 Guardando el usuario en la variable local',
+  level: 'info',
+  timestamp: '06-12-2023 04:54:40'
+}
+{
+  message: 'Se entrega dashboard de proyectos',
+  level: 'info',
+  timestamp: '06-12-2023 04:54:40'
+}
+{
+  message: 'GET /project 200 10.326 ms - 11023\n',
+  level: 'info',
+  timestamp: '06-12-2023 04:54:40'
+}
+{
+  message: '✅ Verificación de conexión a db existosa.',
+  level: 'info',
+  timestamp: '06-12-2023 04:54:47'
+}
+{
+  message: '👤 Guardando el usuario en la variable local',
+  level: 'info',
+  timestamp: '06-12-2023 04:54:47'
+}
+{
+  message: 'Se entrega dashboard de proyectos',
+  level: 'info',
+  timestamp: '06-12-2023 04:54:47'
+}
+{
+  message: 'GET /project 200 12.249 ms - 11023\n',
+  level: 'info',
+  timestamp: '06-12-2023 04:54:47'
+}
+{
+  message: '✅ Verificación de conexión a db existosa.',
+  level: 'info',
+  timestamp: '06-12-2023 04:54:47'
+}
+{
+  message: '👤 Guardando el usuario en la variable local',
+  level: 'info',
+  timestamp: '06-12-2023 04:54:47'
+}
+{
+  message: 'GET /favicon.ico 404 2.078 ms - 150\n',
+  level: 'info',
+  timestamp: '06-12-2023 04:54:47'
+}
+{
+  message: '✅ Verificación de conexión a db existosa.',
+  level: 'info',
+  timestamp: '06-12-2023 04:56:04'
+}
+{
+  message: '👤 Guardando el usuario en la variable local',
+  level: 'info',
+  timestamp: '06-12-2023 04:56:04'
+}
+{
+  message: 'DELETE /project/656ffb40478a73d21fc1d5f1 200 5.090 ms - 135\n',
+  level: 'info',
+  timestamp: '06-12-2023 04:56:04'
+}
+{
+  message: '✅ Verificación de conexión a db existosa.',
+  level: 'info',
+  timestamp: '06-12-2023 04:56:04'
+}
+{
+  message: '👤 Guardando el usuario en la variable local',
+  level: 'info',
+  timestamp: '06-12-2023 04:56:04'
+}
+{
+  message: 'Se entrega dashboard de proyectos',
+  level: 'info',
+  timestamp: '06-12-2023 04:56:04'
+}
+{
+  message: 'GET /project 200 9.815 ms - 10526\n',
+  level: 'info',
+  timestamp: '06-12-2023 04:56:04'
+}
+{
+  message: '✅ Verificación de conexión a db existosa.',
+  level: 'info',
+  timestamp: '06-12-2023 04:56:10'
+}
+{
+  message: '👤 Guardando el usuario en la variable local',
+  level: 'info',
+  timestamp: '06-12-2023 04:56:10'
+}
+{
+  message: 'DELETE /project/656ff11d478a73d21fc1d5d8 200 3.338 ms - 141\n',
+  level: 'info',
+  timestamp: '06-12-2023 04:56:10'
+}
+{
+  message: '✅ Verificación de conexión a db existosa.',
+  level: 'info',
+  timestamp: '06-12-2023 04:56:10'
+}
+{
+  message: '👤 Guardando el usuario en la variable local',
+  level: 'info',
+  timestamp: '06-12-2023 04:56:10'
+}
+{
+  message: 'Se entrega dashboard de proyectos',
+  level: 'info',
+  timestamp: '06-12-2023 04:56:10'
+}
+{
+  message: 'GET /project 200 8.579 ms - 9732\n',
+  level: 'info',
+  timestamp: '06-12-2023 04:56:10'
+}
+{
+  message: '✅ Verificación de conexión a db existosa.',
+  level: 'info',
+  timestamp: '06-12-2023 04:56:11'
+}
+{
+  message: '👤 Guardando el usuario en la variable local',
+  level: 'info',
+  timestamp: '06-12-2023 04:56:11'
+}
+{
+  message: 'DELETE /project/656ff138478a73d21fc1d5db 200 3.447 ms - 142\n',
+  level: 'info',
+  timestamp: '06-12-2023 04:56:11'
+}
+{
+  message: '✅ Verificación de conexión a db existosa.',
+  level: 'info',
+  timestamp: '06-12-2023 04:56:11'
+}
+{
+  message: '👤 Guardando el usuario en la variable local',
+  level: 'info',
+  timestamp: '06-12-2023 04:56:11'
+}
+{
+  message: 'Se entrega dashboard de proyectos',
+  level: 'info',
+  timestamp: '06-12-2023 04:56:11'
+}
+{
+  message: 'GET /project 200 8.162 ms - 8937\n',
+  level: 'info',
+  timestamp: '06-12-2023 04:56:11'
+}
+{
+  message: '✅ Verificación de conexión a db existosa.',
+  level: 'info',
+  timestamp: '06-12-2023 04:58:18'
+}
+{
+  message: '👤 Guardando el usuario en la variable local',
+  level: 'info',
+  timestamp: '06-12-2023 04:58:18'
+}
+{
+  message: 'Se entrega dashboard de proyectos',
+  level: 'info',
+  timestamp: '06-12-2023 04:58:18'
+}
+{
+  message: 'GET /project 200 6.876 ms - 8646\n',
+  level: 'info',
+  timestamp: '06-12-2023 04:58:18'
+}
+{
+  message: '✅ Verificación de conexión a db existosa.',
+  level: 'info',
+  timestamp: '06-12-2023 04:58:32'
+}
+{
+  message: '👤 Guardando el usuario en la variable local',
+  level: 'info',
+  timestamp: '06-12-2023 04:58:32'
+}
+{
+  message: 'Se entrega dashboard de proyectos',
+  level: 'info',
+  timestamp: '06-12-2023 04:58:32'
+}
+{
+  message: 'GET /project 200 8.204 ms - 8646\n',
+  level: 'info',
+  timestamp: '06-12-2023 04:58:32'
+}
+{
+  message: '✅ Verificación de conexión a db existosa.',
+  level: 'info',
+  timestamp: '06-12-2023 05:00:09'
+}
+{
+  message: '👤 Guardando el usuario en la variable local',
+  level: 'info',
+  timestamp: '06-12-2023 05:00:09'
+}
+{
+  message: 'DELETE /project/656ff76e478a73d21fc1d5e9 200 4.059 ms - 145\n',
+  level: 'info',
+  timestamp: '06-12-2023 05:00:09'
+}
+{
+  message: '✅ Verificación de conexión a db existosa.',
+  level: 'info',
+  timestamp: '06-12-2023 05:00:09'
+}
+{
+  message: '👤 Guardando el usuario en la variable local',
+  level: 'info',
+  timestamp: '06-12-2023 05:00:09'
+}
+{
+  message: 'Se entrega dashboard de proyectos',
+  level: 'info',
+  timestamp: '06-12-2023 05:00:09'
+}
+{
+  message: 'GET /project 200 8.124 ms - 8139\n',
+  level: 'info',
+  timestamp: '06-12-2023 05:00:09'
+}
+{
+  message: '✅ Verificación de conexión a db existosa.',
+  level: 'info',
+  timestamp: '06-12-2023 05:00:10'
+}
+{
+  message: '👤 Guardando el usuario en la variable local',
+  level: 'info',
+  timestamp: '06-12-2023 05:00:10'
+}
+{
+  message: 'DELETE /project/656ffa86478a73d21fc1d5ed 200 4.039 ms - 135\n',
+  level: 'info',
+  timestamp: '06-12-2023 05:00:10'
+}
+{
+  message: '✅ Verificación de conexión a db existosa.',
+  level: 'info',
+  timestamp: '06-12-2023 05:00:10'
+}
+{
+  message: '👤 Guardando el usuario en la variable local',
+  level: 'info',
+  timestamp: '06-12-2023 05:00:10'
+}
+{
+  message: 'Se entrega dashboard de proyectos',
+  level: 'info',
+  timestamp: '06-12-2023 05:00:10'
+}
+{
+  message: 'GET /project 200 7.944 ms - 7389\n',
+  level: 'info',
+  timestamp: '06-12-2023 05:00:10'
+}
+{
+  message: '✅ Verificación de conexión a db existosa.',
+  level: 'info',
+  timestamp: '06-12-2023 05:03:52'
+}
+{
+  message: '👤 Guardando el usuario en la variable local',
+  level: 'info',
+  timestamp: '06-12-2023 05:03:52'
+}
+{
+  message: 'Se entrega dashboard de proyectos',
+  level: 'info',
+  timestamp: '06-12-2023 05:03:52'
+}
+{
+  message: 'GET /project 200 6.615 ms - 7950\n',
+  level: 'info',
+  timestamp: '06-12-2023 05:03:52'
+}
+{
+  message: '✅ Verificación de conexión a db existosa.',
+  level: 'info',
+  timestamp: '06-12-2023 05:04:21'
+}
+{
+  message: '👤 Guardando el usuario en la variable local',
+  level: 'info',
+  timestamp: '06-12-2023 05:04:21'
+}
+{
+  message: 'DELETE /project/undefined 500 3.252 ms - 246\n',
+  level: 'info',
+  timestamp: '06-12-2023 05:04:21'
+}
+{
+  message: '✅ Verificación de conexión a db existosa.',
+  level: 'info',
+  timestamp: '06-12-2023 05:04:24'
+}
+{
+  message: '👤 Guardando el usuario en la variable local',
+  level: 'info',
+  timestamp: '06-12-2023 05:04:24'
+}
+{
+  message: 'DELETE /project/undefined 500 2.195 ms - 246\n',
+  level: 'info',
+  timestamp: '06-12-2023 05:04:24'
+}
+{
+  message: '✅ Verificación de conexión a db existosa.',
+  level: 'info',
+  timestamp: '06-12-2023 05:04:24'
+}
+{
+  message: '👤 Guardando el usuario en la variable local',
+  level: 'info',
+  timestamp: '06-12-2023 05:04:24'
+}
+{
+  message: 'DELETE /project/undefined 500 2.593 ms - 246\n',
+  level: 'info',
+  timestamp: '06-12-2023 05:04:24'
+}
+{
+  message: '✅ Verificación de conexión a db existosa.',
+  level: 'info',
+  timestamp: '06-12-2023 05:04:24'
+}
+{
+  message: '👤 Guardando el usuario en la variable local',
+  level: 'info',
+  timestamp: '06-12-2023 05:04:24'
+}
+{
+  message: 'DELETE /project/undefined 500 2.188 ms - 246\n',
+  level: 'info',
+  timestamp: '06-12-2023 05:04:24'
+}
+{
+  message: '✅ Verificación de conexión a db existosa.',
+  level: 'info',
+  timestamp: '06-12-2023 05:04:25'
+}
+{
+  message: '👤 Guardando el usuario en la variable local',
+  level: 'info',
+  timestamp: '06-12-2023 05:04:25'
+}
+{
+  message: 'Se inicia la busqueda del proyecto con el id: undefined',
+  level: 'info',
+  timestamp: '06-12-2023 05:04:25'
+}
+{
+  message: 'Ocurre un error en: metodo "error" de project.controller',
+  level: 'error',
+  timestamp: '06-12-2023 05:04:25'
+}
+{
+  message: 'GET /project/edit/undefined 500 3.233 ms - 246\n',
+  level: 'info',
+  timestamp: '06-12-2023 05:04:25'
+}
+{
+  message: '✅ Verificación de conexión a db existosa.',
+  level: 'info',
+  timestamp: '06-12-2023 05:04:32'
+}
+{
+  message: '👤 Guardando el usuario en la variable local',
+  level: 'info',
+  timestamp: '06-12-2023 05:04:32'
+}
+{
+  message: 'Se entrega dashboard de proyectos',
+  level: 'info',
+  timestamp: '06-12-2023 05:04:32'
+}
+{
+  message: 'GET /project 200 8.646 ms - 7950\n',
+  level: 'info',
+  timestamp: '06-12-2023 05:04:32'
+}
+{
+  message: '✅ Verificación de conexión a db existosa.',
+  level: 'info',
+  timestamp: '06-12-2023 05:06:24'
+}
+{
+  message: '👤 Guardando el usuario en la variable local',
+  level: 'info',
+  timestamp: '06-12-2023 05:06:24'
+}
+{
+  message: 'Se entrega dashboard de proyectos',
+  level: 'info',
+  timestamp: '06-12-2023 05:06:24'
+}
+{
+  message: 'GET /project 200 9.346 ms - 5606\n',
+  level: 'info',
+  timestamp: '06-12-2023 05:06:24'
+}
+{
+  message: '✅ Verificación de conexión a db existosa.',
+  level: 'info',
+  timestamp: '06-12-2023 05:06:34'
+}
+{
+  message: '👤 Guardando el usuario en la variable local',
+  level: 'info',
+  timestamp: '06-12-2023 05:06:34'
+}
+{
+  message: 'GET /project/add 200 8.794 ms - 8619\n',
+  level: 'info',
+  timestamp: '06-12-2023 05:06:34'
+}
+{
+  message: '✅ Verificación de conexión a db existosa.',
+  level: 'info',
+  timestamp: '06-12-2023 05:07:10'
+}
+{
+  message: '👤 Guardando el usuario en la variable local',
+  level: 'info',
+  timestamp: '06-12-2023 05:07:10'
+}
+{
+  message: 'Se extraen datos de la petición: Nombre LIbro1 ,Autor Alex, Categoria: Aventuras, ISBN 121212, Descripcion aventuras locas ',
+  level: 'info',
+  timestamp: '06-12-2023 05:07:10'
+}
+{
+  message: 'Se carga proyecto {\n' +
+    "  Nombre: 'LIbro1',\n" +
+    "  Autor: 'Alex',\n" +
+    "  Categoria: 'Aventuras',\n" +
+    "  ISBN: '121212',\n" +
+    "  Existencias: '2',\n" +
+    "  Descripcion: 'aventuras locas',\n" +
+    '  _id: new ObjectId("6570017e478a73d21fc1d60b"),\n' +
+    '  __v: 0\n' +
+    '}',
+  level: 'info',
+  timestamp: '06-12-2023 05:07:10'
+}
+{
+  message: 'Se redirecciona el sistema a /project',
+  level: 'info',
+  timestamp: '06-12-2023 05:07:10'
+}
+{
+  message: 'POST /project/add 302 6.853 ms - 60\n',
+  level: 'info',
+  timestamp: '06-12-2023 05:07:10'
+}
+{
+  message: '✅ Verificación de conexión a db existosa.',
+  level: 'info',
+  timestamp: '06-12-2023 05:07:10'
+}
+{
+  message: '👤 Guardando el usuario en la variable local',
+  level: 'info',
+  timestamp: '06-12-2023 05:07:10'
+}
+{
+  message: 'Se entrega dashboard de proyectos',
+  level: 'info',
+  timestamp: '06-12-2023 05:07:10'
+}
+{
+  message: 'GET /project 200 10.555 ms - 6668\n',
+  level: 'info',
+  timestamp: '06-12-2023 05:07:10'
+}
+{
+  message: '✅ Verificación de conexión a db existosa.',
+  level: 'info',
+  timestamp: '06-12-2023 05:07:16'
+}
+{
+  message: '👤 Guardando el usuario en la variable local',
+  level: 'info',
+  timestamp: '06-12-2023 05:07:16'
+}
+{
+  message: 'DELETE /project/6570017e478a73d21fc1d60b 200 3.673 ms - 165\n',
+  level: 'info',
+  timestamp: '06-12-2023 05:07:16'
+}
+{
+  message: '✅ Verificación de conexión a db existosa.',
+  level: 'info',
+  timestamp: '06-12-2023 05:07:16'
+}
+{
+  message: '👤 Guardando el usuario en la variable local',
+  level: 'info',
+  timestamp: '06-12-2023 05:07:16'
+}
+{
+  message: 'Se entrega dashboard de proyectos',
+  level: 'info',
+  timestamp: '06-12-2023 05:07:16'
+}
+{
+  message: 'GET /project 200 10.460 ms - 5897\n',
+  level: 'info',
+  timestamp: '06-12-2023 05:07:16'
+}
+{
+  message: '✅ Verificación de conexión a db existosa.',
+  level: 'info',
+  timestamp: '06-12-2023 05:09:48'
+}
+{
+  message: '👤 Guardando el usuario en la variable local',
+  level: 'info',
+  timestamp: '06-12-2023 05:09:48'
+}
+{
+  message: 'GET /project/add 200 8.157 ms - 8619\n',
+  level: 'info',
+  timestamp: '06-12-2023 05:09:48'
+}
+{
+  message: '✅ Verificación de conexión a db existosa.',
+  level: 'info',
+  timestamp: '06-12-2023 05:09:56'
+}
+{
+  message: '👤 Guardando el usuario en la variable local',
+  level: 'info',
+  timestamp: '06-12-2023 05:09:56'
+}
+{
+  message: 'Se extraen datos de la petición: Nombre DASD ,Autor DSDS, Categoria: SDSD, ISBN SDSDSD, Descripcion SDDSD ',
+  level: 'info',
+  timestamp: '06-12-2023 05:09:56'
+}
+{
+  message: 'Se carga proyecto {\n' +
+    "  Nombre: 'DASD',\n" +
+    "  Autor: 'DSDS',\n" +
+    "  Categoria: 'SDSD',\n" +
+    "  ISBN: 'SDSDSD',\n" +
+    "  Existencias: 'DSSDS',\n" +
+    "  Descripcion: 'SDDSD',\n" +
+    '  _id: new ObjectId("65700224478a73d21fc1d610"),\n' +
+    '  __v: 0\n' +
+    '}',
+  level: 'info',
+  timestamp: '06-12-2023 05:09:56'
+}
+{
+  message: 'Se redirecciona el sistema a /project',
+  level: 'info',
+  timestamp: '06-12-2023 05:09:56'
+}
+{
+  message: 'POST /project/add 302 5.247 ms - 60\n',
+  level: 'info',
+  timestamp: '06-12-2023 05:09:56'
+}
+{
+  message: '✅ Verificación de conexión a db existosa.',
+  level: 'info',
+  timestamp: '06-12-2023 05:09:56'
+}
+{
+  message: '👤 Guardando el usuario en la variable local',
+  level: 'info',
+  timestamp: '06-12-2023 05:09:56'
+}
+{
+  message: 'Se entrega dashboard de proyectos',
+  level: 'info',
+  timestamp: '06-12-2023 05:09:56'
+}
+{
+  message: 'GET /project 200 8.205 ms - 6655\n',
+  level: 'info',
+  timestamp: '06-12-2023 05:09:56'
+}
+{
+  message: '✅ Verificación de conexión a db existosa.',
+  level: 'info',
+  timestamp: '06-12-2023 05:09:58'
+}
+{
+  message: '👤 Guardando el usuario en la variable local',
+  level: 'info',
+  timestamp: '06-12-2023 05:09:58'
+}
+{
+  message: 'Se inicia la busqueda del proyecto con el id: 65700224478a73d21fc1d610',
+  level: 'info',
+  timestamp: '06-12-2023 05:09:58'
+}
+{
+  message: 'Proyecto encontrado con el id: 65700224478a73d21fc1d610',
+  level: 'info',
+  timestamp: '06-12-2023 05:09:58'
+}
+{
+  message: 'GET /project/edit/65700224478a73d21fc1d610 200 13.079 ms - 6686\n',
+  level: 'info',
+  timestamp: '06-12-2023 05:09:58'
+}
+{
+  message: '✅ Verificación de conexión a db existosa.',
+  level: 'info',
+  timestamp: '06-12-2023 05:11:44'
+}
+{
+  message: '👤 Guardando el usuario en la variable local',
+  level: 'info',
+  timestamp: '06-12-2023 05:11:44'
+}
+{
+  message: 'Se inicia la busqueda del proyecto con el id: 65700224478a73d21fc1d610',
+  level: 'info',
+  timestamp: '06-12-2023 05:11:44'
+}
+{
+  message: 'Proyecto encontrado con el id: 65700224478a73d21fc1d610',
+  level: 'info',
+  timestamp: '06-12-2023 05:11:44'
+}
+{
+  message: 'GET /project/edit/65700224478a73d21fc1d610 200 12.417 ms - 6670\n',
+  level: 'info',
+  timestamp: '06-12-2023 05:11:44'
+}
+{
+  message: '✅ Verificación de conexión a db existosa.',
+  level: 'info',
+  timestamp: '06-12-2023 05:17:08'
+}
+{
+  message: '👤 Guardando el usuario en la variable local',
+  level: 'info',
+  timestamp: '06-12-2023 05:17:08'
+}
+{
+  message: 'Se inicia la busqueda del proyecto con el id: 65700224478a73d21fc1d610',
+  level: 'info',
+  timestamp: '06-12-2023 05:17:08'
+}
+{
+  message: 'Proyecto encontrado con el id: 65700224478a73d21fc1d610',
+  level: 'info',
+  timestamp: '06-12-2023 05:17:08'
+}
+{
+  message: 'GET /project/edit/65700224478a73d21fc1d610 200 9.378 ms - 7310\n',
+  level: 'info',
+  timestamp: '06-12-2023 05:17:08'
+}
+{
+  message: '✅ Verificación de conexión a db existosa.',
+  level: 'info',
+  timestamp: '06-12-2023 05:24:36'
+}
+{
+  message: '👤 Guardando el usuario en la variable local',
+  level: 'info',
+  timestamp: '06-12-2023 05:24:36'
+}
+{
+  message: 'Se inicia la busqueda del proyecto con el id: 65700224478a73d21fc1d610',
+  level: 'info',
+  timestamp: '06-12-2023 05:24:36'
+}
+{
+  message: 'Proyecto encontrado con el id: 65700224478a73d21fc1d610',
+  level: 'info',
+  timestamp: '06-12-2023 05:24:36'
+}
+{
+  message: 'GET /project/edit/65700224478a73d21fc1d610 200 9.358 ms - 8884\n',
+  level: 'info',
+  timestamp: '06-12-2023 05:24:36'
+}
+{
+  message: '✅ Verificación de conexión a db existosa.',
+  level: 'info',
+  timestamp: '06-12-2023 05:24:49'
+}
+{
+  message: '👤 Guardando el usuario en la variable local',
+  level: 'info',
+  timestamp: '06-12-2023 05:24:49'
+}
+{
+  message: 'Se extraen datos de la petición: Nombre libro3 ,Autor w, Categoria: w, ISBN w, Descripcion w ',
+  level: 'info',
+  timestamp: '06-12-2023 05:24:49'
+}
+{
+  message: 'Actualizando proyecto con id: 65700224478a73d21fc1d610',
+  level: 'info',
+  timestamp: '06-12-2023 05:24:49'
+}
+{
+  message: 'PUT /project/edit/65700224478a73d21fc1d610?_method=put 302 6.248 ms - 120\n',
+  level: 'info',
+  timestamp: '06-12-2023 05:24:49'
+}
+{
+  message: '✅ Verificación de conexión a db existosa.',
+  level: 'info',
+  timestamp: '06-12-2023 05:24:49'
+}
+{
+  message: '👤 Guardando el usuario en la variable local',
+  level: 'info',
+  timestamp: '06-12-2023 05:24:49'
+}
+{
+  message: 'Se inicia la busqueda del proyecto con el id: 65700224478a73d21fc1d610',
+  level: 'info',
+  timestamp: '06-12-2023 05:24:49'
+}
+{
+  message: 'Proyecto encontrado con el id: 65700224478a73d21fc1d610',
+  level: 'info',
+  timestamp: '06-12-2023 05:24:49'
+}
+{
+  message: 'GET /project/edit/65700224478a73d21fc1d610 200 9.947 ms - 9178\n',
+  level: 'info',
+  timestamp: '06-12-2023 05:24:49'
+}
+{
+  message: '✅ Verificación de conexión a db existosa.',
+  level: 'info',
+  timestamp: '06-12-2023 05:24:56'
+}
+{
+  message: '👤 Guardando el usuario en la variable local',
+  level: 'info',
+  timestamp: '06-12-2023 05:24:56'
+}
+{
+  message: 'Se entrega dashboard de proyectos',
+  level: 'info',
+  timestamp: '06-12-2023 05:24:56'
+}
+{
+  message: 'GET /project 200 13.078 ms - 6373\n',
+  level: 'info',
+  timestamp: '06-12-2023 05:24:56'
+}
+{
+  message: '✅ Verificación de conexión a db existosa.',
+  level: 'info',
+  timestamp: '06-12-2023 05:25:03'
+}
+{
+  message: '👤 Guardando el usuario en la variable local',
+  level: 'info',
+  timestamp: '06-12-2023 05:25:03'
+}
+{
+  message: 'Se inicia la busqueda del proyecto con el id: 65700224478a73d21fc1d610',
+  level: 'info',
+  timestamp: '06-12-2023 05:25:03'
+}
+{
+  message: 'Proyecto encontrado con el id: 65700224478a73d21fc1d610',
+  level: 'info',
+  timestamp: '06-12-2023 05:25:03'
+}
+{
+  message: 'GET /project/edit/65700224478a73d21fc1d610 200 10.612 ms - 8884\n',
+  level: 'info',
+  timestamp: '06-12-2023 05:25:03'
+}
+{
+  message: '✅ Verificación de conexión a db existosa.',
+  level: 'info',
+  timestamp: '06-12-2023 05:25:13'
+}
+{
+  message: '👤 Guardando el usuario en la variable local',
+  level: 'info',
+  timestamp: '06-12-2023 05:25:13'
+}
+{
+  message: 'Se extraen datos de la petición: Nombre eqeq ,Autor qw, Categoria: qwqw, ISBN qw, Descripcion qw ',
+  level: 'info',
+  timestamp: '06-12-2023 05:25:13'
+}
+{
+  message: 'Actualizando proyecto con id: 65700224478a73d21fc1d610',
+  level: 'info',
+  timestamp: '06-12-2023 05:25:13'
+}
+{
+  message: 'PUT /project/edit/65700224478a73d21fc1d610?_method=put 302 5.271 ms - 120\n',
+  level: 'info',
+  timestamp: '06-12-2023 05:25:13'
+}
+{
+  message: '✅ Verificación de conexión a db existosa.',
+  level: 'info',
+  timestamp: '06-12-2023 05:25:13'
+}
+{
+  message: '👤 Guardando el usuario en la variable local',
+  level: 'info',
+  timestamp: '06-12-2023 05:25:13'
+}
+{
+  message: 'Se inicia la busqueda del proyecto con el id: 65700224478a73d21fc1d610',
+  level: 'info',
+  timestamp: '06-12-2023 05:25:13'
+}
+{
+  message: 'Proyecto encontrado con el id: 65700224478a73d21fc1d610',
+  level: 'info',
+  timestamp: '06-12-2023 05:25:13'
+}
+{
+  message: 'GET /project/edit/65700224478a73d21fc1d610 200 9.391 ms - 9178\n',
+  level: 'info',
+  timestamp: '06-12-2023 05:25:13'
+}
+{
+  message: '✅ Verificación de conexión a db existosa.',
+  level: 'info',
+  timestamp: '06-12-2023 05:25:16'
+}
+{
+  message: '👤 Guardando el usuario en la variable local',
+  level: 'info',
+  timestamp: '06-12-2023 05:25:16'
+}
+{
+  message: 'Se entrega dashboard de proyectos',
+  level: 'info',
+  timestamp: '06-12-2023 05:25:16'
+}
+{
+  message: 'GET /project 304 8.532 ms - -\n',
+  level: 'info',
+  timestamp: '06-12-2023 05:25:16'
+}
+{
+  message: '✅ Verificación de conexión a db existosa.',
+  level: 'info',
+  timestamp: '06-12-2023 05:27:01'
+}
+{
+  message: '👤 Guardando el usuario en la variable local',
+  level: 'info',
+  timestamp: '06-12-2023 05:27:01'
+}
+{
+  message: 'Se inicia la busqueda del proyecto con el id: 65700224478a73d21fc1d610',
+  level: 'info',
+  timestamp: '06-12-2023 05:27:01'
+}
+{
+  message: 'Proyecto encontrado con el id: 65700224478a73d21fc1d610',
+  level: 'info',
+  timestamp: '06-12-2023 05:27:01'
+}
+{
+  message: 'GET /project/edit/65700224478a73d21fc1d610 200 12.181 ms - 8884\n',
+  level: 'info',
+  timestamp: '06-12-2023 05:27:01'
+}
+{
+  message: '✅ Verificación de conexión a db existosa.',
+  level: 'info',
+  timestamp: '06-12-2023 05:28:53'
+}
+{
+  message: '👤 Guardando el usuario en la variable local',
+  level: 'info',
+  timestamp: '06-12-2023 05:28:53'
+}
+{
+  message: 'Se inicia la busqueda del proyecto con el id: 65700224478a73d21fc1d610',
+  level: 'info',
+  timestamp: '06-12-2023 05:28:53'
+}
+{
+  message: 'Proyecto encontrado con el id: 65700224478a73d21fc1d610',
+  level: 'info',
+  timestamp: '06-12-2023 05:28:53'
+}
+{
+  message: 'GET /project/edit/65700224478a73d21fc1d610 200 10.638 ms - 8662\n',
+  level: 'info',
+  timestamp: '06-12-2023 05:28:53'
+}
+{
+  message: '✅ Verificación de conexión a db existosa.',
+  level: 'info',
+  timestamp: '06-12-2023 05:29:07'
+}
+{
+  message: '👤 Guardando el usuario en la variable local',
+  level: 'info',
+  timestamp: '06-12-2023 05:29:07'
+}
+{
+  message: 'Se extraen datos de la petición: Nombre wewe ,Autor ewqe, Categoria: e, ISBN ewewe, Descripcion wew ',
+  level: 'info',
+  timestamp: '06-12-2023 05:29:07'
+}
+{
+  message: 'Actualizando proyecto con id: 65700224478a73d21fc1d610',
+  level: 'info',
+  timestamp: '06-12-2023 05:29:07'
+}
+{
+  message: 'PUT /project/edit/65700224478a73d21fc1d610?_method=put 302 5.233 ms - 120\n',
+  level: 'info',
+  timestamp: '06-12-2023 05:29:07'
+}
+{
+  message: '✅ Verificación de conexión a db existosa.',
+  level: 'info',
+  timestamp: '06-12-2023 05:29:07'
+}
+{
+  message: '👤 Guardando el usuario en la variable local',
+  level: 'info',
+  timestamp: '06-12-2023 05:29:07'
+}
+{
+  message: 'Se inicia la busqueda del proyecto con el id: 65700224478a73d21fc1d610',
+  level: 'info',
+  timestamp: '06-12-2023 05:29:07'
+}
+{
+  message: 'Proyecto encontrado con el id: 65700224478a73d21fc1d610',
+  level: 'info',
+  timestamp: '06-12-2023 05:29:07'
+}
+{
+  message: 'GET /project/edit/65700224478a73d21fc1d610 200 9.692 ms - 8956\n',
+  level: 'info',
+  timestamp: '06-12-2023 05:29:07'
+}
+{
+  message: '✅ Verificación de conexión a db existosa.',
+  level: 'info',
+  timestamp: '06-12-2023 05:29:11'
+}
+{
+  message: '👤 Guardando el usuario en la variable local',
+  level: 'info',
+  timestamp: '06-12-2023 05:29:11'
+}
+{
+  message: 'Se entrega dashboard de proyectos',
+  level: 'info',
+  timestamp: '06-12-2023 05:29:11'
+}
+{
+  message: 'GET /project 304 9.512 ms - -\n',
+  level: 'info',
+  timestamp: '06-12-2023 05:29:11'
+}
+{
+  message: '✅ Verificación de conexión a db existosa.',
+  level: 'info',
+  timestamp: '06-12-2023 05:29:14'
+}
+{
+  message: '👤 Guardando el usuario en la variable local',
+  level: 'info',
+  timestamp: '06-12-2023 05:29:14'
+}
+{
+  message: 'DELETE /project/65700224478a73d21fc1d610 200 3.581 ms - 152\n',
+  level: 'info',
+  timestamp: '06-12-2023 05:29:14'
+}
+{
+  message: '✅ Verificación de conexión a db existosa.',
+  level: 'info',
+  timestamp: '06-12-2023 05:29:14'
+}
+{
+  message: '👤 Guardando el usuario en la variable local',
+  level: 'info',
+  timestamp: '06-12-2023 05:29:14'
+}
+{
+  message: 'Se entrega dashboard de proyectos',
+  level: 'info',
+  timestamp: '06-12-2023 05:29:14'
+}
+{
+  message: 'GET /project 200 10.769 ms - 5897\n',
+  level: 'info',
+  timestamp: '06-12-2023 05:29:14'
+}
+{
+  message: 'The server is created from the express instance',
+  level: 'info',
+  timestamp: '06-12-2023 05:35:30'
+}
+{
+  message: '⭐⭐ Listening on http://localhost:5000 ⭐⭐',
+  level: 'info',
+  timestamp: '06-12-2023 05:35:30'
+}
+{
+  message: '✅ Conectado a Mongodb',
+  level: 'info',
+  timestamp: '06-12-2023 05:35:30'
+}
+{
+  message: 'The server is created from the express instance',
+  level: 'info',
+  timestamp: '06-12-2023 05:35:33'
+}
+{
+  message: '⭐⭐ Listening on http://localhost:5000 ⭐⭐',
+  level: 'info',
+  timestamp: '06-12-2023 05:35:33'
+}
+{
+  message: '✅ Conectado a Mongodb',
+  level: 'info',
+  timestamp: '06-12-2023 05:35:33'
+}
+{
+  message: 'The server is created from the express instance',
+  level: 'info',
+  timestamp: '06-12-2023 05:35:38'
+}
+{
+  message: '⭐⭐ Listening on http://localhost:5000 ⭐⭐',
+  level: 'info',
+  timestamp: '06-12-2023 05:35:38'
+}
+{
+  message: '✅ Conectado a Mongodb',
+  level: 'info',
+  timestamp: '06-12-2023 05:35:38'
+}
+{
+  message: 'The server is created from the express instance',
+  level: 'info',
+  timestamp: '06-12-2023 05:35:44'
+}
+{
+  message: '⭐⭐ Listening on http://localhost:5000 ⭐⭐',
+  level: 'info',
+  timestamp: '06-12-2023 05:35:44'
+}
+{
+  message: '✅ Conectado a Mongodb',
+  level: 'info',
+  timestamp: '06-12-2023 05:35:44'
+}
+{
+  message: 'The server is created from the express instance',
+  level: 'info',
+  timestamp: '06-12-2023 05:35:45'
+}
+{
+  message: '⭐⭐ Listening on http://localhost:5000 ⭐⭐',
+  level: 'info',
+  timestamp: '06-12-2023 05:35:45'
+}
+{
+  message: '✅ Conectado a Mongodb',
+  level: 'info',
+  timestamp: '06-12-2023 05:35:45'
+}
+{
+  message: 'The server is created from the express instance',
+  level: 'info',
+  timestamp: '06-12-2023 05:36:04'
+}
+{
+  message: '⭐⭐ Listening on http://localhost:5000 ⭐⭐',
+  level: 'info',
+  timestamp: '06-12-2023 05:36:04'
+}
+{
+  message: '✅ Conectado a Mongodb',
+  level: 'info',
+  timestamp: '06-12-2023 05:36:04'
+}
+{
+  message: 'The server is created from the express instance',
+  level: 'info',
+  timestamp: '06-12-2023 05:36:06'
+}
+{
+  message: '⭐⭐ Listening on http://localhost:5000 ⭐⭐',
+  level: 'info',
+  timestamp: '06-12-2023 05:36:06'
+}
+{
+  message: '✅ Conectado a Mongodb',
+  level: 'info',
+  timestamp: '06-12-2023 05:36:06'
+}
+{
+  message: 'The server is created from the express instance',
+  level: 'info',
+  timestamp: '06-12-2023 05:36:13'
+}
+{
+  message: '⭐⭐ Listening on http://localhost:5000 ⭐⭐',
+  level: 'info',
+  timestamp: '06-12-2023 05:36:13'
+}
+{
+  message: '✅ Conectado a Mongodb',
+  level: 'info',
+  timestamp: '06-12-2023 05:36:13'
+}
+{
+  message: 'The server is created from the express instance',
+  level: 'info',
+  timestamp: '06-12-2023 05:36:16'
+}
+{
+  message: '⭐⭐ Listening on http://localhost:5000 ⭐⭐',
+  level: 'info',
+  timestamp: '06-12-2023 05:36:16'
+}
+{
+  message: '✅ Conectado a Mongodb',
+  level: 'info',
+  timestamp: '06-12-2023 05:36:16'
+}
+{
+  message: 'The server is created from the express instance',
+  level: 'info',
+  timestamp: '06-12-2023 05:36:23'
+}
+{
+  message: '⭐⭐ Listening on http://localhost:5000 ⭐⭐',
+  level: 'info',
+  timestamp: '06-12-2023 05:36:23'
+}
+{
+  message: '✅ Conectado a Mongodb',
+  level: 'info',
+  timestamp: '06-12-2023 05:36:24'
+}
+{
+  message: 'The server is created from the express instance',
+  level: 'info',
+  timestamp: '06-12-2023 05:36:30'
+}
+{
+  message: '⭐⭐ Listening on http://localhost:5000 ⭐⭐',
+  level: 'info',
+  timestamp: '06-12-2023 05:36:30'
+}
+{
+  message: '✅ Conectado a Mongodb',
+  level: 'info',
+  timestamp: '06-12-2023 05:36:30'
+}
+{
+  message: 'The server is created from the express instance',
+  level: 'info',
+  timestamp: '06-12-2023 05:36:39'
+}
+{
+  message: '⭐⭐ Listening on http://localhost:5000 ⭐⭐',
+  level: 'info',
+  timestamp: '06-12-2023 05:36:39'
+}
+{
+  message: '✅ Conectado a Mongodb',
+  level: 'info',
+  timestamp: '06-12-2023 05:36:39'
+}
+{
+  message: 'The server is created from the express instance',
+  level: 'info',
+  timestamp: '06-12-2023 05:36:49'
+}
+{
+  message: '⭐⭐ Listening on http://localhost:5000 ⭐⭐',
+  level: 'info',
+  timestamp: '06-12-2023 05:36:49'
+}
+{
+  message: '✅ Conectado a Mongodb',
+  level: 'info',
+  timestamp: '06-12-2023 05:36:49'
+}
+{
+  message: 'The server is created from the express instance',
+  level: 'info',
+  timestamp: '06-12-2023 05:36:52'
+}
+{
+  message: '⭐⭐ Listening on http://localhost:5000 ⭐⭐',
+  level: 'info',
+  timestamp: '06-12-2023 05:36:52'
+}
+{
+  message: '✅ Conectado a Mongodb',
+  level: 'info',
+  timestamp: '06-12-2023 05:36:52'
+}
+{
+  message: 'The server is created from the express instance',
+  level: 'info',
+  timestamp: '06-12-2023 05:36:55'
+}
+{
+  message: '⭐⭐ Listening on http://localhost:5000 ⭐⭐',
+  level: 'info',
+  timestamp: '06-12-2023 05:36:55'
+}
+{
+  message: '✅ Conectado a Mongodb',
+  level: 'info',
+  timestamp: '06-12-2023 05:36:55'
+}
+{
+  message: 'The server is created from the express instance',
+  level: 'info',
+  timestamp: '06-12-2023 05:36:57'
+}
+{
+  message: '⭐⭐ Listening on http://localhost:5000 ⭐⭐',
+  level: 'info',
+  timestamp: '06-12-2023 05:36:57'
+}
+{
+  message: '✅ Conectado a Mongodb',
+  level: 'info',
+  timestamp: '06-12-2023 05:36:57'
+}
+{
+  message: 'The server is created from the express instance',
+  level: 'info',
+  timestamp: '06-12-2023 05:37:02'
+}
+{
+  message: '⭐⭐ Listening on http://localhost:5000 ⭐⭐',
+  level: 'info',
+  timestamp: '06-12-2023 05:37:02'
+}
+{
+  message: '✅ Conectado a Mongodb',
+  level: 'info',
+  timestamp: '06-12-2023 05:37:02'
+}
+{
+  message: 'The server is created from the express instance',
+  level: 'info',
+  timestamp: '06-12-2023 05:37:13'
+}
+{
+  message: '⭐⭐ Listening on http://localhost:5000 ⭐⭐',
+  level: 'info',
+  timestamp: '06-12-2023 05:37:13'
+}
+{
+  message: '✅ Conectado a Mongodb',
+  level: 'info',
+  timestamp: '06-12-2023 05:37:13'
+}
+{
+  message: 'The server is created from the express instance',
+  level: 'info',
+  timestamp: '06-12-2023 05:37:20'
+}
+{
+  message: '⭐⭐ Listening on http://localhost:5000 ⭐⭐',
+  level: 'info',
+  timestamp: '06-12-2023 05:37:20'
+}
+{
+  message: '✅ Conectado a Mongodb',
+  level: 'info',
+  timestamp: '06-12-2023 05:37:20'
+}
+{
+  message: 'The server is created from the express instance',
+  level: 'info',
+  timestamp: '06-12-2023 05:37:29'
+}
+{
+  message: '⭐⭐ Listening on http://localhost:5000 ⭐⭐',
+  level: 'info',
+  timestamp: '06-12-2023 05:37:29'
+}
+{
+  message: '✅ Conectado a Mongodb',
+  level: 'info',
+  timestamp: '06-12-2023 05:37:29'
+}
+{
+  message: 'The server is created from the express instance',
+  level: 'info',
+  timestamp: '06-12-2023 05:37:36'
+}
+{
+  message: '⭐⭐ Listening on http://localhost:5000 ⭐⭐',
+  level: 'info',
+  timestamp: '06-12-2023 05:37:36'
+}
+{
+  message: '✅ Conectado a Mongodb',
+  level: 'info',
+  timestamp: '06-12-2023 05:37:36'
+}
+{
+  message: 'The server is created from the express instance',
+  level: 'info',
+  timestamp: '06-12-2023 05:37:52'
+}
+{
+  message: '⭐⭐ Listening on http://localhost:5000 ⭐⭐',
+  level: 'info',
+  timestamp: '06-12-2023 05:37:52'
+}
+{
+  message: '✅ Conectado a Mongodb',
+  level: 'info',
+  timestamp: '06-12-2023 05:37:52'
+}
+{
+  message: 'The server is created from the express instance',
+  level: 'info',
+  timestamp: '06-12-2023 05:37:57'
+}
+{
+  message: '⭐⭐ Listening on http://localhost:5000 ⭐⭐',
+  level: 'info',
+  timestamp: '06-12-2023 05:37:57'
+}
+{
+  message: '✅ Conectado a Mongodb',
+  level: 'info',
+  timestamp: '06-12-2023 05:37:57'
+}
+{
+  message: 'The server is created from the express instance',
+  level: 'info',
+  timestamp: '06-12-2023 05:38:03'
+}
+{
+  message: '⭐⭐ Listening on http://localhost:5000 ⭐⭐',
+  level: 'info',
+  timestamp: '06-12-2023 05:38:03'
+}
+{
+  message: '✅ Conectado a Mongodb',
+  level: 'info',
+  timestamp: '06-12-2023 05:38:03'
+}
+{
+  message: 'The server is created from the express instance',
+  level: 'info',
+  timestamp: '06-12-2023 05:38:20'
+}
+{
+  message: '⭐⭐ Listening on http://localhost:5000 ⭐⭐',
+  level: 'info',
+  timestamp: '06-12-2023 05:38:20'
+}
+{
+  message: '✅ Conectado a Mongodb',
+  level: 'info',
+  timestamp: '06-12-2023 05:38:20'
+}
+{
+  message: 'The server is created from the express instance',
+  level: 'info',
+  timestamp: '06-12-2023 05:38:25'
+}
+{
+  message: '⭐⭐ Listening on http://localhost:5000 ⭐⭐',
+  level: 'info',
+  timestamp: '06-12-2023 05:38:25'
+}
+{
+  message: '✅ Conectado a Mongodb',
+  level: 'info',
+  timestamp: '06-12-2023 05:38:25'
+}
+{
+  message: 'The server is created from the express instance',
+  level: 'info',
+  timestamp: '06-12-2023 05:38:29'
+}
+{
+  message: '⭐⭐ Listening on http://localhost:5000 ⭐⭐',
+  level: 'info',
+  timestamp: '06-12-2023 05:38:29'
+}
+{
+  message: '✅ Conectado a Mongodb',
+  level: 'info',
+  timestamp: '06-12-2023 05:38:29'
+}
+{
+  message: 'The server is created from the express instance',
+  level: 'info',
+  timestamp: '06-12-2023 05:38:33'
+}
+{
+  message: '⭐⭐ Listening on http://localhost:5000 ⭐⭐',
+  level: 'info',
+  timestamp: '06-12-2023 05:38:33'
+}
+{
+  message: '✅ Conectado a Mongodb',
+  level: 'info',
+  timestamp: '06-12-2023 05:38:33'
+}
+{
+  message: 'The server is created from the express instance',
+  level: 'info',
+  timestamp: '06-12-2023 05:38:40'
+}
+{
+  message: '⭐⭐ Listening on http://localhost:5000 ⭐⭐',
+  level: 'info',
+  timestamp: '06-12-2023 05:38:40'
+}
+{
+  message: '✅ Conectado a Mongodb',
+  level: 'info',
+  timestamp: '06-12-2023 05:38:40'
+}
+{
+  message: 'The server is created from the express instance',
+  level: 'info',
+  timestamp: '06-12-2023 05:38:56'
+}
+{
+  message: '⭐⭐ Listening on http://localhost:5000 ⭐⭐',
+  level: 'info',
+  timestamp: '06-12-2023 05:38:56'
+}
+{
+  message: '✅ Conectado a Mongodb',
+  level: 'info',
+  timestamp: '06-12-2023 05:38:56'
+}
+{
+  message: 'The server is created from the express instance',
+  level: 'info',
+  timestamp: '06-12-2023 05:39:01'
+}
+{
+  message: '⭐⭐ Listening on http://localhost:5000 ⭐⭐',
+  level: 'info',
+  timestamp: '06-12-2023 05:39:01'
+}
+{
+  message: '✅ Conectado a Mongodb',
+  level: 'info',
+  timestamp: '06-12-2023 05:39:01'
+}
+{
+  message: '✅ Verificación de conexión a db existosa.',
+  level: 'info',
+  timestamp: '06-12-2023 05:39:19'
+}
+{
+  message: '👤 Guardando el usuario en la variable local',
+  level: 'info',
+  timestamp: '06-12-2023 05:39:19'
+}
+{
+  message: 'Se entrega dashboard de proyectos',
+  level: 'info',
+  timestamp: '06-12-2023 05:39:19'
+}
+{
+  message: 'GET /project 200 37.731 ms - 5606\n',
+  level: 'info',
+  timestamp: '06-12-2023 05:39:19'
+}
+{
+  message: '✅ Verificación de conexión a db existosa.',
+  level: 'info',
+  timestamp: '06-12-2023 05:39:23'
+}
+{
+  message: '👤 Guardando el usuario en la variable local',
+  level: 'info',
+  timestamp: '06-12-2023 05:39:23'
+}
+{
+  message: 'GET /project/add 200 15.698 ms - 8619\n',
+  level: 'info',
+  timestamp: '06-12-2023 05:39:23'
+}
+{
+  message: '✅ Verificación de conexión a db existosa.',
+  level: 'info',
+  timestamp: '06-12-2023 05:39:30'
+}
+{
+  message: '👤 Guardando el usuario en la variable local',
+  level: 'info',
+  timestamp: '06-12-2023 05:39:30'
+}
+{
+  message: 'Se extraen datos de la petición: Nombre Q ,Autor Q, Categoria: Q, ISBN Q, Descripcion Q ',
+  level: 'info',
+  timestamp: '06-12-2023 05:39:30'
+}
+{
+  message: 'Se carga proyecto {\n' +
+    "  Nombre: 'Q',\n" +
+    "  Autor: 'Q',\n" +
+    "  Categoria: 'Q',\n" +
+    "  ISBN: 'Q',\n" +
+    "  Existencias: 'Q',\n" +
+    "  Descripcion: 'Q',\n" +
+    '  _id: new ObjectId("657009129762ed70751b66aa"),\n' +
+    '  __v: 0\n' +
+    '}',
+  level: 'info',
+  timestamp: '06-12-2023 05:39:30'
+}
+{
+  message: 'Se redirecciona el sistema a /project',
+  level: 'info',
+  timestamp: '06-12-2023 05:39:30'
+}
+{
+  message: 'POST /project/add 302 24.015 ms - 60\n',
+  level: 'info',
+  timestamp: '06-12-2023 05:39:30'
+}
+{
+  message: '✅ Verificación de conexión a db existosa.',
+  level: 'info',
+  timestamp: '06-12-2023 05:39:30'
+}
+{
+  message: '👤 Guardando el usuario en la variable local',
+  level: 'info',
+  timestamp: '06-12-2023 05:39:30'
+}
+{
+  message: 'Se entrega dashboard de proyectos',
+  level: 'info',
+  timestamp: '06-12-2023 05:39:30'
+}
+{
+  message: 'GET /project 200 10.742 ms - 6633\n',
+  level: 'info',
+  timestamp: '06-12-2023 05:39:30'
+}
+{
+  message: '✅ Verificación de conexión a db existosa.',
+  level: 'info',
+  timestamp: '06-12-2023 05:39:31'
+}
+{
+  message: '👤 Guardando el usuario en la variable local',
+  level: 'info',
+  timestamp: '06-12-2023 05:39:31'
+}
+{
+  message: 'Se inicia la busqueda del proyecto con el id: 657009129762ed70751b66aa',
+  level: 'info',
+  timestamp: '06-12-2023 05:39:31'
+}
+{
+  message: 'Proyecto encontrado con el id: 657009129762ed70751b66aa',
+  level: 'info',
+  timestamp: '06-12-2023 05:39:31'
+}
+{
+  message: 'GET /project/edit/657009129762ed70751b66aa 200 15.668 ms - 8662\n',
+  level: 'info',
+  timestamp: '06-12-2023 05:39:31'
+}
+{
+  message: '✅ Verificación de conexión a db existosa.',
+  level: 'info',
+  timestamp: '06-12-2023 05:39:37'
+}
+{
+  message: '👤 Guardando el usuario en la variable local',
+  level: 'info',
+  timestamp: '06-12-2023 05:39:37'
+}
+{
+  message: 'Se extraen datos de la petición: Nombre E ,Autor E, Categoria: E, ISBN E, Descripcion E ',
+  level: 'info',
+  timestamp: '06-12-2023 05:39:37'
+}
+{
+  message: 'Actualizando proyecto con id: 657009129762ed70751b66aa',
+  level: 'info',
+  timestamp: '06-12-2023 05:39:37'
+}
+{
+  message: 'PUT /project/edit/657009129762ed70751b66aa?_method=put 302 12.628 ms - 120\n',
+  level: 'info',
+  timestamp: '06-12-2023 05:39:37'
+}
+{
+  message: '✅ Verificación de conexión a db existosa.',
+  level: 'info',
+  timestamp: '06-12-2023 05:39:38'
+}
+{
+  message: '👤 Guardando el usuario en la variable local',
+  level: 'info',
+  timestamp: '06-12-2023 05:39:38'
+}
+{
+  message: 'Se inicia la busqueda del proyecto con el id: 657009129762ed70751b66aa',
+  level: 'info',
+  timestamp: '06-12-2023 05:39:38'
+}
+{
+  message: 'Proyecto encontrado con el id: 657009129762ed70751b66aa',
+  level: 'info',
+  timestamp: '06-12-2023 05:39:38'
+}
+{
+  message: 'GET /project/edit/657009129762ed70751b66aa 200 13.504 ms - 8956\n',
+  level: 'info',
+  timestamp: '06-12-2023 05:39:38'
+}
+{
+  message: '✅ Verificación de conexión a db existosa.',
+  level: 'info',
+  timestamp: '06-12-2023 05:39:41'
+}
+{
+  message: '👤 Guardando el usuario en la variable local',
+  level: 'info',
+  timestamp: '06-12-2023 05:39:41'
+}
+{
+  message: 'Se entrega dashboard de proyectos',
+  level: 'info',
+  timestamp: '06-12-2023 05:39:41'
+}
+{
+  message: 'GET /project 200 9.186 ms - 6351\n',
+  level: 'info',
+  timestamp: '06-12-2023 05:39:41'
+}
+{
+  message: '✅ Verificación de conexión a db existosa.',
+  level: 'info',
+  timestamp: '06-12-2023 05:47:24'
+}
+{
+  message: '👤 Guardando el usuario en la variable local',
+  level: 'info',
+  timestamp: '06-12-2023 05:47:24'
+}
+{
+  message: 'Se entrega dashboard de proyectos',
+  level: 'info',
+  timestamp: '06-12-2023 05:47:24'
+}
+{
+  message: 'GET /project 200 9.617 ms - 6221\n',
+  level: 'info',
+  timestamp: '06-12-2023 05:47:24'
+}
+{
+  message: '✅ Verificación de conexión a db existosa.',
+  level: 'info',
+  timestamp: '06-12-2023 05:49:35'
+}
+{
+  message: '👤 Guardando el usuario en la variable local',
+  level: 'info',
+  timestamp: '06-12-2023 05:49:35'
+}
+{
+  message: 'Se entrega dashboard de proyectos',
+  level: 'info',
+  timestamp: '06-12-2023 05:49:35'
+}
+{
+  message: 'GET /project 200 10.572 ms - 6413\n',
+  level: 'info',
+  timestamp: '06-12-2023 05:49:35'
+}
+{
+  message: '✅ Verificación de conexión a db existosa.',
+  level: 'info',
+  timestamp: '06-12-2023 05:52:19'
+}
+{
+  message: '👤 Guardando el usuario en la variable local',
+  level: 'info',
+  timestamp: '06-12-2023 05:52:19'
+}
+{
+  message: 'Se entrega dashboard de proyectos',
+  level: 'info',
+  timestamp: '06-12-2023 05:52:19'
+}
+{
+  message: 'GET /project 200 14.807 ms - 6436\n',
+  level: 'info',
+  timestamp: '06-12-2023 05:52:19'
+}
+{
+  message: '✅ Verificación de conexión a db existosa.',
+  level: 'info',
+  timestamp: '06-12-2023 06:00:42'
+}
+{
+  message: '👤 Guardando el usuario en la variable local',
+  level: 'info',
+  timestamp: '06-12-2023 06:00:42'
+}
+{
+  message: 'Se entrega dashboard de proyectos',
+  level: 'info',
+  timestamp: '06-12-2023 06:00:42'
+}
+{
+  message: 'GET /project 200 11.292 ms - 5559\n',
+  level: 'info',
+  timestamp: '06-12-2023 06:00:42'
+}
+{
+  message: '✅ Verificación de conexión a db existosa.',
+  level: 'info',
+  timestamp: '06-12-2023 06:00:45'
+}
+{
+  message: '👤 Guardando el usuario en la variable local',
+  level: 'info',
+  timestamp: '06-12-2023 06:00:45'
+}
+{
+  message: 'Se inicia la busqueda del proyecto con el id: 657009129762ed70751b66aa',
+  level: 'info',
+  timestamp: '06-12-2023 06:00:45'
+}
+{
+  message: 'Proyecto encontrado con el id: 657009129762ed70751b66aa',
+  level: 'info',
+  timestamp: '06-12-2023 06:00:45'
+}
+{
+  message: 'GET /project/edit/657009129762ed70751b66aa 200 12.473 ms - 8662\n',
+  level: 'info',
+  timestamp: '06-12-2023 06:00:45'
+}
+{
+  message: '✅ Verificación de conexión a db existosa.',
+  level: 'info',
+  timestamp: '06-12-2023 06:00:47'
+}
+{
+  message: '👤 Guardando el usuario en la variable local',
+  level: 'info',
+  timestamp: '06-12-2023 06:00:47'
+}
+{
+  message: 'Se entrega dashboard de proyectos',
+  level: 'info',
+  timestamp: '06-12-2023 06:00:47'
+}
+{
+  message: 'GET /project 200 9.818 ms - 5559\n',
+  level: 'info',
+  timestamp: '06-12-2023 06:00:47'
+}
+{
+  message: '✅ Verificación de conexión a db existosa.',
+  level: 'info',
+  timestamp: '06-12-2023 06:00:48'
+}
+{
+  message: '👤 Guardando el usuario en la variable local',
+  level: 'info',
+  timestamp: '06-12-2023 06:00:48'
+}
+{
+  message: 'DELETE /project/657009129762ed70751b66aa 200 5.539 ms - 130\n',
+  level: 'info',
+  timestamp: '06-12-2023 06:00:48'
+}
+{
+  message: '✅ Verificación de conexión a db existosa.',
+  level: 'info',
+  timestamp: '06-12-2023 06:00:48'
+}
+{
+  message: '👤 Guardando el usuario en la variable local',
+  level: 'info',
+  timestamp: '06-12-2023 06:00:48'
+}
+{
+  message: 'Se entrega dashboard de proyectos',
+  level: 'info',
+  timestamp: '06-12-2023 06:00:48'
+}
+{
+  message: 'GET /project 200 10.121 ms - 5105\n',
+  level: 'info',
+  timestamp: '06-12-2023 06:00:48'
+}
+{
+  message: 'The server is created from the express instance',
+  level: 'info',
+  timestamp: '06-12-2023 06:01:51'
+}
+{
+  message: '⭐⭐ Listening on http://localhost:5000 ⭐⭐',
+  level: 'info',
+  timestamp: '06-12-2023 06:01:51'
+}
+{
+  message: '✅ Conectado a Mongodb',
+  level: 'info',
+  timestamp: '06-12-2023 06:01:51'
+}
+{
+  message: 'The server is created from the express instance',
+  level: 'info',
+  timestamp: '06-12-2023 06:02:58'
+}
+{
+  message: '⭐⭐ Listening on http://localhost:5000 ⭐⭐',
+  level: 'info',
+  timestamp: '06-12-2023 06:02:58'
+}
+{
+  message: '✅ Conectado a Mongodb',
+  level: 'info',
+  timestamp: '06-12-2023 06:02:58'
+}
+{
+  message: 'The server is created from the express instance',
+  level: 'info',
+  timestamp: '06-12-2023 06:02:59'
+}
+{
+  message: '⭐⭐ Listening on http://localhost:5000 ⭐⭐',
+  level: 'info',
+  timestamp: '06-12-2023 06:02:59'
+}
+{
+  message: '✅ Conectado a Mongodb',
+  level: 'info',
+  timestamp: '06-12-2023 06:02:59'
+}
+{
+  message: 'The server is created from the express instance',
+  level: 'info',
+  timestamp: '06-12-2023 06:03:20'
+}
+{
+  message: '⭐⭐ Listening on http://localhost:5000 ⭐⭐',
+  level: 'info',
+  timestamp: '06-12-2023 06:03:20'
+}
+{
+  message: '✅ Conectado a Mongodb',
+  level: 'info',
+  timestamp: '06-12-2023 06:03:20'
+}
+{
+  message: 'The server is created from the express instance',
+  level: 'info',
+  timestamp: '06-12-2023 06:03:46'
+}
+{
+  message: '⭐⭐ Listening on http://localhost:5000 ⭐⭐',
+  level: 'info',
+  timestamp: '06-12-2023 06:03:46'
+}
+{
+  message: '✅ Conectado a Mongodb',
+  level: 'info',
+  timestamp: '06-12-2023 06:03:46'
+}
+{
+  message: 'The server is created from the express instance',
+  level: 'info',
+  timestamp: '06-12-2023 06:03:49'
+}
+{
+  message: '⭐⭐ Listening on http://localhost:5000 ⭐⭐',
+  level: 'info',
+  timestamp: '06-12-2023 06:03:49'
+}
+{
+  message: '✅ Conectado a Mongodb',
+  level: 'info',
+  timestamp: '06-12-2023 06:03:49'
+}
+{
+  message: 'The server is created from the express instance',
+  level: 'info',
+  timestamp: '06-12-2023 06:04:51'
+}
+{
+  message: '⭐⭐ Listening on http://localhost:5000 ⭐⭐',
+  level: 'info',
+  timestamp: '06-12-2023 06:04:51'
+}
+{
+  message: '✅ Conectado a Mongodb',
+  level: 'info',
+  timestamp: '06-12-2023 06:04:51'
+}
+{
+  message: 'The server is created from the express instance',
+  level: 'info',
+  timestamp: '06-12-2023 06:05:34'
+}
+{
+  message: '⭐⭐ Listening on http://localhost:5000 ⭐⭐',
+  level: 'info',
+  timestamp: '06-12-2023 06:05:34'
+}
+{
+  message: '✅ Conectado a Mongodb',
+  level: 'info',
+  timestamp: '06-12-2023 06:05:34'
+}
+{
+  message: 'The server is created from the express instance',
+  level: 'info',
+  timestamp: '06-12-2023 06:07:51'
+}
+{
+  message: '⭐⭐ Listening on http://localhost:5000 ⭐⭐',
+  level: 'info',
+  timestamp: '06-12-2023 06:07:51'
+}
+{
+  message: '✅ Conectado a Mongodb',
+  level: 'info',
+  timestamp: '06-12-2023 06:07:51'
+}
+{
+  message: 'The server is created from the express instance',
+  level: 'info',
+  timestamp: '06-12-2023 06:08:03'
+}
+{
+  message: '⭐⭐ Listening on http://localhost:5000 ⭐⭐',
+  level: 'info',
+  timestamp: '06-12-2023 06:08:03'
+}
+{
+  message: '✅ Conectado a Mongodb',
+  level: 'info',
+  timestamp: '06-12-2023 06:08:03'
+}
+{
+  message: 'The server is created from the express instance',
+  level: 'info',
+  timestamp: '06-12-2023 06:09:32'
+}
+{
+  message: '⭐⭐ Listening on http://localhost:5000 ⭐⭐',
+  level: 'info',
+  timestamp: '06-12-2023 06:09:32'
+}
+{
+  message: '✅ Conectado a Mongodb',
+  level: 'info',
+  timestamp: '06-12-2023 06:09:32'
+}
+{
+  message: 'The server is created from the express instance',
+  level: 'info',
+  timestamp: '06-12-2023 06:09:49'
+}
+{
+  message: '⭐⭐ Listening on http://localhost:5000 ⭐⭐',
+  level: 'info',
+  timestamp: '06-12-2023 06:09:49'
+}
+{
+  message: '✅ Conectado a Mongodb',
+  level: 'info',
+  timestamp: '06-12-2023 06:09:49'
+}
+{
+  message: 'The server is created from the express instance',
+  level: 'info',
+  timestamp: '06-12-2023 06:09:59'
+}
+{
+  message: '⭐⭐ Listening on http://localhost:5000 ⭐⭐',
+  level: 'info',
+  timestamp: '06-12-2023 06:09:59'
+}
+{
+  message: '✅ Conectado a Mongodb',
+  level: 'info',
+  timestamp: '06-12-2023 06:09:59'
+}
+{
+  message: 'The server is created from the express instance',
+  level: 'info',
+  timestamp: '06-12-2023 06:10:01'
+}
+{
+  message: '⭐⭐ Listening on http://localhost:5000 ⭐⭐',
+  level: 'info',
+  timestamp: '06-12-2023 06:10:01'
+}
+{
+  message: '✅ Conectado a Mongodb',
+  level: 'info',
+  timestamp: '06-12-2023 06:10:01'
+}
+{
+  message: 'The server is created from the express instance',
+  level: 'info',
+  timestamp: '06-12-2023 06:10:13'
+}
+{
+  message: '⭐⭐ Listening on http://localhost:5000 ⭐⭐',
+  level: 'info',
+  timestamp: '06-12-2023 06:10:13'
+}
+{
+  message: '✅ Conectado a Mongodb',
+  level: 'info',
+  timestamp: '06-12-2023 06:10:13'
+}
+{
+  message: 'The server is created from the express instance',
+  level: 'info',
+  timestamp: '06-12-2023 06:11:14'
+}
+{
+  message: '⭐⭐ Listening on http://localhost:5000 ⭐⭐',
+  level: 'info',
+  timestamp: '06-12-2023 06:11:14'
+}
+{
+  message: '✅ Conectado a Mongodb',
+  level: 'info',
+  timestamp: '06-12-2023 06:11:15'
+}
+{
+  message: 'The server is created from the express instance',
+  level: 'info',
+  timestamp: '06-12-2023 06:11:17'
+}
+{
+  message: '⭐⭐ Listening on http://localhost:5000 ⭐⭐',
+  level: 'info',
+  timestamp: '06-12-2023 06:11:17'
+}
+{
+  message: '✅ Conectado a Mongodb',
+  level: 'info',
+  timestamp: '06-12-2023 06:11:17'
+}
+{
+  message: 'The server is created from the express instance',
+  level: 'info',
+  timestamp: '06-12-2023 06:11:37'
+}
+{
+  message: '⭐⭐ Listening on http://localhost:5000 ⭐⭐',
+  level: 'info',
+  timestamp: '06-12-2023 06:11:37'
+}
+{
+  message: '✅ Conectado a Mongodb',
+  level: 'info',
+  timestamp: '06-12-2023 06:11:37'
+}
+{
+  message: 'The server is created from the express instance',
+  level: 'info',
+  timestamp: '06-12-2023 06:11:52'
+}
+{
+  message: '⭐⭐ Listening on http://localhost:5000 ⭐⭐',
+  level: 'info',
+  timestamp: '06-12-2023 06:11:52'
+}
+{
+  message: '✅ Conectado a Mongodb',
+  level: 'info',
+  timestamp: '06-12-2023 06:11:52'
+}
+{
+  message: 'The server is created from the express instance',
+  level: 'info',
+  timestamp: '06-12-2023 06:12:12'
+}
+{
+  message: '⭐⭐ Listening on http://localhost:5000 ⭐⭐',
+  level: 'info',
+  timestamp: '06-12-2023 06:12:12'
+}
+{
+  message: '✅ Conectado a Mongodb',
+  level: 'info',
+  timestamp: '06-12-2023 06:12:12'
+}
+{
+  message: '✅ Verificación de conexión a db existosa.',
+  level: 'info',
+  timestamp: '06-12-2023 06:23:21'
+}
+{
+  message: '👤 Guardando el usuario en la variable local',
+  level: 'info',
+  timestamp: '06-12-2023 06:23:21'
+}
+{
+  message: 'GET /project/add 200 41.057 ms - 8619\n',
+  level: 'info',
+  timestamp: '06-12-2023 06:23:21'
+}
+{
+  message: '✅ Verificación de conexión a db existosa.',
+  level: 'info',
+  timestamp: '06-12-2023 06:23:29'
+}
+{
+  message: '👤 Guardando el usuario en la variable local',
+  level: 'info',
+  timestamp: '06-12-2023 06:23:29'
+}
+{
+  message: 'Se extraen datos de la petición: Nombre w ,Autor w, Categoria: w, ISBN w, Descripcion w ',
+  level: 'info',
+  timestamp: '06-12-2023 06:23:29'
+}
+{
+  message: 'Se carga proyecto {\n' +
+    "  Nombre: 'w',\n" +
+    "  Autor: 'w',\n" +
+    "  Categoria: 'w',\n" +
+    "  ISBN: 'w',\n" +
+    "  Existencias: 'w',\n" +
+    "  Descripcion: 'w',\n" +
+    '  _id: new ObjectId("657013619459d06a34673462"),\n' +
+    '  __v: 0\n' +
+    '}',
+  level: 'info',
+  timestamp: '06-12-2023 06:23:29'
+}
+{
+  message: 'Se redirecciona el sistema a /project',
+  level: 'info',
+  timestamp: '06-12-2023 06:23:29'
+}
+{
+  message: 'POST /project/add 302 23.181 ms - 60\n',
+  level: 'info',
+  timestamp: '06-12-2023 06:23:29'
+}
+{
+  message: '✅ Verificación de conexión a db existosa.',
+  level: 'info',
+  timestamp: '06-12-2023 06:23:29'
+}
+{
+  message: '👤 Guardando el usuario en la variable local',
+  level: 'info',
+  timestamp: '06-12-2023 06:23:29'
+}
+{
+  message: 'Se entrega dashboard de proyectos',
+  level: 'info',
+  timestamp: '06-12-2023 06:23:29'
+}
+{
+  message: 'GET /project 200 17.889 ms - 6789\n',
+  level: 'info',
+  timestamp: '06-12-2023 06:23:29'
+}
+{
+  message: '✅ Verificación de conexión a db existosa.',
+  level: 'info',
+  timestamp: '06-12-2023 06:23:35'
+}
+{
+  message: '👤 Guardando el usuario en la variable local',
+  level: 'info',
+  timestamp: '06-12-2023 06:23:35'
+}
+{
+  message: 'GET /project.Nombre%20search=W 404 3.540 ms - 164\n',
+  level: 'info',
+  timestamp: '06-12-2023 06:23:35'
+}
+{
+  message: '✅ Verificación de conexión a db existosa.',
+  level: 'info',
+  timestamp: '06-12-2023 06:23:35'
+}
+{
+  message: '👤 Guardando el usuario en la variable local',
+  level: 'info',
+  timestamp: '06-12-2023 06:23:35'
+}
+{
+  message: 'GET /project.Nombre%20search=W 404 3.059 ms - 164\n',
+  level: 'info',
+  timestamp: '06-12-2023 06:23:35'
+}
+{
+  message: '✅ Verificación de conexión a db existosa.',
+  level: 'info',
+  timestamp: '06-12-2023 06:23:36'
+}
+{
+  message: '👤 Guardando el usuario en la variable local',
+  level: 'info',
+  timestamp: '06-12-2023 06:23:36'
+}
+{
+  message: 'GET /project.Nombre%20search=W 404 2.397 ms - 164\n',
+  level: 'info',
+  timestamp: '06-12-2023 06:23:36'
+}
+{
+  message: '✅ Verificación de conexión a db existosa.',
+  level: 'info',
+  timestamp: '06-12-2023 06:23:36'
+}
+{
+  message: '👤 Guardando el usuario en la variable local',
+  level: 'info',
+  timestamp: '06-12-2023 06:23:36'
+}
+{
+  message: 'GET /project.Nombre%20search=W 404 2.838 ms - 164\n',
+  level: 'info',
+  timestamp: '06-12-2023 06:23:36'
+}
+{
+  message: '✅ Verificación de conexión a db existosa.',
+  level: 'info',
+  timestamp: '06-12-2023 06:23:36'
+}
+{
+  message: '👤 Guardando el usuario en la variable local',
+  level: 'info',
+  timestamp: '06-12-2023 06:23:36'
+}
+{
+  message: 'GET /project.Nombre%20search=W 404 3.009 ms - 164\n',
+  level: 'info',
+  timestamp: '06-12-2023 06:23:36'
+}
+{
+  message: '✅ Verificación de conexión a db existosa.',
+  level: 'info',
+  timestamp: '06-12-2023 06:23:36'
+}
+{
+  message: '👤 Guardando el usuario en la variable local',
+  level: 'info',
+  timestamp: '06-12-2023 06:23:36'
+}
+{
+  message: 'GET /project.Nombre%20search=W 404 2.579 ms - 164\n',
+  level: 'info',
+  timestamp: '06-12-2023 06:23:36'
+}
+{
+  message: '✅ Verificación de conexión a db existosa.',
+  level: 'info',
+  timestamp: '06-12-2023 06:23:48'
+}
+{
+  message: '👤 Guardando el usuario en la variable local',
+  level: 'info',
+  timestamp: '06-12-2023 06:23:48'
+}
+{
+  message: 'GET /project.Nombre%20search=W 404 2.552 ms - 164\n',
+  level: 'info',
+  timestamp: '06-12-2023 06:23:48'
+}
+{
+  message: '✅ Verificación de conexión a db existosa.',
+  level: 'info',
+  timestamp: '06-12-2023 06:24:16'
+}
+{
+  message: '👤 Guardando el usuario en la variable local',
+  level: 'info',
+  timestamp: '06-12-2023 06:24:16'
+}
+{
+  message: 'GET /project.Nombre%20search=W 404 2.612 ms - 164\n',
+  level: 'info',
+  timestamp: '06-12-2023 06:24:16'
+}
+{
+  message: '✅ Verificación de conexión a db existosa.',
+  level: 'info',
+  timestamp: '06-12-2023 06:24:34'
+}
+{
+  message: '👤 Guardando el usuario en la variable local',
+  level: 'info',
+  timestamp: '06-12-2023 06:24:34'
+}
+{
+  message: 'Se entrega dashboard de proyectos',
+  level: 'info',
+  timestamp: '06-12-2023 06:24:34'
+}
+{
+  message: 'GET /project 200 10.327 ms - 6500\n',
+  level: 'info',
+  timestamp: '06-12-2023 06:24:34'
+}
+{
+  message: '✅ Verificación de conexión a db existosa.',
+  level: 'info',
+  timestamp: '06-12-2023 06:24:43'
+}
+{
+  message: '👤 Guardando el usuario en la variable local',
+  level: 'info',
+  timestamp: '06-12-2023 06:24:43'
+}
+{
+  message: 'GET /project%20search=W 404 2.475 ms - 157\n',
+  level: 'info',
+  timestamp: '06-12-2023 06:24:43'
+}
+{
+  message: '✅ Verificación de conexión a db existosa.',
+  level: 'info',
+  timestamp: '06-12-2023 06:48:09'
+}
+{
+  message: '👤 Guardando el usuario en la variable local',
+  level: 'info',
+  timestamp: '06-12-2023 06:48:09'
+}
+{
+  message: 'GET /project%20search=W 404 2.381 ms - 157\n',
+  level: 'info',
+  timestamp: '06-12-2023 06:48:09'
+}
+{
+  message: '✅ Verificación de conexión a db existosa.',
+  level: 'info',
+  timestamp: '06-12-2023 06:48:09'
+}
+{
+  message: '👤 Guardando el usuario en la variable local',
+  level: 'info',
+  timestamp: '06-12-2023 06:48:09'
+}
+{
+  message: 'GET /project%20search=W 404 2.248 ms - 157\n',
+  level: 'info',
+  timestamp: '06-12-2023 06:48:09'
+}
+{
+  message: '✅ Verificación de conexión a db existosa.',
+  level: 'info',
+  timestamp: '06-12-2023 06:48:10'
+}
+{
+  message: '👤 Guardando el usuario en la variable local',
+  level: 'info',
+  timestamp: '06-12-2023 06:48:10'
+}
+{
+  message: 'GET /project%20search=W 404 2.381 ms - 157\n',
+  level: 'info',
+  timestamp: '06-12-2023 06:48:10'
+}
+{
+  message: '✅ Verificación de conexión a db existosa.',
+  level: 'info',
+  timestamp: '06-12-2023 06:48:10'
+}
+{
+  message: '👤 Guardando el usuario en la variable local',
+  level: 'info',
+  timestamp: '06-12-2023 06:48:10'
+}
+{
+  message: 'GET /project%20search=W 404 2.505 ms - 157\n',
+  level: 'info',
+  timestamp: '06-12-2023 06:48:10'
+}
+{
+  message: '✅ Verificación de conexión a db existosa.',
+  level: 'info',
+  timestamp: '06-12-2023 06:48:10'
+}
+{
+  message: '👤 Guardando el usuario en la variable local',
+  level: 'info',
+  timestamp: '06-12-2023 06:48:10'
+}
+{
+  message: 'GET /project%20search=W 404 2.429 ms - 157\n',
+  level: 'info',
+  timestamp: '06-12-2023 06:48:10'
+}
+{
+  message: '✅ Verificación de conexión a db existosa.',
+  level: 'info',
+  timestamp: '06-12-2023 06:49:15'
+}
+{
+  message: '👤 Guardando el usuario en la variable local',
+  level: 'info',
+  timestamp: '06-12-2023 06:49:15'
+}
+{
+  message: 'Se entrega dashboard de proyectos',
+  level: 'info',
+  timestamp: '06-12-2023 06:49:15'
+}
+{
+  message: 'GET /project 200 13.655 ms - 6501\n',
+  level: 'info',
+  timestamp: '06-12-2023 06:49:15'
+}
+{
+  message: '✅ Verificación de conexión a db existosa.',
+  level: 'info',
+  timestamp: '06-12-2023 06:49:21'
+}
+{
+  message: '👤 Guardando el usuario en la variable local',
+  level: 'info',
+  timestamp: '06-12-2023 06:49:21'
+}
+{
+  message: 'GET /projects%20search=w 404 2.433 ms - 158\n',
+  level: 'info',
+  timestamp: '06-12-2023 06:49:21'
+}
+{
+  message: '✅ Verificación de conexión a db existosa.',
+  level: 'info',
+  timestamp: '06-12-2023 06:49:21'
+}
+{
+  message: '👤 Guardando el usuario en la variable local',
+  level: 'info',
+  timestamp: '06-12-2023 06:49:21'
+}
+{
+  message: 'GET /projects%20search=w 404 2.020 ms - 158\n',
+  level: 'info',
+  timestamp: '06-12-2023 06:49:21'
+}
+{
+  message: '✅ Verificación de conexión a db existosa.',
+  level: 'info',
+  timestamp: '06-12-2023 06:49:22'
+}
+{
+  message: '👤 Guardando el usuario en la variable local',
+  level: 'info',
+  timestamp: '06-12-2023 06:49:22'
+}
+{
+  message: 'GET /projects%20search=w 404 4.596 ms - 158\n',
+  level: 'info',
+  timestamp: '06-12-2023 06:49:22'
+}
+{
+  message: '✅ Verificación de conexión a db existosa.',
+  level: 'info',
+  timestamp: '06-12-2023 06:49:22'
+}
+{
+  message: '👤 Guardando el usuario en la variable local',
+  level: 'info',
+  timestamp: '06-12-2023 06:49:22'
+}
+{
+  message: 'GET /projects%20search=w 404 2.082 ms - 158\n',
+  level: 'info',
+  timestamp: '06-12-2023 06:49:22'
+}
+{
+  message: '✅ Verificación de conexión a db existosa.',
+  level: 'info',
+  timestamp: '06-12-2023 06:49:38'
+}
+{
+  message: '👤 Guardando el usuario en la variable local',
+  level: 'info',
+  timestamp: '06-12-2023 06:49:38'
+}
+{
+  message: 'GET /projects%20search=w 404 2.123 ms - 158\n',
+  level: 'info',
+  timestamp: '06-12-2023 06:49:38'
+}
+{
+  message: '✅ Verificación de conexión a db existosa.',
+  level: 'info',
+  timestamp: '06-12-2023 06:49:45'
+}
+{
+  message: '👤 Guardando el usuario en la variable local',
+  level: 'info',
+  timestamp: '06-12-2023 06:49:45'
+}
+{
+  message: 'GET /projects%20search=w 404 1.972 ms - 158\n',
+  level: 'info',
+  timestamp: '06-12-2023 06:49:45'
+}
+{
+  message: '✅ Verificación de conexión a db existosa.',
+  level: 'info',
+  timestamp: '06-12-2023 06:49:54'
+}
+{
+  message: '👤 Guardando el usuario en la variable local',
+  level: 'info',
+  timestamp: '06-12-2023 06:49:54'
+}
+{
+  message: 'GET /projects%20search=w 404 1.946 ms - 158\n',
+  level: 'info',
+  timestamp: '06-12-2023 06:49:54'
+}
+{
+  message: '✅ Verificación de conexión a db existosa.',
+  level: 'info',
+  timestamp: '06-12-2023 06:50:15'
+}
+{
+  message: '👤 Guardando el usuario en la variable local',
+  level: 'info',
+  timestamp: '06-12-2023 06:50:15'
+}
+{
+  message: 'GET /projects%20search=w 404 2.879 ms - 158\n',
+  level: 'info',
+  timestamp: '06-12-2023 06:50:15'
+}
+{
+  message: '✅ Verificación de conexión a db existosa.',
+  level: 'info',
+  timestamp: '06-12-2023 06:50:15'
+}
+{
+  message: '👤 Guardando el usuario en la variable local',
+  level: 'info',
+  timestamp: '06-12-2023 06:50:15'
+}
+{
+  message: 'GET /projects%20search=w 404 2.353 ms - 158\n',
+  level: 'info',
+  timestamp: '06-12-2023 06:50:15'
+}
+{
+  message: '✅ Verificación de conexión a db existosa.',
+  level: 'info',
+  timestamp: '06-12-2023 06:52:44'
+}
+{
+  message: '👤 Guardando el usuario en la variable local',
+  level: 'info',
+  timestamp: '06-12-2023 06:52:44'
+}
+{
+  message: 'Se entrega dashboard de proyectos',
+  level: 'info',
+  timestamp: '06-12-2023 06:52:44'
+}
+{
+  message: 'GET /project 200 11.643 ms - 6497\n',
+  level: 'info',
+  timestamp: '06-12-2023 06:52:44'
+}
+{
+  message: '✅ Verificación de conexión a db existosa.',
+  level: 'info',
+  timestamp: '06-12-2023 06:52:55'
+}
+{
+  message: '👤 Guardando el usuario en la variable local',
+  level: 'info',
+  timestamp: '06-12-2023 06:52:55'
+}
+{
+  message: 'Se entrega dashboard de proyectos',
+  level: 'info',
+  timestamp: '06-12-2023 06:52:55'
+}
+{
+  message: 'GET /project 200 12.984 ms - 6501\n',
+  level: 'info',
+  timestamp: '06-12-2023 06:52:55'
+}
+{
+  message: '✅ Verificación de conexión a db existosa.',
+  level: 'info',
+  timestamp: '06-12-2023 06:52:57'
+}
+{
+  message: '👤 Guardando el usuario en la variable local',
+  level: 'info',
+  timestamp: '06-12-2023 06:52:57'
+}
+{
+  message: 'GET /projects%20search= 404 2.414 ms - 157\n',
+  level: 'info',
+  timestamp: '06-12-2023 06:52:57'
+}
+{
+  message: '✅ Verificación de conexión a db existosa.',
+  level: 'info',
+  timestamp: '06-12-2023 06:52:57'
+}
+{
+  message: '👤 Guardando el usuario en la variable local',
+  level: 'info',
+  timestamp: '06-12-2023 06:52:57'
+}
+{
+  message: 'GET /projects%20search= 404 2.288 ms - 157\n',
+  level: 'info',
+  timestamp: '06-12-2023 06:52:57'
+}
+{
+  message: '✅ Verificación de conexión a db existosa.',
+  level: 'info',
+  timestamp: '06-12-2023 06:52:58'
+}
+{
+  message: '👤 Guardando el usuario en la variable local',
+  level: 'info',
+  timestamp: '06-12-2023 06:52:58'
+}
+{
+  message: 'GET /projects%20search= 404 2.497 ms - 157\n',
+  level: 'info',
+  timestamp: '06-12-2023 06:52:58'
+}
+{
+  message: '✅ Verificación de conexión a db existosa.',
+  level: 'info',
+  timestamp: '06-12-2023 06:53:01'
+}
+{
+  message: '👤 Guardando el usuario en la variable local',
+  level: 'info',
+  timestamp: '06-12-2023 06:53:01'
+}
+{
+  message: 'GET /projects%20search= 404 1.990 ms - 157\n',
+  level: 'info',
+  timestamp: '06-12-2023 06:53:01'
+}
+{
+  message: '✅ Verificación de conexión a db existosa.',
+  level: 'info',
+  timestamp: '06-12-2023 06:59:21'
+}
+{
+  message: '👤 Guardando el usuario en la variable local',
+  level: 'info',
+  timestamp: '06-12-2023 06:59:21'
+}
+{
+  message: 'GET /projects%20search= 404 2.415 ms - 157\n',
+  level: 'info',
+  timestamp: '06-12-2023 06:59:21'
+}
+{
+  message: '✅ Verificación de conexión a db existosa.',
+  level: 'info',
+  timestamp: '06-12-2023 06:59:26'
+}
+{
+  message: '👤 Guardando el usuario en la variable local',
+  level: 'info',
+  timestamp: '06-12-2023 06:59:26'
+}
+{
+  message: 'GET /projects%20search=W 404 2.682 ms - 158\n',
+  level: 'info',
+  timestamp: '06-12-2023 06:59:26'
+}
+{
+  message: '✅ Verificación de conexión a db existosa.',
+  level: 'info',
+  timestamp: '06-12-2023 07:03:21'
+}
+{
+  message: '👤 Guardando el usuario en la variable local',
+  level: 'info',
+  timestamp: '06-12-2023 07:03:21'
+}
+{
+  message: 'Se entrega dashboard de proyectos',
+  level: 'info',
+  timestamp: '06-12-2023 07:03:21'
+}
+{
+  message: 'GET /project 200 9.971 ms - 6506\n',
+  level: 'info',
+  timestamp: '06-12-2023 07:03:21'
+}
+{
+  message: '✅ Verificación de conexión a db existosa.',
+  level: 'info',
+  timestamp: '06-12-2023 07:03:28'
+}
+{
+  message: '👤 Guardando el usuario en la variable local',
+  level: 'info',
+  timestamp: '06-12-2023 07:03:28'
+}
+{
+  message: 'GET /connect-mongo%20search=W 404 2.037 ms - 163\n',
+  level: 'info',
+  timestamp: '06-12-2023 07:03:28'
+}
+{
+  message: '✅ Verificación de conexión a db existosa.',
+  level: 'info',
+  timestamp: '06-12-2023 07:05:37'
+}
+{
+  message: '👤 Guardando el usuario en la variable local',
+  level: 'info',
+  timestamp: '06-12-2023 07:05:37'
+}
+{
+  message: 'Se entrega dashboard de proyectos',
+  level: 'info',
+  timestamp: '06-12-2023 07:05:37'
+}
+{
+  message: 'GET /project 200 14.509 ms - 6502\n',
+  level: 'info',
+  timestamp: '06-12-2023 07:05:37'
+}
+{
+  message: '✅ Verificación de conexión a db existosa.',
+  level: 'info',
+  timestamp: '06-12-2023 07:05:44'
+}
+{
+  message: '👤 Guardando el usuario en la variable local',
+  level: 'info',
+  timestamp: '06-12-2023 07:05:44'
+}
+{
+  message: 'GET /MONGO_URL%20search=W 404 2.429 ms - 159\n',
+  level: 'info',
+  timestamp: '06-12-2023 07:05:44'
+}

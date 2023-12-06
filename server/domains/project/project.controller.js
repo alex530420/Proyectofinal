@@ -20,7 +20,6 @@ const showDashboard = async (req, res) => {
   log.info('Se entrega dashboard de proyectos');
   res.render('project/dashboardView', { projects });
 };
-
 // GET "/project/add"
 const add = (req, res) => {
   res.render('project/addView');
@@ -125,8 +124,13 @@ const editPut = async (req, res) => {
   }
   // En caso de encontrarse el documento se actualizan los datos
   const { validData: newProject } = req;
-  project.name = newProject.name;
-  project.description = newProject.description;
+  project.Nombre = newProject.Nombre;
+  project.Autor = newProject.Autor;
+  project.Categoria = newProject.Categoria;
+  project.ISBN = newProject.ISBN;
+  project.Existencias = newProject.Existencias;
+  project.Descripcion = newProject.Descripcion;
+
   try {
     // Se salvan los cambios
     log.info(`Actualizando proyecto con id: ${id}`);

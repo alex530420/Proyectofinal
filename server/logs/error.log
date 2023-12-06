@@ -1,0 +1,5 @@
+{
+  message: 'Ocurre un error en: metodo "error" de project.controller',
+  level: 'error',
+  timestamp: '06-12-2023 05:04:25'
+}

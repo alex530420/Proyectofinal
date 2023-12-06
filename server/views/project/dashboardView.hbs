@@ -1,11 +1,7 @@
-<div class="row">
-  <form id="searchForm">
-    <div class="input-field col s12">
-      <input id="searchInput" type="text" placeholder="Buscar por Nombre, Autor, Categoria, ISBN, Existencias">
-    </div>
-  </form>
-</div>
-<center><h1>Listado de Libros</h1></center>
+<div>
+    <input type="text" id="searchInput" placeholder="Buscar proyectos">
+    <button onclick="buscarProyecto()">Buscar</button>
+  </div>
 <div class="row">
   {{#each projects}}
     <div class="col s12">
@@ -20,14 +16,11 @@
         </div>
         <div class="card-action">
           <a href="/project/edit/{{_id}}">
-            <i class="material-icons" 
-              style = "display: inline-flex; vertical-align: sub;">edit</i>
-            <span >Editar</span>
+            <i class="material-icons" style="display: inline-flex; vertical-align: sub;">edit</i>
+            <span>Editar</span>
           </a>
-           <a href="javascript: deleteProject('{{_id}}')" class="inline">
-            <i class="material-icons" 
-	            style = "display: inline-flex; vertical-align: sub;">
-	            delete</i>
+          <a href="javascript: deleteProject('{{_id}}')" class="inline">
+            <i class="material-icons" style="display: inline-flex; vertical-align: sub;">delete</i>
             Borrar
           </a>
         </div>
@@ -36,22 +29,23 @@
   {{else}}
     <p>No hay Libros Para Mostrar</p>
   {{/each}}
-
-  <script>
-  // Add JavaScript to handle search functionality
-  document.addEventListener('DOMContentLoaded', function() {
-    const form = document.getElementById('searchForm');
-    const input = document.getElementById('searchInput');
-
-    form.addEventListener('submit', function(event) {
-      event.preventDefault();
-      const searchTerm = input.value.toLowerCase();
-
-      // Implement your search logic here (filter the projects based on the search term)
-      const filteredProjects = yourSearchLogicHere(searchTerm);
-
-      // Render the filtered projects or handle them as needed
-    });
-  });
-</script>
 </div>
+<script>
+  // Función para buscar proyectos
+  function buscarProyecto() {
+    const searchTerm = document.getElementById('searchInput').value;
+    // Puedes realizar una solicitud AJAX aquí para buscar datos en el servidor
+    // y actualizar la interfaz de usuario según los resultados.
+    // Por ejemplo, podrías usar fetch para obtener datos desde el servidor.
+
+    // Ejemplo de solicitud fetch (debes adaptarlo a tu backend)
+    fetch(`/MONGO_URL search=${searchTerm}`)
+      .then(response => response.json())
+      .then(data => {
+        // Manipular los datos y actualizar la interfaz de usuario
+        console.log(data);
+        // Aquí puedes renderizar de nuevo la lista de proyectos con los resultados de la búsqueda
+      })
+      .catch(error => console.error('Error al buscar proyectos:', error));
+  }
+</script>

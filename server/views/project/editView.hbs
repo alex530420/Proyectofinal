@@ -2,55 +2,136 @@
   <div class='col s12 m10 offset-m1 18 offset-12'>
     <div class='card'>
       <div class='card-image'>
-        <img src='/images/addproject.png' alt='Imagen creacion de proyecto' />
+        <img src='https://www.solofondos.com/wp-content/uploads/2022/02/interior-biblioteca-sala-vacia-leer-libros-estantes-madera_33099-1722.jpg' alt='Imagen creacion de proyecto' />
         <span class='card-title add-project' style='font-weight: bolder;'>
-          Editar Proyecto
+          Editar Libro
         </span>
       </div>
       <form autocomplete="off" action="/project/edit/{{ project._id }}?_method=put" method="post">
      <div class='card-content'>
           <div class='input-field'>
-            <label for='project-name'>
-              Nombre del proyecto
-            </label>
+            <label for='Nombre'>Nombre del Libro</label>
             <input
+              placeholder='Nombre'
+              id='Nombre'
+              name='Nombre'
               type='text'
-              id='project-name'
-              name='name'
-              placeholder='Ingrese nombre del proyecto'
-              class='validate'
-              value='{{project.name}}'
+              class="validate"
+              value="{{ Nombre }}"
               required
             />
-            <span
-              class='helper-text'
-              data-error='👆 Es necesario ingresar el nombre del proyecto 👆'
-              data-success='✅ Correcto'
-            ></span>
-            {{#if errorModel.name}}
-              <span style='color: crimson;'>Error: {{errorModel.name}}</span>
+            <span 
+              class="helper-text"
+              data-error="Es necesario ingresar el nombre del Libro"
+              data-success="✅ Correcto"
+              ></span>
+            {{#if errorModel.name }}
+            <span style="color: crimson;">Error: {{ errorModel.name }}</span>
             {{/if}}
           </div>
           <div class='input-field'>
-            <label for='project-description'>
-              Descripción del proyecto
-            </label>
-            <textarea
-              name='description'
-              id='project-description'
-              class='materialize-textarea validate'
+            <label for='Autor'>Autor</label>
+            <input
+              placeholder='Autor'
+              id='Autor'
+              name='Autor'
+              type='text'
+              class="validate"
+              value="{{ Autor }}"
               required
-            >{{project.description}}</textarea>
-            <span
-              class='helper-text'
-              data-error='👆 Debe ingresar una descripción 👆'
-              data-success='✅ Correcto'
-            ></span>
-            {{#if errorModel.description}}
-              <span style='color: crimson;'>Error:
-                {{errorModel.description}}</span>
+            />
+            <span 
+              class="helper-text"
+              data-error="Es necesario ingresar el nombre del Autor"
+              data-success="✅ Correcto"
+              ></span>
+            {{#if errorModel.name }}
+            <span style="color: crimson;">Error: {{ errorModel.name }}</span>
             {{/if}}
           </div>
+          <div class='input-field'>
+            <label for='Categoria'>
+              Categoria
+            </label>
+            <textarea
+              id='Categoria'
+              name='Categoria'
+              class="materialize-textarea validate" required>{{project.description}}</textarea>
+              <span 
+              class="helper-text"
+              data-error="Debe ingresar una Categoria"
+              data-success="✅ Correcto"
+              ></span>
+            {{#if errorModel.description }}
+            <span style="color: crimson;">Error: {{ errorModel.description }}</span>
+            {{/if}}
+          </div>
+        
+         
+          <div class='input-field'>
+            <label for='ISBN'>ISBN</label>
+            <input
+              placeholder='ISBN'
+              id='ISBN'
+              name='ISBN'
+              type='text'
+              class="validate"
+              value="{{ ISBN }}"
+              required
+            />
+            <span 
+              class="helper-text"
+              data-error="Es necesario ingresar un ISBN"
+              data-success="✅ Correcto"
+              ></span>
+            {{#if errorModel.name }}
+            <span style="color: crimson;">Error: {{ errorModel.name }}</span>
+            {{/if}}
+          </div>
+
+           
+          <div class='input-field'>
+            <label for='Existencias'>Existencias</label>
+            <input
+              placeholder='Existencias'
+              id='Existencias'
+              name='Existencias'
+              type='text'
+              class="validate"
+              value="{{ Existencias }}"
+              required
+            />
+            <span 
+              class="helper-text"
+              data-error="Es necesario ingresar las Existencias"
+              data-success="✅ Correcto"
+              ></span>
+            {{#if errorModel.name }}
+            <span style="color: crimson;">Error: {{ errorModel.name }}</span>
+            {{/if}}
+          </div>
+          
+          <div class='input-field'>
+            <label for='Descripcion'>Descripcion</label>
+            <input
+              placeholder='Descripcion'
+              id='Descripcion'
+              name='Descripcion'
+              type='text'
+              class="validate"
+              value="{{ Descripcion }}"
+              required
+            />
+            <span 
+              class="helper-text"
+              data-error="Es necesario ingresar una Descripcion"
+              data-success="✅ Correcto"
+              ></span>
+            {{#if errorModel.name }}
+            <span style="color: crimson;">Error: {{ errorModel.name }}</span>
+            {{/if}}
+          </div>
+          
         </div>
         <div class='card-action'>
           <button class='blue darken-3 waves-effect waves-light btn'>
