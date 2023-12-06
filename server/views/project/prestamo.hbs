@@ -1,0 +1,123 @@
+<div class='row'>
+  <div class='col s12 m10 offset-m1 18 offset-12'>
+    <div class='card'>
+      <div class='card-image'>
+        <img src='https://www.comunidadbaratz.com/wp-content/uploads/Las-bibliotecas-publicas-no-paran-de-evolucionar-para-ofrecer-un-mejor-servicio-basado-en-la-necesidad-y-en-la-utilidad.jpg' alt='' />
+        <span class='card-title add-project' style='font-weight: bolder;'>
+          Ingresa tus datos para el prestamo del libro 
+        </span>
+      </div>
+      <form autocomplete="off" action="/project/prestamo/{{ project._id }}?_method=put" method="post">
+     <div class='card-content'>
+          <div class='input-field'>
+            <label for='Nombre'>Nombre</label>
+            <input
+              placeholder='Nombre'
+              id='Nombre'
+              name='Nombre'
+              type='text'
+              class="validate"
+              value="{{ Nombre }}"
+              required
+            />
+            <span 
+              class="helper-text"
+              data-error="Es necesario ingresar su Nombre Completo"
+              data-success="✅ Correcto"
+              ></span>
+            {{#if errorModel.name }}
+            <span style="color: crimson;">Error: {{ errorModel.name }}</span>
+            {{/if}}
+          </div>
+          <div class='input-field'>
+            <label for='Numerocontrol'>Numero de control</label>
+            <input
+              placeholder='Numero de control'
+              id='Numerocontrol'
+              name='Numerocontrol'
+              type='text'
+              class="validate"
+              value="{{ Numerocontrol }}"
+              required
+            />
+            <span 
+              class="helper-text"
+              data-error="Es necesario ingresar el numero de control"
+              data-success="✅ Correcto"
+              ></span>
+            {{#if errorModel.name }}
+            <span style="color: crimson;">Error: {{ errorModel.name }}</span>
+            {{/if}}
+          </div>
+          <div class='input-field'>
+            <label for='Correo'>
+              Correo
+            </label>
+            <textarea
+              id='Correo'
+              name='Correo'
+              class="materialize-textarea validate" required>{{project.description}}</textarea>
+              <span 
+              class="helper-text"
+              data-error="Debe ingresar una Correo"
+              data-success="✅ Correcto"
+              ></span>
+            {{#if errorModel.description }}
+            <span style="color: crimson;">Error: {{ errorModel.description }}</span>
+            {{/if}}
+          </div>
+        
+         
+          <div class='input-field'>
+            <label for='numtel'>Numero de Telefono</label>
+            <input
+              placeholder='Numero de Telefono'
+              id='numtel'
+              name='numtel'
+              type='text'
+              class="validate"
+              value="{{ numtel }}"
+              required
+            />
+            <span 
+              class="helper-text"
+              data-error="Es necesario ingresar un Numero de Telefono"
+              data-success="✅ Correcto"
+              ></span>
+            {{#if errorModel.name }}
+            <span style="color: crimson;">Error: {{ errorModel.name }}</span>
+            {{/if}}
+          </div>
+          
+          <div class='input-field'>
+            <label for='diasp'>Dias de uso</label>
+            <input
+              placeholder='Dias de uso'
+              id='diasp'
+              name='diasp'
+              type='text'
+              class="validate"
+              value="{{ diasp }}"
+              required
+            />
+            <span 
+              class="helper-text"
+              data-error="Es necesario ingresar los dias que lo vas usar"
+              data-success="✅ Correcto"
+              ></span>
+            {{#if errorModel.name }}
+            <span style="color: crimson;">Error: {{ errorModel.name }}</span>
+            {{/if}}
+          </div>
+          
+        </div>
+        <div class='card-action'>
+          <button class='blue darken-3 waves-effect waves-light btn'>
+            <i class='material-icons left'>prestar</i>
+            Prestamo
+          </button>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>

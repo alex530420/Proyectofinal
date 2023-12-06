@@ -31,6 +31,8 @@ router.post(
 
 // GET "/project/edit/:id"
 router.get('/edit/:id', projectController.edit);
+// GET "/project/edit/:id"
+router.get('/prestamo/:id', projectController.prestamo);
 
 // PUT "/project/edit/:id"
 router.put(
